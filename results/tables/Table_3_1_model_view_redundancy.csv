@@ -1,0 +1,20 @@
+quantity,UNSW-NB15,CICIDS2017
+Master rows,2540047,2830743
+Benign rows,2218764,2273097
+Attack rows,321283,557646
+Fingerprint groups,2016862,2521664
+Singleton groups,1940641,2426185
+Same-label duplicate groups,75768,94781
+Rows in same-label duplicate groups,597527,397538
+Mixed-label groups,453,698
+Rows in mixed-label groups,1879,7020
+Rows in non-singleton groups,599406,404558
+Rows in non-singleton groups (%),23.6,14.29
+Model-view duplicate rows beyond first occurrence,523185,309079
+Model-view duplicate rows beyond first occurrence (%),20.6,10.92
+Exact full-record duplicate rows beyond first occurrence,480633 (analysis record; not recomputable here),not available
+Pure-benign rows,2217778,2272361
+Pure-benign fingerprint groups,1938413,not available
+Irreducible error floor (rows),706,722
+Irreducible error floor (%),0.0278,0.0255
+Largest group (rows),760,9329

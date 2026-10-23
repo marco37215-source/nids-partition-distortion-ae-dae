@@ -1,0 +1,38 @@
+{
+  "dataset": "UNSW-NB15",
+  "implementation_version": "v3.3_coordinated_feasibility",
+  "scientific_policy_hash": "17122c41630be246c40d9018a97d6f80b58d7422f438673594acb74fd4d2d3fb",
+  "scipy_version": "1.16.3",
+  "subproblems": [
+    {
+      "stage": "top_ge100",
+      "tie_salt": "A",
+      "structural_types": 204,
+      "integer_variables": 1020,
+      "continuous_L1_variables": 40,
+      "constraints": 240,
+      "status": 1,
+      "success": false,
+      "message": "Time limit reached. (HiGHS Status 13: Time limit reached)",
+      "elapsed_seconds": 240.0242862701416,
+      "objective": 0.3926739590740713,
+      "independently_verified_feasible": true
+    },
+    {
+      "stage": "coordinated_remainder_2_to_99",
+      "tie_salt": "A",
+      "structural_types": 809,
+      "integer_variables": 4045,
+      "constraints": 984,
+      "matrix_nonzeros": 27745,
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "elapsed_seconds": 243.98796486854553,
+      "fallback_to_zero_objective": false,
+      "objective": 2.7888505240287583e-05,
+      "independently_verified_feasible": true
+    }
+  ],
+  "all_subproblems_independently_verified_feasible": true
+}

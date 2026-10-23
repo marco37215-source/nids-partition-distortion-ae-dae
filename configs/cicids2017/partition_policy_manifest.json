@@ -1,0 +1,57 @@
+{
+  "MAX_MIXED_ATTACK_PREVALENCE": 0.49,
+  "PARTITION_SEED": 20260914,
+  "allocation_algorithm_version": "Experiment1_v2_group_partition_v1",
+  "allocation_method": "deterministic fingerprint-group heuristic with hard post-allocation integrity validation; no claim of global combinatorial optimality",
+  "allocation_unit": "feature_fingerprint group",
+  "attack_reserve_rule": "optional governance state containing only unavoidable excess pure-attack groups; no benign reserve",
+  "benign_target_fractions": {
+    "benign_early_stop": 0.1,
+    "benign_threshold_calibration": 0.15,
+    "benign_weight_train": 0.5,
+    "development": 0.1,
+    "final_test": 0.15
+  },
+  "created_at_utc": "2026-09-14T19:01:27.449962+00:00",
+  "dataset": "CICIDS2017",
+  "family_allocation_rule": "deterministic proportional largest-remainder row targets; actual allocation uses indivisible fingerprint groups and records deviations",
+  "final_test_sealing_rule": "membership/labels/family metadata frozen after integrity gate; final-test feature transformation later is permitted with a benign_weight_train-fitted frozen preprocessor, but final-test influence is forbidden before Notebook 07",
+  "lexicographic_priority_order": [
+    "1. no row/fingerprint leakage",
+    "2. no attacks in benign-only roles",
+    "3. strict benign majority in development and final test",
+    "4. all benign observations used exactly once",
+    "5. maximize documented attacks used in development + final test",
+    "6. preserve rare-family evaluability",
+    "7. minimize development/final-test prevalence difference",
+    "8. preserve attack-family proportions",
+    "9. minimize deviations from nominal benign percentages",
+    "10. deterministic tie-breaking"
+  ],
+  "mixed_label_group_rule": "mixed-label groups remain intact and may enter development/final_test only",
+  "partition_policy_hash": "be62dd88cedd77903c19f64c3bab1d5fac3508820d67906f5f17381eddcde66a",
+  "preprocessing_handoff_rule": {
+    "final_test_rule": "transformation permitted; influence forbidden",
+    "fit": [
+      "benign_weight_train"
+    ],
+    "transform": [
+      "benign_weight_train",
+      "benign_early_stop",
+      "benign_threshold_calibration",
+      "development",
+      "final_test"
+    ]
+  },
+  "protocol_version": "Experiment_1_v2",
+  "rare_family_rule": "judge independence by fingerprint-group support; one-group families prefer final_test when higher-priority constraints permit; never duplicate/split",
+  "tie_breaking_rule": "first 64 bits of SHA256(str(PARTITION_SEED) + '|' + feature_fingerprint); full SHA-256 specification is deterministic and Python hash() is never used",
+  "upstream_hashes": {
+    "fingerprint_manifest_hash": "1bc46e61bd3c74df45cd21cf280b773693a66898f3a53b744aeb25fd4da00ecf",
+    "global_protocol_hash": "55713fd82c01168e0a906d282644b1c8dff88632dcb82512c5f62c637e35ff1f",
+    "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+    "raw_feature_policy_hash": "3cae0d0bb613b1966f2542c2211afadcf4cdc2bcb6ceb9017ad51703c1b9dc32",
+    "row_identity_specification_hash": "75d07ee359615a65b65107ba4999df581e382e13395916865b96a34e3faf5624",
+    "taxonomy_hash": "e4290a4c91d69236e84f294fdadde7eda7f94aaa7dd6c319ade3405c75a1513a"
+  }
+}

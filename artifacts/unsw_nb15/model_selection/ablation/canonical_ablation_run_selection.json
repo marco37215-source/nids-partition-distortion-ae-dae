@@ -1,0 +1,64 @@
+{
+  "dataset": "UNSW-NB15",
+  "matched_AE_config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+  "selected_DAE_config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+  "selected_runs": [
+    {
+      "attempt": 1,
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "model_type": "DAE",
+      "run_hash": "77b60774028755ef3311565eb883c91f3850c6de40daf6cdf2a6adc57988e00b",
+      "run_manifest_hash": "a9855c39e42dddb49294cf24a8803721e56dbe1302d383f3215105b6fc608672",
+      "seed": 101,
+      "task_number": 1
+    },
+    {
+      "attempt": 1,
+      "config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+      "model_type": "AE_MATCHED",
+      "run_hash": "9834d49c1866d1a1c227fe2e1fab2bf4af40d544a3d6a4321350e41305387f7b",
+      "run_manifest_hash": "d437d703bec37802840b8242a1851325c984d9138557d4e4fbb0929faa0b3dc9",
+      "seed": 101,
+      "task_number": 2
+    },
+    {
+      "attempt": 1,
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "model_type": "DAE",
+      "run_hash": "da67ffc70a8a98a1b2d6cd6fa41083fb2d747959d41e9cac911b110a5f8b3e30",
+      "run_manifest_hash": "9320b3eaa9226570f91693e520f375acf10fffc650f7996d1eaec5fee98f9f9e",
+      "seed": 202,
+      "task_number": 3
+    },
+    {
+      "attempt": 1,
+      "config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+      "model_type": "AE_MATCHED",
+      "run_hash": "8f3369f7a523eee25bbdfd4694539fe4a4bf334487ed7166c2d7d1f861752aa9",
+      "run_manifest_hash": "0d8d9a66efefc2542495ad1c7e5559b43deca6a88c77e217ca27eb8fc9ef26a4",
+      "seed": 202,
+      "task_number": 4
+    },
+    {
+      "attempt": 1,
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "model_type": "DAE",
+      "run_hash": "739f60a024c84277eb9bf241cb11e016d55bdceb12b54da217125135e8bbf33e",
+      "run_manifest_hash": "cdb590d1704b04686ed8a39d2d6bbf154295ad59169d79845e85fc291f4b76d8",
+      "seed": 303,
+      "task_number": 5
+    },
+    {
+      "attempt": 1,
+      "config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+      "model_type": "AE_MATCHED",
+      "run_hash": "1c1cb55b7cdba874faea510fafaa0645dda7c9adc3dfbba8e188a7d0950a6071",
+      "run_manifest_hash": "c3fa605051e34148608e5ff11b5e21c4c1db80cdd780ffb36d34b71b853dfa03",
+      "seed": 303,
+      "task_number": 6
+    }
+  ],
+  "selection_rule": "Within an exact model_type/config_hash/seed task: lowest successful attempt; then earliest created_at_utc; then lexicographically smallest run_hash",
+  "selection_rule_uses_performance": false,
+  "stage": "Notebook_04_matched_denoising_ablation"
+}

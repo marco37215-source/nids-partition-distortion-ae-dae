@@ -1,0 +1,14 @@
+Original value,Canonical value,Original support,Canonical support,Transformation reason
+Backdoor,Backdoors,1795,2329,Alias normalization
+Backdoors,Backdoors,534,2329,Official canonical category
+Analysis,Analysis,2677,2677,Official canonical category
+DoS,DoS,16353,16353,Official canonical category
+Exploits,Exploits,44525,44525,Official canonical category
+ Fuzzers ,Fuzzers,19195,24246,Whitespace normalization
+ Fuzzers,Fuzzers,5051,24246,Whitespace normalization
+Generic,Generic,215481,215481,Official canonical category
+ Reconnaissance ,Reconnaissance,12228,13987,Whitespace normalization
+Reconnaissance,Reconnaissance,1759,13987,Official canonical category
+ Shellcode ,Shellcode,1288,1511,Whitespace normalization
+Shellcode,Shellcode,223,1511,Official canonical category
+Worms,Worms,174,174,Official canonical category

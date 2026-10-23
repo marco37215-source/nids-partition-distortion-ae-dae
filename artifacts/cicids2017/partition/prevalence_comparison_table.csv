@@ -1,0 +1,2 @@
+development_benign,development_attack,development_attack_prevalence,development_attack_to_benign_ratio,final_test_benign,final_test_attack,final_test_attack_prevalence,final_test_attack_to_benign_ratio,absolute_prevalence_difference,allocator_objective_note
+227309,218394,0.48999894548611966,0.9607802594705885,340967,327595,0.48999943161591597,0.9607821284757763,4.86129796306578e-07,"minimized subject to higher-priority atomicity, purity, benign-majority, benign-accounting, attack-utilization, and rare-family constraints"

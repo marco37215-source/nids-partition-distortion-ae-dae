@@ -1,0 +1,54 @@
+{
+  "construction_rule": "dataset_prefix::verified_source_filename::1-based_source_data_row_number",
+  "created_at_utc": "2026-09-14T06:35:31.921312+00:00",
+  "dataset": "UNSW-NB15",
+  "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+  "protocol_version": "Experiment_1_v2",
+  "row_count": 2540047,
+  "row_id_null_count": 0,
+  "row_id_unique_count": 2540047,
+  "row_identity_artifact": "/content/drive/MyDrive/EXPERIMENT1_V2/DATASETS/UNSW-NB15/preflight_s1_s7_numeric_missing_fix_v4/identity/row_identity.parquet",
+  "row_identity_artifact_sha256": "49b5f5622bcf184a78f0e3c4ed92e5c6683b3214cdf2dca24f1ae3580a819c90",
+  "row_identity_specification_hash": "5d6a1dff89538e615d2aa43e6e16bed9f3cbce0eeb309820d5af32f77447cddf",
+  "sample_ids_for_audit_only": [
+    "UNSWNB15::UNSW-NB15_1.csv::0000000001",
+    "UNSWNB15::UNSW-NB15_1.csv::0000000002",
+    "UNSWNB15::UNSW-NB15_1.csv::0000000003",
+    "UNSWNB15::UNSW-NB15_1.csv::0000000004",
+    "UNSWNB15::UNSW-NB15_1.csv::0000000005"
+  ],
+  "source_provenance_method": "verified merge-manifest source-file order + exact source row counts, accepted only after master SHA-256 and no-cleaning assertion verification",
+  "source_ranges": [
+    {
+      "file_order": 1,
+      "merged_end_exclusive_0based": 700001,
+      "merged_start_0based": 0,
+      "row_count": 700001,
+      "source_file": "UNSW-NB15_1.csv"
+    },
+    {
+      "file_order": 2,
+      "merged_end_exclusive_0based": 1400002,
+      "merged_start_0based": 700001,
+      "row_count": 700001,
+      "source_file": "UNSW-NB15_2.csv"
+    },
+    {
+      "file_order": 3,
+      "merged_end_exclusive_0based": 2100003,
+      "merged_start_0based": 1400002,
+      "row_count": 700001,
+      "source_file": "UNSW-NB15_3.csv"
+    },
+    {
+      "file_order": 4,
+      "merged_end_exclusive_0based": 2540047,
+      "merged_start_0based": 2100003,
+      "row_count": 440044,
+      "source_file": "UNSW-NB15_4.csv"
+    }
+  ],
+  "uses_current_dataframe_index_as_identity": false,
+  "uses_feature_values": false,
+  "validation_status": "PASS"
+}

@@ -1,0 +1,23 @@
+{
+  "canonical_fit_row_id_hash": "853ec86aadceef8b370b11ef5d0621f4a7a2a72a3640f644c013ccb88d762d8c",
+  "created_at_utc": "2026-09-15T05:37:51.312964+00:00",
+  "dataset": "CICIDS2017",
+  "fit_partition": "benign_weight_train",
+  "fit_row_count": 1136548,
+  "fit_source_partitions_used": [
+    "benign_weight_train"
+  ],
+  "fitted_preprocessor_hash": "7d1b4d0e2d34596b7280c36c4db9696d3e645c57e439a79f1876f0e14070248b",
+  "leakage_assertions": {
+    "attack_reserve_unused_rows_used_in_fit": 0,
+    "benign_early_stop_rows_used_in_fit": 0,
+    "benign_threshold_calibration_rows_used_in_fit": 0,
+    "development_rows_used_in_fit": 0,
+    "final_test_rows_used_in_fit": 0
+  },
+  "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+  "partition_manifest_canonical_hash": "724eeca41efa11a8ff58cba6efd172d851e9ad43870eafa6d0e01956dd8e6e3e",
+  "preprocessing_policy_hash": "2a2096b1d219bc833855766af6c640acc7f5cb91e1e75151b78d6eeb3e4fef27",
+  "protocol_version": "Experiment_1_v2",
+  "raw_feature_policy_hash": "3cae0d0bb613b1966f2542c2211afadcf4cdc2bcb6ceb9017ad51703c1b9dc32"
+}

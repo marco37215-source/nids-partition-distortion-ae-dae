@@ -1,0 +1,82 @@
+{
+  "construction_rule": "dataset_prefix::verified_source_filename::1-based_source_data_row_number",
+  "created_at_utc": "2026-09-14T08:23:35.731576+00:00",
+  "dataset": "CICIDS2017",
+  "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+  "protocol_version": "Experiment_1_v2",
+  "row_count": 2830743,
+  "row_id_null_count": 0,
+  "row_id_unique_count": 2830743,
+  "row_identity_artifact": "/content/drive/MyDrive/EXPERIMENT1_V2/DATASETS/CICIDS2017/preflight_s1_s7_upstream_gate_fix_v2/identity/row_identity.parquet",
+  "row_identity_artifact_sha256": "a9b6948e27ed01a5bdd480bf92861af3494b0c16188840de717ec87ff49dfbf9",
+  "row_identity_specification_hash": "75d07ee359615a65b65107ba4999df581e382e13395916865b96a34e3faf5624",
+  "sample_ids_for_audit_only": [
+    "CICIDS2017::Monday-WorkingHours.pcap_ISCX.csv::0000000001",
+    "CICIDS2017::Monday-WorkingHours.pcap_ISCX.csv::0000000002",
+    "CICIDS2017::Monday-WorkingHours.pcap_ISCX.csv::0000000003",
+    "CICIDS2017::Monday-WorkingHours.pcap_ISCX.csv::0000000004",
+    "CICIDS2017::Monday-WorkingHours.pcap_ISCX.csv::0000000005"
+  ],
+  "source_provenance_method": "verified merge-manifest source-file order + exact source row counts, accepted only after master SHA-256 and no-cleaning assertion verification",
+  "source_ranges": [
+    {
+      "file_order": 1,
+      "merged_end_exclusive_0based": 529918,
+      "merged_start_0based": 0,
+      "row_count": 529918,
+      "source_file": "Monday-WorkingHours.pcap_ISCX.csv"
+    },
+    {
+      "file_order": 2,
+      "merged_end_exclusive_0based": 975827,
+      "merged_start_0based": 529918,
+      "row_count": 445909,
+      "source_file": "Tuesday-WorkingHours.pcap_ISCX.csv"
+    },
+    {
+      "file_order": 3,
+      "merged_end_exclusive_0based": 1668530,
+      "merged_start_0based": 975827,
+      "row_count": 692703,
+      "source_file": "Wednesday-workingHours.pcap_ISCX.csv"
+    },
+    {
+      "file_order": 4,
+      "merged_end_exclusive_0based": 1838896,
+      "merged_start_0based": 1668530,
+      "row_count": 170366,
+      "source_file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv"
+    },
+    {
+      "file_order": 5,
+      "merged_end_exclusive_0based": 2127498,
+      "merged_start_0based": 1838896,
+      "row_count": 288602,
+      "source_file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv"
+    },
+    {
+      "file_order": 6,
+      "merged_end_exclusive_0based": 2318531,
+      "merged_start_0based": 2127498,
+      "row_count": 191033,
+      "source_file": "Friday-WorkingHours-Morning.pcap_ISCX.csv"
+    },
+    {
+      "file_order": 7,
+      "merged_end_exclusive_0based": 2604998,
+      "merged_start_0based": 2318531,
+      "row_count": 286467,
+      "source_file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv"
+    },
+    {
+      "file_order": 8,
+      "merged_end_exclusive_0based": 2830743,
+      "merged_start_0based": 2604998,
+      "row_count": 225745,
+      "source_file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv"
+    }
+  ],
+  "uses_current_dataframe_index_as_identity": false,
+  "uses_feature_values": false,
+  "validation_status": "PASS"
+}

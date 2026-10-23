@@ -1,0 +1,493 @@
+{
+  "PARTITION_SEED": 20260914,
+  "allocation_algorithm_version": "Experiment1_v2_group_partition_v1",
+  "blocking_failures": [],
+  "created_at_utc": "2026-09-14T19:01:27.449962+00:00",
+  "dataset": "CICIDS2017",
+  "deviations_from_nominal_targets": [
+    {
+      "absolute_row_deviation": 0,
+      "actual_benign_count": 1136548,
+      "actual_percentage_of_B": 49.99997800357838,
+      "nominal_benign_target": 1136548,
+      "nominal_percentage_of_B": 49.99997800357838,
+      "partition": "benign_weight_train",
+      "percentage_point_deviation": 0.0,
+      "reason": "EXACT_TARGET",
+      "signed_row_deviation": 0
+    },
+    {
+      "absolute_row_deviation": 0,
+      "actual_benign_count": 227309,
+      "actual_percentage_of_B": 9.999969205009728,
+      "nominal_benign_target": 227309,
+      "nominal_percentage_of_B": 9.999969205009728,
+      "partition": "benign_early_stop",
+      "percentage_point_deviation": 0.0,
+      "reason": "EXACT_TARGET",
+      "signed_row_deviation": 0
+    },
+    {
+      "absolute_row_deviation": 0,
+      "actual_benign_count": 340964,
+      "actual_percentage_of_B": 14.999975803936216,
+      "nominal_benign_target": 340964,
+      "nominal_percentage_of_B": 14.999975803936216,
+      "partition": "benign_threshold_calibration",
+      "percentage_point_deviation": 0.0,
+      "reason": "EXACT_TARGET",
+      "signed_row_deviation": 0
+    },
+    {
+      "absolute_row_deviation": 0,
+      "actual_benign_count": 227309,
+      "actual_percentage_of_B": 9.999969205009728,
+      "nominal_benign_target": 227309,
+      "nominal_percentage_of_B": 9.999969205009728,
+      "partition": "development",
+      "percentage_point_deviation": 0.0,
+      "reason": "EXACT_TARGET",
+      "signed_row_deviation": 0
+    },
+    {
+      "absolute_row_deviation": 0,
+      "actual_benign_count": 340967,
+      "actual_percentage_of_B": 15.000107782465948,
+      "nominal_benign_target": 340967,
+      "nominal_percentage_of_B": 15.000107782465948,
+      "partition": "final_test",
+      "percentage_point_deviation": 0.0,
+      "reason": "EXACT_TARGET",
+      "signed_row_deviation": 0
+    }
+  ],
+  "downstream_handoff": {
+    "attack_family_columns": [
+      "Label",
+      "attack_family"
+    ],
+    "benign_only_partition_names": [
+      "benign_weight_train",
+      "benign_early_stop",
+      "benign_threshold_calibration"
+    ],
+    "categorical_model_columns": [],
+    "created_at_utc": "2026-09-14T19:01:27.449962+00:00",
+    "dataset": "CICIDS2017",
+    "final_test_permitted_before_notebook_07": [
+      "load frozen final-test membership",
+      "extract frozen raw model-input columns",
+      "apply preprocessor.transform using objects fitted only on benign_weight_train",
+      "apply frozen unknown-category handling",
+      "verify transformed feature names/order/dimensionality",
+      "record transformed-file hash",
+      "record row count",
+      "record schema compatibility"
+    ],
+    "final_test_prohibited_before_notebook_07": [
+      "preprocessor.fit(final_test)",
+      "preprocessor.fit_transform(final_test)",
+      "derive imputation statistics from final_test",
+      "derive scaler statistics from final_test",
+      "derive categorical vocabulary from final_test",
+      "derive rare-category thresholds from final_test",
+      "derive clipping limits from final_test",
+      "change preprocessing/model policy because of final-test values",
+      "inspect final-test reconstruction/anomaly-score distributions for tuning",
+      "compute or interpret final-test model-performance metrics",
+      "inspect family-level detection outcomes",
+      "optimize threshold/model/configuration using final-test outcomes"
+    ],
+    "final_test_sealing_status": "FROZEN_AND_EVALUATION_SEALED",
+    "final_test_transformation_rule": "Final-test transformation is allowed; final-test influence is forbidden.",
+    "fit_rule": {
+      "fit_on_any_other_partition": false,
+      "learned_preprocessing_fit_partition": "benign_weight_train"
+    },
+    "future_learned_components_examples": [
+      "numerical missing-value imputation",
+      "standardization",
+      "categorical vocabulary / unknown handling where applicable",
+      "one-hot encoding where applicable"
+    ],
+    "label_columns": [
+      "Label",
+      "binary_label"
+    ],
+    "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+    "metadata_columns": [
+      " Label",
+      "row_id(sidecar)",
+      "source_file(sidecar)",
+      "source_row_number(sidecar)"
+    ],
+    "mixed_evaluation_partition_names": [
+      "development",
+      "final_test"
+    ],
+    "model_input_column_order": [
+      " Destination Port",
+      " Flow Duration",
+      " Total Fwd Packets",
+      " Total Backward Packets",
+      "Total Length of Fwd Packets",
+      " Total Length of Bwd Packets",
+      " Fwd Packet Length Max",
+      " Fwd Packet Length Min",
+      " Fwd Packet Length Mean",
+      " Fwd Packet Length Std",
+      "Bwd Packet Length Max",
+      " Bwd Packet Length Min",
+      " Bwd Packet Length Mean",
+      " Bwd Packet Length Std",
+      "Flow Bytes/s",
+      " Flow Packets/s",
+      " Flow IAT Mean",
+      " Flow IAT Std",
+      " Flow IAT Max",
+      " Flow IAT Min",
+      "Fwd IAT Total",
+      " Fwd IAT Mean",
+      " Fwd IAT Std",
+      " Fwd IAT Max",
+      " Fwd IAT Min",
+      "Bwd IAT Total",
+      " Bwd IAT Mean",
+      " Bwd IAT Std",
+      " Bwd IAT Max",
+      " Bwd IAT Min",
+      "Fwd PSH Flags",
+      " Bwd PSH Flags",
+      " Fwd URG Flags",
+      " Bwd URG Flags",
+      " Fwd Header Length",
+      " Bwd Header Length",
+      "Fwd Packets/s",
+      " Bwd Packets/s",
+      " Min Packet Length",
+      " Max Packet Length",
+      " Packet Length Mean",
+      " Packet Length Std",
+      " Packet Length Variance",
+      "FIN Flag Count",
+      " SYN Flag Count",
+      " RST Flag Count",
+      " PSH Flag Count",
+      " ACK Flag Count",
+      " URG Flag Count",
+      " CWE Flag Count",
+      " ECE Flag Count",
+      " Down/Up Ratio",
+      " Average Packet Size",
+      " Avg Fwd Segment Size",
+      " Avg Bwd Segment Size",
+      " Fwd Header Length.1",
+      "Fwd Avg Bytes/Bulk",
+      " Fwd Avg Packets/Bulk",
+      " Fwd Avg Bulk Rate",
+      " Bwd Avg Bytes/Bulk",
+      " Bwd Avg Packets/Bulk",
+      "Bwd Avg Bulk Rate",
+      "Subflow Fwd Packets",
+      " Subflow Fwd Bytes",
+      " Subflow Bwd Packets",
+      " Subflow Bwd Bytes",
+      "Init_Win_bytes_forward",
+      " Init_Win_bytes_backward",
+      " act_data_pkt_fwd",
+      " min_seg_size_forward",
+      "Active Mean",
+      " Active Std",
+      " Active Max",
+      " Active Min",
+      "Idle Mean",
+      " Idle Std",
+      " Idle Max",
+      " Idle Min"
+    ],
+    "next_authorized_preprocessing_rule": "Notebook 00 may FIT learned preprocessing on benign_weight_train only and TRANSFORM all five frozen experimental partitions using the same frozen fitted objects.",
+    "numerical_model_columns": [
+      " Destination Port",
+      " Flow Duration",
+      " Total Fwd Packets",
+      " Total Backward Packets",
+      "Total Length of Fwd Packets",
+      " Total Length of Bwd Packets",
+      " Fwd Packet Length Max",
+      " Fwd Packet Length Min",
+      " Fwd Packet Length Mean",
+      " Fwd Packet Length Std",
+      "Bwd Packet Length Max",
+      " Bwd Packet Length Min",
+      " Bwd Packet Length Mean",
+      " Bwd Packet Length Std",
+      "Flow Bytes/s",
+      " Flow Packets/s",
+      " Flow IAT Mean",
+      " Flow IAT Std",
+      " Flow IAT Max",
+      " Flow IAT Min",
+      "Fwd IAT Total",
+      " Fwd IAT Mean",
+      " Fwd IAT Std",
+      " Fwd IAT Max",
+      " Fwd IAT Min",
+      "Bwd IAT Total",
+      " Bwd IAT Mean",
+      " Bwd IAT Std",
+      " Bwd IAT Max",
+      " Bwd IAT Min",
+      "Fwd PSH Flags",
+      " Bwd PSH Flags",
+      " Fwd URG Flags",
+      " Bwd URG Flags",
+      " Fwd Header Length",
+      " Bwd Header Length",
+      "Fwd Packets/s",
+      " Bwd Packets/s",
+      " Min Packet Length",
+      " Max Packet Length",
+      " Packet Length Mean",
+      " Packet Length Std",
+      " Packet Length Variance",
+      "FIN Flag Count",
+      " SYN Flag Count",
+      " RST Flag Count",
+      " PSH Flag Count",
+      " ACK Flag Count",
+      " URG Flag Count",
+      " CWE Flag Count",
+      " ECE Flag Count",
+      " Down/Up Ratio",
+      " Average Packet Size",
+      " Avg Fwd Segment Size",
+      " Avg Bwd Segment Size",
+      " Fwd Header Length.1",
+      "Fwd Avg Bytes/Bulk",
+      " Fwd Avg Packets/Bulk",
+      " Fwd Avg Bulk Rate",
+      " Bwd Avg Bytes/Bulk",
+      " Bwd Avg Packets/Bulk",
+      "Bwd Avg Bulk Rate",
+      "Subflow Fwd Packets",
+      " Subflow Fwd Bytes",
+      " Subflow Bwd Packets",
+      " Subflow Bwd Bytes",
+      "Init_Win_bytes_forward",
+      " Init_Win_bytes_backward",
+      " act_data_pkt_fwd",
+      " min_seg_size_forward",
+      "Active Mean",
+      " Active Std",
+      " Active Max",
+      " Active Min",
+      "Idle Mean",
+      " Idle Std",
+      " Idle Max",
+      " Idle Min"
+    ],
+    "optional_governance_state": "attack_reserve_unused",
+    "partition_manifest_canonical_hash": "724eeca41efa11a8ff58cba6efd172d851e9ad43870eafa6d0e01956dd8e6e3e",
+    "partition_manifest_file_sha256": "1e37421c19afbed73c669cd63f6de580a41084a7f64a7d22507278244186ef1c",
+    "partition_names": [
+      "benign_weight_train",
+      "benign_early_stop",
+      "benign_threshold_calibration",
+      "development",
+      "final_test"
+    ],
+    "partition_policy_hash": "be62dd88cedd77903c19f64c3bab1d5fac3508820d67906f5f17381eddcde66a",
+    "partition_row_counts": {
+      "attack_reserve_unused": 11657,
+      "benign_early_stop": 227309,
+      "benign_threshold_calibration": 340964,
+      "benign_weight_train": 1136548,
+      "development": 445703,
+      "final_test": 668562
+    },
+    "protocol_version": "Experiment_1_v2",
+    "raw_feature_policy_hash": "3cae0d0bb613b1966f2542c2211afadcf4cdc2bcb6ceb9017ad51703c1b9dc32",
+    "raw_feature_policy_path": "/content/exp1v2_google_drive/MyDrive/EXPERIMENT1_V2/DATASETS/CICIDS2017/CICIDS_Audit_Governance/feature_policy/raw_feature_policy.json",
+    "row_identity_fields": [
+      "row_id",
+      "source_file",
+      "source_row_number"
+    ],
+    "structural_compatibility_nuance": "Unknown-category counts, transformed out-of-range values, missingness patterns, or similar final-test structural phenomena may reveal distributional information. Mechanical checks may be computed if required, preferably stored without interpretation, and must never drive preprocessing/model-design changes.",
+    "transform_rule": {
+      "apply_frozen_fitted_pipeline_to": [
+        "benign_weight_train",
+        "benign_early_stop",
+        "benign_threshold_calibration",
+        "development",
+        "final_test"
+      ],
+      "includes_final_test": true
+    }
+  },
+  "final_status": "PASS",
+  "final_test_status": "FROZEN_AND_EVALUATION_SEALED",
+  "hard_validation_results": [
+    {
+      "check": "membership_row_count_equals_master",
+      "detail": "membership=2830743, master=2830743",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "row_id_non_null",
+      "detail": "",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "row_id_unique",
+      "detail": "",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "no_feature_fingerprint_crosses_membership_states",
+      "detail": "crossing_fingerprints=0",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "benign_weight_train_contains_zero_attacks",
+      "detail": "attack_rows=0",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "benign_early_stop_contains_zero_attacks",
+      "detail": "attack_rows=0",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "benign_threshold_calibration_contains_zero_attacks",
+      "detail": "attack_rows=0",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "mixed_label_groups_only_in_development_or_final_test",
+      "detail": "observed_states=['development']",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "attack_reserve_contains_no_benign",
+      "detail": "benign_rows_in_reserve=0",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "attack_reserve_contains_no_mixed_label_groups",
+      "detail": "mixed_rows_in_reserve=0",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "development_contains_benign_and_attack",
+      "detail": "benign=227309, attack=218394",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "final_test_contains_benign_and_attack",
+      "detail": "benign=340967, attack=327595",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "development_strict_benign_majority",
+      "detail": "benign=227309, attack=218394",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "final_test_strict_benign_majority",
+      "detail": "benign=340967, attack=327595",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "development_attack_prevalence_within_ceiling",
+      "detail": "prevalence=0.489998945486, ceiling=0.49",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "final_test_attack_prevalence_within_ceiling",
+      "detail": "prevalence=0.489999431616, ceiling=0.49",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "all_benign_used_exactly_once",
+      "detail": "accounted_benign=2273097, B=2273097",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "all_attacks_accounted",
+      "detail": "accounted_attack=557646, A=557646",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "partition_metadata_not_promoted_to_model_inputs",
+      "detail": "unexpected_model_metadata=[]",
+      "hard": true,
+      "passed": true
+    },
+    {
+      "check": "reserve_reasons_are_explicit",
+      "detail": "reserve_reasons=['BENIGN_MAJORITY_CAP']",
+      "hard": true,
+      "passed": true
+    }
+  ],
+  "next_authorized_stage": "Notebook 00: fit preprocessing on benign_weight_train only; transform all frozen experimental partitions; freeze transformed representation and DAE corruption groups.",
+  "observed_allocation": {
+    "A_total": 557646,
+    "B_total": 2273097,
+    "absolute_prevalence_difference": 4.86129796306578e-07,
+    "attack_reserve_rows": 11657,
+    "benign_achieved_counts": {
+      "benign_early_stop": 227309,
+      "benign_threshold_calibration": 340964,
+      "benign_weight_train": 1136548,
+      "development": 227309,
+      "final_test": 340967
+    },
+    "development_attack": 218394,
+    "development_attack_prevalence": 0.48999894548611966,
+    "development_benign": 227309,
+    "final_test_attack": 327595,
+    "final_test_attack_prevalence": 0.48999943161591597,
+    "final_test_benign": 340967
+  },
+  "partition_manifest_canonical_hash": "724eeca41efa11a8ff58cba6efd172d851e9ad43870eafa6d0e01956dd8e6e3e",
+  "partition_manifest_file_sha256": "1e37421c19afbed73c669cd63f6de580a41084a7f64a7d22507278244186ef1c",
+  "partition_policy_hash": "be62dd88cedd77903c19f64c3bab1d5fac3508820d67906f5f17381eddcde66a",
+  "protocol_requirements": {
+    "MAX_MIXED_ATTACK_PREVALENCE": 0.49,
+    "allocation_unit": "feature_fingerprint group",
+    "final_test_rule": "transformation permitted; influence forbidden",
+    "fit_preprocessing_later_on": "benign_weight_train only",
+    "no_benign_reserve": true,
+    "strict_benign_majority": true
+  },
+  "protocol_version": "Experiment_1_v2",
+  "upstream_hashes": {
+    "fingerprint_manifest_hash": "1bc46e61bd3c74df45cd21cf280b773693a66898f3a53b744aeb25fd4da00ecf",
+    "global_protocol_hash": "55713fd82c01168e0a906d282644b1c8dff88632dcb82512c5f62c637e35ff1f",
+    "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+    "raw_feature_policy_hash": "3cae0d0bb613b1966f2542c2211afadcf4cdc2bcb6ceb9017ad51703c1b9dc32",
+    "row_identity_specification_hash": "75d07ee359615a65b65107ba4999df581e382e13395916865b96a34e3faf5624",
+    "taxonomy_hash": "e4290a4c91d69236e84f294fdadde7eda7f94aaa7dd6c319ade3405c75a1513a"
+  },
+  "warnings": []
+}

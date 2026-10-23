@@ -1,0 +1,161 @@
+{
+  "confirmation_seeds": [
+    101,
+    202,
+    303
+  ],
+  "created_at_utc": "2026-09-22T07:59:46.577422+00:00",
+  "dataset": "UNSW-NB15",
+  "family_metrics_used_for_selection": false,
+  "selected_AE": {
+    "config_hash": "f2ff449180ad3503c1da18b58b04dd4f84991ae3babf6994f4c07bc0c40122db",
+    "effective_config": {
+      "adamw_fixed_defaults": {
+        "amsgrad": false,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "capturable": false,
+        "differentiable": false,
+        "eps": 1e-08,
+        "foreach": null,
+        "fused": null,
+        "maximize": false
+      },
+      "architecture": "B",
+      "batch_size": 512,
+      "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+      "early_stopping_patience": 12,
+      "gradient_clip_norm": 1.0,
+      "hidden_activation": "ReLU",
+      "huber_delta": 1.0,
+      "kaiming_normal_details": {
+        "bias": "zero",
+        "mode": "fan_in",
+        "nonlinearity": "relu"
+      },
+      "latent_dim": 16,
+      "latent_fraction": 0.5,
+      "learning_rate": 0.00010729835592155517,
+      "lr_reduction_factor": 0.5,
+      "lr_scheduler_patience": 5,
+      "maximum_epochs": 150,
+      "minimum_learning_rate": 1e-06,
+      "model_type": "AE",
+      "numerical_masking": 0.0,
+      "optimizer": "AdamW",
+      "output_activation": "Linear",
+      "reduce_lr_on_plateau_fixed_defaults": {
+        "cooldown": 0,
+        "eps": 1e-08,
+        "threshold": 0.0001,
+        "threshold_mode": "rel"
+      },
+      "training_loss": "Huber",
+      "weight_decay": 1e-06,
+      "weight_initialization": "Kaiming_normal"
+    },
+    "selection_summary": {
+      "MCC_SD": 0.003120155467556238,
+      "MCC_range": 0.005495074873709815,
+      "config_hash": "f2ff449180ad3503c1da18b58b04dd4f84991ae3babf6994f4c07bc0c40122db",
+      "mean_FPR": 0.010130282980884218,
+      "mean_FP_per_1000_benign": 10.130282980884218,
+      "mean_MCC": 0.9035823736569073,
+      "mean_PR_AUC": 0.9780457712724129,
+      "mean_training_duration_seconds": 969.8970056453336,
+      "median_MCC": 0.9052897725264559,
+      "model_type": "AE",
+      "parameter_count": 15519
+    }
+  },
+  "selected_DAE": {
+    "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+    "effective_config": {
+      "adamw_fixed_defaults": {
+        "amsgrad": false,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "capturable": false,
+        "differentiable": false,
+        "eps": 1e-08,
+        "foreach": null,
+        "fused": null,
+        "maximize": false
+      },
+      "architecture": "B",
+      "batch_size": 128,
+      "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+      "early_stopping_patience": 12,
+      "gradient_clip_norm": 1.0,
+      "grouped_categorical_masking": 0.02,
+      "hidden_activation": "ReLU",
+      "huber_delta": 1.0,
+      "kaiming_normal_details": {
+        "bias": "zero",
+        "mode": "fan_in",
+        "nonlinearity": "relu"
+      },
+      "latent_dim": 16,
+      "latent_fraction": 0.5,
+      "learning_rate": 0.0005523895371414442,
+      "lr_reduction_factor": 0.5,
+      "lr_scheduler_patience": 5,
+      "maximum_epochs": 150,
+      "minimum_learning_rate": 1e-06,
+      "model_type": "DAE",
+      "numerical_masking": 0.15,
+      "optimizer": "AdamW",
+      "output_activation": "Linear",
+      "reduce_lr_on_plateau_fixed_defaults": {
+        "cooldown": 0,
+        "eps": 1e-08,
+        "threshold": 0.0001,
+        "threshold_mode": "rel"
+      },
+      "training_loss": "Huber",
+      "weight_decay": 0.0,
+      "weight_initialization": "Kaiming_normal"
+    },
+    "selection_summary": {
+      "MCC_SD": 0.0002404737696656731,
+      "MCC_range": 0.00045227997952024257,
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "mean_FPR": 0.010396197275355004,
+      "mean_FP_per_1000_benign": 10.396197275355002,
+      "mean_MCC": 0.9061815463791293,
+      "mean_PR_AUC": 0.9757183499568544,
+      "mean_training_duration_seconds": 4707.955695173333,
+      "median_MCC": 0.9062759804049783,
+      "model_type": "DAE",
+      "parameter_count": 15519
+    }
+  },
+  "selected_models_manifest_hash": "d14274fa8b58217dd92d2d26fd26b5a69549cd5d647c6d1cc0c1516ad847d0fa",
+  "selection_hierarchy": [
+    "mean_development_MCC_desc",
+    "mean_FPR_asc",
+    "mean_PR_AUC_desc",
+    "MCC_SD_asc",
+    "parameter_count_asc",
+    "mean_training_duration_asc"
+  ],
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+    "feature_order_hash": "5eae35cd2afb6596b2daa463fb535a632b53b51df37153eefe40e01750647214",
+    "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+    "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+    "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+    "partition_manifest_file_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+    "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+    "transformed_representation_manifest_hash": "3a748decdedbb93835bdcda3d50f409385e44b54c0aaaa2f56c6eb2eccb361af"
+  }
+}

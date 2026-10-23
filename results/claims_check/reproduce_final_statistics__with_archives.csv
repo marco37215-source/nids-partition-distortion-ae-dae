@@ -1,0 +1,318 @@
+claim_id,manuscript_location,description,manuscript_value,reproduced_value,status,source
+archives.cicids2017/final_evaluation/derived_from_archives/run_summary_final_test.csv,Supplementary S1 (verification),re-derived cicids2017/final_evaluation/derived_from_archives/run_summary_final_test.csv equals the committed table,true,True,PASS,prediction archives
+archives.cicids2017/final_evaluation/derived_from_archives/family_detection_final_test.csv,Supplementary S1 (verification),re-derived cicids2017/final_evaluation/derived_from_archives/family_detection_final_test.csv equals the committed table,true,True,PASS,prediction archives
+archives.cicids2017/model_selection/derived_from_archives/run_summary_development.csv,Supplementary S1 (verification),re-derived cicids2017/model_selection/derived_from_archives/run_summary_development.csv equals the committed table,true,True,PASS,prediction archives
+archives.cicids2017/fingerprints/derived_from_archives/mixed_label_group_composition.csv,Supplementary S1 (verification),re-derived cicids2017/fingerprints/derived_from_archives/mixed_label_group_composition.csv equals the committed table,true,True,PASS,prediction archives
+archives.unsw_nb15/final_evaluation/derived_from_archives/run_summary_final_test.csv,Supplementary S1 (verification),re-derived unsw_nb15/final_evaluation/derived_from_archives/run_summary_final_test.csv equals the committed table,true,True,PASS,prediction archives
+archives.unsw_nb15/final_evaluation/derived_from_archives/family_detection_final_test.csv,Supplementary S1 (verification),re-derived unsw_nb15/final_evaluation/derived_from_archives/family_detection_final_test.csv equals the committed table,true,True,PASS,prediction archives
+archives.unsw_nb15/model_selection/derived_from_archives/run_summary_development.csv,Supplementary S1 (verification),re-derived unsw_nb15/model_selection/derived_from_archives/run_summary_development.csv equals the committed table,true,True,PASS,prediction archives
+archives.unsw_nb15/fingerprints/derived_from_archives/mixed_label_group_composition.csv,Supplementary S1 (verification),re-derived unsw_nb15/fingerprints/derived_from_archives/mixed_label_group_composition.csv equals the committed table,true,True,PASS,prediction archives
+archives.../external_artifacts/prediction_archive_manifest.csv,Supplementary S1 (verification),re-derived ../external_artifacts/prediction_archive_manifest.csv equals the committed table,true,True,PASS,prediction archives
+archives.sha256,Data availability,every archive's SHA-256 equals the deposited manifest (36 files),true,True,PASS,prediction_archive_manifest.csv
+sel.cicids2017.family_not_used,Sec. 4.7,family metrics not used for selection,true,True,PASS,selected_models_manifest.json
+sel.cicids2017.seeds,Sec. 4.7,"confirmation seeds 101, 202, 303",true,True,PASS,selected_models_manifest.json
+sel.cicids2017.ranking,Methods (selection hierarchy),selection ranking recomputed from confirmation seeds equals the frozen ranking,true,True,PASS,confirmation_seed_results.csv vs selection_ranking.csv
+sel.cicids2017.AE.rank1,Table 9,rank-1 AE configuration is the selected one,true,True,PASS,selected_models_manifest.json
+sel.cicids2017.AE.config_hash,Table 9,AE config_hash = SHA-256 of canonical effective_config,true,True,PASS,selected_models_manifest.json
+sel.cicids2017.DAE.rank1,Table 9,rank-1 DAE configuration is the selected one,true,True,PASS,selected_models_manifest.json
+sel.cicids2017.DAE.config_hash,Table 9,DAE config_hash = SHA-256 of canonical effective_config,true,True,PASS,selected_models_manifest.json
+sel.unsw_nb15.family_not_used,Sec. 4.7,family metrics not used for selection,true,True,PASS,selected_models_manifest.json
+sel.unsw_nb15.seeds,Sec. 4.7,"confirmation seeds 101, 202, 303",true,True,PASS,selected_models_manifest.json
+sel.unsw_nb15.ranking,Methods (selection hierarchy),selection ranking recomputed from confirmation seeds equals the frozen ranking,true,True,PASS,confirmation_seed_results.csv vs selection_ranking.csv
+sel.unsw_nb15.AE.rank1,Table 9,rank-1 AE configuration is the selected one,true,True,PASS,selected_models_manifest.json
+sel.unsw_nb15.AE.config_hash,Table 9,AE config_hash = SHA-256 of canonical effective_config,true,True,PASS,selected_models_manifest.json
+sel.unsw_nb15.DAE.rank1,Table 9,rank-1 DAE configuration is the selected one,true,True,PASS,selected_models_manifest.json
+sel.unsw_nb15.DAE.config_hash,Table 9,DAE config_hash = SHA-256 of canonical effective_config,true,True,PASS,selected_models_manifest.json
+T9.CICIDS2017.AE.lr,Table 9,learning rate,4.79e-4,0.0004787749,PASS,selected_models_manifest.json
+T9.CICIDS2017.AE.batch,Table 9,batch size,128,128.0,PASS,selected_models_manifest.json
+T9.CICIDS2017.AE.params,Table 9,parameter count,"15,390",15390.0,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.AE.dev_mcc,Table 9,development mean MCC (3 seeds),0.530234,0.530234138,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.AE.dev_sd,Table 9,development MCC SD (3 seeds),0.004590,0.0045897292,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.AE.train_s,Table 9,mean training seconds,"2,113",2113.3180408797,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.AE.hash,Table 9,config hash prefix,true,True,PASS,selected_models_manifest.json
+T9.CICIDS2017.DAE.lr,Table 9,learning rate,3.66e-4,0.0003664886,PASS,selected_models_manifest.json
+T9.CICIDS2017.DAE.batch,Table 9,batch size,256,256.0,PASS,selected_models_manifest.json
+T9.CICIDS2017.DAE.params,Table 9,parameter count,"15,390",15390.0,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.DAE.dev_mcc,Table 9,development mean MCC (3 seeds),0.524699,0.5246985652,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.DAE.dev_sd,Table 9,development MCC SD (3 seeds),0.001429,0.0014293376,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.DAE.train_s,Table 9,mean training seconds,"1,288",1288.368547849,PASS,confirmation_seed_results.csv
+T9.CICIDS2017.DAE.hash,Table 9,config hash prefix,true,True,PASS,selected_models_manifest.json
+T9.UNSW-NB15.AE.lr,Table 9,learning rate,1.07e-4,0.0001072984,PASS,selected_models_manifest.json
+T9.UNSW-NB15.AE.batch,Table 9,batch size,512,512.0,PASS,selected_models_manifest.json
+T9.UNSW-NB15.AE.params,Table 9,parameter count,"15,519",15519.0,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.AE.dev_mcc,Table 9,development mean MCC (3 seeds),0.903582,0.9035823737,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.AE.dev_sd,Table 9,development MCC SD (3 seeds),0.003120,0.0031201555,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.AE.train_s,Table 9,mean training seconds,970,969.8970056453,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.AE.hash,Table 9,config hash prefix,true,True,PASS,selected_models_manifest.json
+T9.UNSW-NB15.DAE.lr,Table 9,learning rate,5.52e-4,0.0005523895,PASS,selected_models_manifest.json
+T9.UNSW-NB15.DAE.batch,Table 9,batch size,128,128.0,PASS,selected_models_manifest.json
+T9.UNSW-NB15.DAE.params,Table 9,parameter count,"15,519",15519.0,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.DAE.dev_mcc,Table 9,development mean MCC (3 seeds),0.906182,0.9061815464,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.DAE.dev_sd,Table 9,development MCC SD (3 seeds),0.000240,0.0002404738,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.DAE.train_s,Table 9,mean training seconds,"4,708",4707.9556951733,PASS,confirmation_seed_results.csv
+T9.UNSW-NB15.DAE.hash,Table 9,config hash prefix,true,True,PASS,selected_models_manifest.json
+T9.common,Table 9 caption,"all selected models: architecture B, latent 16, ReLU, AdamW, clip 1.0, <=150 epochs, patience 12",true,True,PASS,selected_models_manifest.json
+T9.losses_masks,Table 9,losses and masking rates as tabulated,true,True,PASS,selected_models_manifest.json
+S4.7.dev_sd_ratio_unsw,Sec. 4.7,"development SD ratio AE/DAE, UNSW-NB15",13.0,12.9750345407,PASS,confirmation_seed_results.csv
+S4.7.dev_sd_ratio_cic,Sec. 4.7,"development SD ratio AE/DAE, CICIDS2017",3.2,3.2110883107,PASS,confirmation_seed_results.csv
+fin.cicids2017.seeds,Sec. 4.7,five final seeds per model,true,True,PASS,final_seed_results.csv
+fin.cicids2017.paired_values,Table 10,paired_seed_values.csv equals final_seed_results.csv (to 13 significant digits; the files store different digit counts),true,True,PASS,both files
+S4.7.cicids2017.n,Sec. 4.7,final-test observations,"668,562",668562.0,PASS,final_seed_results.csv
+S4.7.cicids2017.n_attack,Sec. 4.7,final-test attacks,"327,595",327595.0,PASS,final_seed_results.csv
+fin.unsw_nb15.seeds,Sec. 4.7,five final seeds per model,true,True,PASS,final_seed_results.csv
+fin.unsw_nb15.paired_values,Table 10,paired_seed_values.csv equals final_seed_results.csv (to 13 significant digits; the files store different digit counts),true,True,PASS,both files
+S4.7.unsw_nb15.n,Sec. 4.7,final-test observations,"525,584",525584.0,PASS,final_seed_results.csv
+S4.7.unsw_nb15.n_attack,Sec. 4.7,final-test attacks,"192,770",192770.0,PASS,final_seed_results.csv
+T10.CICIDS2017.MCC.mean,Table 10,mean DAE - AE,-0.005508,-0.0055078082,PASS,paired_seed_values.csv
+T10.CICIDS2017.MCC.consistency,Table 10,seed-direction consistency 5/5 negative,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.MCC.lo,Table 10,95% interval lower bound (exact enumeration),-0.008170,-0.0081703117,PASS,paired_seed_values.csv
+T10.CICIDS2017.MCC.hi,Table 10,95% interval upper bound (exact enumeration),-0.002845,-0.0028453046,PASS,paired_seed_values.csv
+T10.CICIDS2017.MCC.dz,Table 10,d_z,-1.569,-1.569433788,PASS,paired_seed_values.csv
+T10.CICIDS2017.Recall.mean,Table 10,mean DAE - AE,-0.006499,-0.0064988782,PASS,paired_seed_values.csv
+T10.CICIDS2017.Recall.consistency,Table 10,seed-direction consistency 5/5 negative,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.Recall.lo,Table 10,95% interval lower bound (exact enumeration),-0.009926,-0.0099256704,PASS,paired_seed_values.csv
+T10.CICIDS2017.Recall.hi,Table 10,95% interval upper bound (exact enumeration),-0.003128,-0.0031282529,PASS,paired_seed_values.csv
+T10.CICIDS2017.Recall.dz,Table 10,d_z,-1.433,-1.4330627162,PASS,paired_seed_values.csv
+T10.CICIDS2017.F1.mean,Table 10,mean DAE - AE,-0.006307,-0.0063073094,PASS,paired_seed_values.csv
+T10.CICIDS2017.F1.consistency,Table 10,seed-direction consistency 5/5 negative,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.F1.lo,Table 10,95% interval lower bound (exact enumeration),-0.009535,-0.0095346936,PASS,paired_seed_values.csv
+T10.CICIDS2017.F1.hi,Table 10,95% interval upper bound (exact enumeration),-0.003094,-0.0030941761,PASS,paired_seed_values.csv
+T10.CICIDS2017.F1.dz,Table 10,d_z,-1.468,-1.4678386949,PASS,paired_seed_values.csv
+T10.CICIDS2017.Precision.mean,Table 10,mean DAE - AE,-0.000824,-0.0008237997,PASS,paired_seed_values.csv
+T10.CICIDS2017.Precision.consistency,Table 10,seed-direction consistency 5/5 negative,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.Precision.lo,Table 10,95% interval lower bound (exact enumeration),-0.001170,-0.0011695919,PASS,paired_seed_values.csv
+T10.CICIDS2017.Precision.hi,Table 10,95% interval upper bound (exact enumeration),-0.000491,-0.0004909956,PASS,paired_seed_values.csv
+T10.CICIDS2017.Precision.dz,Table 10,d_z,-1.861,-1.8608409799,PASS,paired_seed_values.csv
+T10.CICIDS2017.Balanced_Accuracy.mean,Table 10,mean DAE - AE,-0.003359,-0.0033594204,PASS,paired_seed_values.csv
+T10.CICIDS2017.Balanced_Accuracy.consistency,Table 10,seed-direction consistency 5/5 negative,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.Balanced_Accuracy.lo,Table 10,95% interval lower bound (exact enumeration),-0.005043,-0.0050429734,PASS,paired_seed_values.csv
+T10.CICIDS2017.Balanced_Accuracy.hi,Table 10,95% interval upper bound (exact enumeration),-0.001676,-0.0016758675,PASS,paired_seed_values.csv
+T10.CICIDS2017.Balanced_Accuracy.dz,Table 10,d_z,-1.499,-1.4991890779,PASS,paired_seed_values.csv
+T10.CICIDS2017.PR-AUC.mean,Table 10,mean DAE - AE,-0.012958,-0.0129580643,PASS,paired_seed_values.csv
+T10.CICIDS2017.PR-AUC.consistency,Table 10,seed-direction consistency 5/5 negative,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.PR-AUC.lo,Table 10,95% interval lower bound (exact enumeration),-0.018171,-0.0181711638,PASS,paired_seed_values.csv
+T10.CICIDS2017.PR-AUC.hi,Table 10,95% interval upper bound (exact enumeration),-0.007694,-0.0076936745,PASS,paired_seed_values.csv
+T10.CICIDS2017.PR-AUC.dz,Table 10,d_z,-2.003,-2.0029623312,PASS,paired_seed_values.csv
+T10.CICIDS2017.FPR.mean,Table 10,mean DAE - AE,0.000220,0.0002199626,PASS,paired_seed_values.csv
+T10.CICIDS2017.FPR.consistency,Table 10,seed-direction consistency 5/5 positive,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.FPR.lo,Table 10,95% interval lower bound (exact enumeration),0.000069,6.86283e-05,PASS,paired_seed_values.csv
+T10.CICIDS2017.FPR.hi,Table 10,95% interval upper bound (exact enumeration),0.000371,0.0003712969,PASS,paired_seed_values.csv
+T10.CICIDS2017.FPR.dz,Table 10,d_z,1.103,1.1034185369,PASS,paired_seed_values.csv
+T10.CICIDS2017.FP_per_1000_benign.mean,Table 10,mean DAE - AE,0.220,0.2199626357,PASS,paired_seed_values.csv
+T10.CICIDS2017.FP_per_1000_benign.consistency,Table 10,seed-direction consistency 5/5 positive,true,True,PASS,paired_seed_values.csv
+T10.CICIDS2017.FP_per_1000_benign.lo,Table 10,95% interval lower bound (exact enumeration),0.069,0.0686283423,PASS,paired_seed_values.csv
+T10.CICIDS2017.FP_per_1000_benign.hi,Table 10,95% interval upper bound (exact enumeration),0.371,0.371296929,PASS,paired_seed_values.csv
+T10.CICIDS2017.FP_per_1000_benign.dz,Table 10,d_z,1.103,1.1034185369,PASS,paired_seed_values.csv
+T10.UNSW-NB15.MCC.mean,Table 10,mean DAE - AE,0.003025,0.0030252951,PASS,paired_seed_values.csv
+T10.UNSW-NB15.MCC.consistency,Table 10,seed-direction consistency 5/5 positive,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.MCC.lo,Table 10,95% interval lower bound (exact enumeration),0.001076,0.0010760946,PASS,paired_seed_values.csv
+T10.UNSW-NB15.MCC.hi,Table 10,95% interval upper bound (exact enumeration),0.005099,0.0050985514,PASS,paired_seed_values.csv
+T10.UNSW-NB15.MCC.dz,Table 10,d_z,1.177,1.1765783245,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Recall.mean,Table 10,mean DAE - AE,0.004411,0.0044114748,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Recall.consistency,Table 10,seed-direction consistency 5/5 positive,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Recall.lo,Table 10,95% interval lower bound (exact enumeration),0.001910,0.0019100482,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Recall.hi,Table 10,95% interval upper bound (exact enumeration),0.006913,0.0069129014,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Recall.dz,Table 10,d_z,1.377,1.3765243696,PASS,paired_seed_values.csv
+T10.UNSW-NB15.F1.mean,Table 10,mean DAE - AE,0.002219,0.0022190926,PASS,paired_seed_values.csv
+T10.UNSW-NB15.F1.consistency,Table 10,seed-direction consistency 5/5 positive,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.F1.lo,Table 10,95% interval lower bound (exact enumeration),0.000821,0.0008212785,PASS,paired_seed_values.csv
+T10.UNSW-NB15.F1.hi,Table 10,95% interval upper bound (exact enumeration),0.003645,0.003644842,PASS,paired_seed_values.csv
+T10.UNSW-NB15.F1.dz,Table 10,d_z,1.221,1.2210101632,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Precision.mean,Table 10,mean DAE - AE,-0.000416,-0.0004160687,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Precision.consistency,Table 10,seed-direction consistency 3/5 negative,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Precision.lo,Table 10,95% interval lower bound (exact enumeration),-0.001263,-0.0012629284,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Precision.hi,Table 10,95% interval upper bound (exact enumeration),0.000368,0.0003683814,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Precision.dz,Table 10,d_z,-0.408,-0.4076648793,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Balanced_Accuracy.mean,Table 10,mean DAE - AE,0.002069,0.0020690244,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Balanced_Accuracy.consistency,Table 10,seed-direction consistency 5/5 positive,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Balanced_Accuracy.lo,Table 10,95% interval lower bound (exact enumeration),0.000814,0.0008141046,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Balanced_Accuracy.hi,Table 10,95% interval upper bound (exact enumeration),0.003324,0.0033239442,PASS,paired_seed_values.csv
+T10.UNSW-NB15.Balanced_Accuracy.dz,Table 10,d_z,1.283,1.2827356872,PASS,paired_seed_values.csv
+T10.UNSW-NB15.PR-AUC.mean,Table 10,mean DAE - AE,-0.005571,-0.0055706763,PASS,paired_seed_values.csv
+T10.UNSW-NB15.PR-AUC.consistency,Table 10,seed-direction consistency 3/5 negative,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.PR-AUC.lo,Table 10,95% interval lower bound (exact enumeration),-0.012528,-0.0125284349,PASS,paired_seed_values.csv
+T10.UNSW-NB15.PR-AUC.hi,Table 10,95% interval upper bound (exact enumeration),0.000499,0.0004990392,PASS,paired_seed_values.csv
+T10.UNSW-NB15.PR-AUC.dz,Table 10,d_z,-0.665,-0.6650006537,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FPR.mean,Table 10,mean DAE - AE,0.000273,0.000273426,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FPR.consistency,Table 10,seed-direction consistency 4/5 positive,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FPR.lo,Table 10,95% interval lower bound (exact enumeration),-0.000138,-0.0001382153,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FPR.hi,Table 10,95% interval upper bound (exact enumeration),0.000733,0.0007325413,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FPR.dz,Table 10,d_z,0.496,0.4960951616,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FP_per_1000_benign.mean,Table 10,mean DAE - AE,0.273,0.2734259977,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FP_per_1000_benign.consistency,Table 10,seed-direction consistency 4/5 positive,true,True,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FP_per_1000_benign.lo,Table 10,95% interval lower bound (exact enumeration),-0.138,-0.1382153395,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FP_per_1000_benign.hi,Table 10,95% interval upper bound (exact enumeration),0.733,0.7325412993,PASS,paired_seed_values.csv
+T10.UNSW-NB15.FP_per_1000_benign.dz,Table 10,d_z,0.496,0.4960951616,PASS,paired_seed_values.csv
+NB08.UNSW-NB15.Precision.lo,Table 10 notes 1-2,frozen NB-08 bootstrap lo bound differs from exact enumeration,,exact -0.00126293 vs frozen -0.0012009,FROZEN_TABLE_DISCREPANCY,paired_seed_bootstrap_effects.csv
+NB08.UNSW-NB15.FP_per_1000_benign.hi,Table 10 notes 1-2,frozen NB-08 bootstrap hi bound differs from exact enumeration,,exact 0.732541 vs frozen 0.708504,FROZEN_TABLE_DISCREPANCY,paired_seed_bootstrap_effects.csv
+abstract.CICIDS2017.MCC,Abstract,mean DAE - AE MCC,-0.0055,-0.0055078082,PASS,paired_seed_values.csv
+abstract.CICIDS2017.Recall,Abstract,mean DAE - AE Recall,-0.0065,-0.0064988782,PASS,paired_seed_values.csv
+abstract.UNSW-NB15.MCC,Abstract,mean DAE - AE MCC,0.0030,0.0030252951,PASS,paired_seed_values.csv
+abstract.UNSW-NB15.Recall,Abstract,mean DAE - AE Recall,0.0044,0.0044114748,PASS,paired_seed_values.csv
+abstract.CICIDS2017.PR-AUC,Abstract,mean DAE - AE PR-AUC,-0.0130,-0.0129580643,PASS,paired_seed_values.csv
+abstract.UNSW-NB15.PR-AUC,Abstract,mean DAE - AE PR-AUC,-0.0056,-0.0055706763,PASS,paired_seed_values.csv
+abstract.CICIDS2017.FP_per_1000_benign,Abstract,mean DAE - AE FP_per_1000_benign,0.220,0.2199626357,PASS,paired_seed_values.csv
+abstract.UNSW-NB15.FP_per_1000_benign,Abstract,mean DAE - AE FP_per_1000_benign,0.273,0.2734259977,PASS,paired_seed_values.csv
+abstract.reversal,Abstract; highlights,"MCC and recall contrasts have opposite signs in the two corpora, 5/5 seeds each",true,True,PASS,paired_seed_values.csv
+S4.7.level.CICIDS2017.MCC.AE_mean,Sec. 4.7,AE mean of MCC,0.522889,0.5228894992,PASS,final_seed_results.csv
+S4.7.level.CICIDS2017.MCC.AE_sd,Sec. 4.7,AE sd of MCC,0.003799,0.003798813,PASS,final_seed_results.csv
+S4.7.level.CICIDS2017.MCC.DAE_mean,Sec. 4.7,DAE mean of MCC,0.517382,0.5173816911,PASS,final_seed_results.csv
+S4.7.level.CICIDS2017.MCC.DAE_sd,Sec. 4.7,DAE sd of MCC,0.001169,0.0011692531,PASS,final_seed_results.csv
+S4.7.level.CICIDS2017.Recall.AE_mean,Sec. 4.7,AE mean of Recall,0.445567,0.4455666295,PASS,final_seed_results.csv
+S4.7.level.CICIDS2017.Recall.DAE_mean,Sec. 4.7,DAE mean of Recall,0.439068,0.4390677513,PASS,final_seed_results.csv
+S4.7.level.CICIDS2017.PR-AUC.AE_mean,Sec. 4.7,AE mean of PR-AUC,0.861488,0.8614875772,PASS,final_seed_results.csv
+S4.7.level.CICIDS2017.PR-AUC.DAE_mean,Sec. 4.7,DAE mean of PR-AUC,0.848530,0.8485295129,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.MCC.AE_mean,Sec. 4.7,AE mean of MCC,0.904585,0.9045852412,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.MCC.AE_sd,Sec. 4.7,AE sd of MCC,0.004759,0.0047593009,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.MCC.DAE_mean,Sec. 4.7,DAE mean of MCC,0.907611,0.9076105363,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.MCC.DAE_sd,Sec. 4.7,DAE sd of MCC,0.004051,0.0040513101,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.Recall.AE_mean,Sec. 4.7,AE mean of Recall,0.895536,0.8955356124,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.Recall.DAE_mean,Sec. 4.7,DAE mean of Recall,0.899947,0.8999470872,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.PR-AUC.AE_mean,Sec. 4.7,AE mean of PR-AUC,0.981355,0.9813549556,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.PR-AUC.DAE_mean,Sec. 4.7,DAE mean of PR-AUC,0.975784,0.9757842793,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.best_epoch.AE_mean,Sec. 4.7,AE mean of best_epoch,149.0,149.0,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.best_epoch.AE_sd,Sec. 4.7,AE sd of best_epoch,1.22,1.2247448714,PASS,final_seed_results.csv
+S4.7.level.UNSW-NB15.best_epoch.DAE_mean,Sec. 4.7,DAE mean of best_epoch,108.6,108.6,PASS,final_seed_results.csv
+S4.7.final_sd_ratio.UNSW-NB15,Sec. 4.7,final SD ratio AE/DAE,1.17,1.174756012,PASS,final_seed_results.csv
+S4.7.final_sd_ratio.CICIDS2017,Sec. 4.7,final SD ratio AE/DAE,3.25,3.248922729,PASS,final_seed_results.csv
+S4.7.unsw_mcc_in_ae_sd,Sec. 4.7; Table 10,UNSW-NB15 MCC contrast in AE seed SDs,0.636,0.635659557,PASS,final_seed_results.csv
+S4.7.tp_diff.CICIDS2017,Sec. 4.7; Table 10,"mean TP difference per run (DAE - AE), nearest integer",-2129,-2129.0,PASS,final_seed_results.csv
+S4.7.fp_diff.CICIDS2017,Sec. 4.7; Table 10,"mean FP difference per run (DAE - AE), nearest integer",75,75.0,PASS,final_seed_results.csv
+S4.7.tp_diff.UNSW-NB15,Sec. 4.7; Table 10,"mean TP difference per run (DAE - AE), nearest integer",850,850.0,PASS,final_seed_results.csv
+S4.7.fp_diff.UNSW-NB15,Sec. 4.7; Table 10,"mean FP difference per run (DAE - AE), nearest integer",91,91.0,PASS,final_seed_results.csv
+S4.7.unsw_dae_epoch150,Sec. 4.7,UNSW-NB15 DAE runs that reached the 150-epoch ceiling,1,1.0,PASS,final_seed_results.csv
+S4.7.unsw_seed202,Sec. 4.7,"UNSW-NB15 seed 202: DAE better on both axes (more TP, fewer FP)",true,True,PASS,final_seed_results.csv
+S4.7.cic_exact_tests,Sec. 4.7,CICIDS2017: exact sign and Wilcoxon tests give p = 0.0625 for every metric,true,True,PASS,paired_seed_values.csv
+S4.7.cic_t_min,Sec. 4.7,smallest paired-t p over the six detection metrics,0.011,0.0110003288,PASS,paired_seed_values.csv
+S4.7.cic_t_max,Sec. 4.7,largest paired-t p over the six detection metrics,0.033,0.0327623475,PASS,paired_seed_values.csv
+S4.7.cic_fpr_p,Sec. 4.7,"paired-t p, FPR",0.0691,0.0691455219,PASS,paired_seed_values.csv
+S4.7.cic_fpr_tlo,Sec. 4.7,"paired-t interval lower, FPR",-2.756e-5,-2.75588e-05,PASS,paired_seed_values.csv
+S4.7.cic_fpr_thi,Sec. 4.7,"paired-t interval upper, FPR",4.675e-4,0.000467484,PASS,paired_seed_values.csv
+NB08.T19.tests,Sec. 4.7,"recomputed t, p_t, t-interval, sign and Wilcoxon p equal frozen T19 (CICIDS2017)",true,True,PASS,T19_statistical_comparison.csv
+arch.cicids2017.integrity,Supplementary S1,"final archives: one threshold, strict-exceedance rule, unique row_id, one prediction per group, no mixed groups",true,True,PASS,run_summary_final_test.csv
+arch.cicids2017.dev_integrity,Supplementary S1,development archives: same integrity properties,true,True,PASS,run_summary_development.csv
+arch.cicids2017.final_match,Supplementary S1,archive-derived metrics equal final_seed_results.csv for all 10 runs,true,True,PASS,run_summary_final_test.csv vs final_seed_results.csv
+arch.cicids2017.dev_match,Supplementary S1,archive-derived development metrics equal confirmation_seed_results.csv,true,True,PASS,run_summary_development.csv vs confirmation_seed_results.csv
+arch.unsw_nb15.integrity,Supplementary S1,"final archives: one threshold, strict-exceedance rule, unique row_id, one prediction per group, no mixed groups",true,True,PASS,run_summary_final_test.csv
+arch.unsw_nb15.dev_integrity,Supplementary S1,development archives: same integrity properties,true,True,PASS,run_summary_development.csv
+arch.unsw_nb15.final_match,Supplementary S1,archive-derived metrics equal final_seed_results.csv for all 10 runs,true,True,PASS,run_summary_final_test.csv vs final_seed_results.csv
+arch.unsw_nb15.dev_match,Supplementary S1,archive-derived development metrics equal confirmation_seed_results.csv,true,True,PASS,run_summary_development.csv vs confirmation_seed_results.csv
+arch.unsw_nb15.dev_run_hash,Supplementary S1,development archives whose stored run_hash differs from the confirmation table (metrics identical),,"6 of 10: AE 53e5f4c2 seed 101, AE c4beebc9 seed 101, AE f2ff4491 seed 101, DAE 17a05304 seed 101, DAE 4416b89e seed 101, DAE efc7b06f seed 101",CORRECTION_NEEDED,run_summary_development.csv vs confirmation_seed_results.csv
+S4.7.fp_recall.UNSW-NB15.AE,Sec. 4.7,recall per distinct attack fingerprint (5-seed mean),0.6285,0.6285396812,PASS,run_summary_final_test.csv
+S4.7.fp_recall.UNSW-NB15.DAE,Sec. 4.7,recall per distinct attack fingerprint (5-seed mean),0.6451,0.6451044916,PASS,run_summary_final_test.csv
+S4.7.fp_recall.CICIDS2017.AE,Sec. 4.7,recall per distinct attack fingerprint (5-seed mean),0.5876,0.5876242871,PASS,run_summary_final_test.csv
+S4.7.fp_recall.CICIDS2017.DAE,Sec. 4.7,recall per distinct attack fingerprint (5-seed mean),0.5792,0.5792370473,PASS,run_summary_final_test.csv
+S4.7.n_attack_fp.UNSW-NB15,Sec. 4.7,distinct attack vectors in the final test,"46,798",46798.0,PASS,run_summary_final_test.csv
+S4.7.n_attack_fp.CICIDS2017,Sec. 4.7,distinct attack vectors in the final test,"248,115",248115.0,PASS,run_summary_final_test.csv
+S4.7.fp_contrast.UNSW-NB15,Sec. 4.7,per-vector recall contrast DAE - AE,0.0166,0.0165648105,PASS,run_summary_final_test.csv
+S4.7.fp_contrast_lo.UNSW-NB15,Sec. 4.7,per-vector contrast interval lower,0.0061,0.0061455618,PASS,run_summary_final_test.csv
+S4.7.fp_contrast_hi.UNSW-NB15,Sec. 4.7,per-vector contrast interval upper,0.0270,0.0269840591,PASS,run_summary_final_test.csv
+S4.7.fp_contrast_sign.UNSW-NB15,Sec. 4.7,per-vector and per-row contrasts share sign at all five seeds,true,True,PASS,run_summary_final_test.csv
+S4.7.fp_contrast.CICIDS2017,Sec. 4.7,per-vector recall contrast DAE - AE,-0.0084,-0.0083872398,PASS,run_summary_final_test.csv
+S4.7.fp_contrast_lo.CICIDS2017,Sec. 4.7,per-vector contrast interval lower,-0.0126,-0.0126094754,PASS,run_summary_final_test.csv
+S4.7.fp_contrast_hi.CICIDS2017,Sec. 4.7,per-vector contrast interval upper,-0.0042,-0.0041650041,PASS,run_summary_final_test.csv
+S4.7.fp_contrast_sign.CICIDS2017,Sec. 4.7,per-vector and per-row contrasts share sign at all five seeds,true,True,PASS,run_summary_final_test.csv
+S4.7.fp_contrast_ratio,Sec. 4.7,UNSW-NB15 per-vector contrast / per-row contrast,3.8,3.7549371034,PASS,as above
+S4.7.geo.CICIDS2017.AE.median,Sec. 4.7,median error of missed attacks / threshold,0.0332,0.0331782835,PASS,run_summary_final_test.csv
+S4.7.geo.CICIDS2017.AE.p90,Sec. 4.7,90th percentile error of missed attacks / threshold,0.2344,0.2344337934,PASS,run_summary_final_test.csv
+S4.7.geo.CICIDS2017.AE.below_median,Sec. 4.7,attacks below the benign median (%),7.146,7.1458966101,PASS,run_summary_final_test.csv
+S4.7.geo.CICIDS2017.AE.below_thr,Sec. 4.7,attacks at or below the threshold (%),55.44,55.4433370473,PASS,run_summary_final_test.csv
+S4.7.geo.UNSW-NB15.AE.median,Sec. 4.7,median error of missed attacks / threshold,0.1767,0.1766533734,PASS,run_summary_final_test.csv
+S4.7.geo.UNSW-NB15.AE.p90,Sec. 4.7,90th percentile error of missed attacks / threshold,0.6720,0.6720271587,PASS,run_summary_final_test.csv
+S4.7.geo.UNSW-NB15.AE.below_median,Sec. 4.7,attacks below the benign median (%),0.000,0.0,PASS,run_summary_final_test.csv
+S4.7.geo.UNSW-NB15.AE.below_thr,Sec. 4.7,attacks at or below the threshold (%),10.45,10.4464387612,PASS,run_summary_final_test.csv
+S4.7.geo.CICIDS2017.DAE.median,Sec. 4.7,median error of missed attacks / threshold,0.0294,0.0294018793,PASS,run_summary_final_test.csv
+S4.7.geo.CICIDS2017.DAE.p90,Sec. 4.7,90th percentile error of missed attacks / threshold,0.2202,0.2201522371,PASS,run_summary_final_test.csv
+S4.7.geo.CICIDS2017.DAE.below_median,Sec. 4.7,attacks below the benign median (%),10.92,10.9193363757,PASS,run_summary_final_test.csv
+S4.7.geo.CICIDS2017.DAE.below_thr,Sec. 4.7,attacks at or below the threshold (%),56.09,56.0932248661,PASS,run_summary_final_test.csv
+S4.7.geo.UNSW-NB15.DAE.median,Sec. 4.7,median error of missed attacks / threshold,0.2183,0.2182782587,PASS,run_summary_final_test.csv
+S4.7.geo.UNSW-NB15.DAE.p90,Sec. 4.7,90th percentile error of missed attacks / threshold,0.7556,0.7555838132,PASS,run_summary_final_test.csv
+S4.7.geo.UNSW-NB15.DAE.below_thr,Sec. 4.7,attacks at or below the threshold (%),10.01,10.0052912798,PASS,run_summary_final_test.csv
+S4.7.geo.unsw_dae_below_median,Sec. 4.7,UNSW-NB15 DAE: fewer than 0.01% of attacks below the benign median,true,True,PASS,run_summary_final_test.csv
+S4.7.dvf.CICIDS2017.AE.raw,Sec. 4.7,final minus development MCC (confirmation seeds),-0.006471,-0.0064713682,PASS,run summaries
+S4.7.dvf.CICIDS2017.AE.excl,Sec. 4.7,"final minus development MCC, mixed-label groups excluded from development",-0.0193,-0.0192656819,PASS,run summaries
+S4.7.dvf.CICIDS2017.AE.dev,Sec. 4.7,development MCC,0.530234,0.530234138,PASS,run_summary_development.csv
+S4.7.dvf.CICIDS2017.AE.dev_excl,Sec. 4.7,development MCC excluding mixed-label groups,0.543028,0.5430284518,PASS,run_summary_development.csv
+S4.7.dvf.CICIDS2017.DAE.raw,Sec. 4.7,final minus development MCC (confirmation seeds),-0.007037,-0.0070365742,PASS,run summaries
+S4.7.dvf.CICIDS2017.DAE.excl,Sec. 4.7,"final minus development MCC, mixed-label groups excluded from development",-0.0197,-0.0196741903,PASS,run summaries
+S4.7.dvf.CICIDS2017.DAE.dev,Sec. 4.7,development MCC,0.524699,0.5246985652,PASS,run_summary_development.csv
+S4.7.dvf.CICIDS2017.DAE.dev_excl,Sec. 4.7,development MCC excluding mixed-label groups,0.537336,0.5373361814,PASS,run_summary_development.csv
+S4.7.dvf.UNSW-NB15.AE.raw,Sec. 4.7,final minus development MCC (confirmation seeds),0.004026,0.0040256452,PASS,run summaries
+S4.7.dvf.UNSW-NB15.AE.excl,Sec. 4.7,"final minus development MCC, mixed-label groups excluded from development",-0.0008,-0.0008076338,PASS,run summaries
+S4.7.dvf.UNSW-NB15.AE.dev,Sec. 4.7,development MCC,0.903582,0.9035823737,PASS,run_summary_development.csv
+S4.7.dvf.UNSW-NB15.AE.dev_excl,Sec. 4.7,development MCC excluding mixed-label groups,0.908416,0.9084156527,PASS,run_summary_development.csv
+S4.7.dvf.UNSW-NB15.DAE.raw,Sec. 4.7,"final minus development MCC, UNSW-NB15 DAE: manuscript prints +0.004073 (truncated)",,0.0040736 (rounds to +0.004074),CORRECTION_NEEDED,run summaries
+S4.7.dvf.UNSW-NB15.DAE.raw4,Sec. 4.7,"final minus development MCC (confirmation seeds), 4 d.p.",0.0041,0.004073605,PASS,run summaries
+S4.7.dvf.UNSW-NB15.DAE.excl,Sec. 4.7,"final minus development MCC, mixed-label groups excluded from development",-0.0007,-0.000748058,PASS,run summaries
+S4.7.dvf.UNSW-NB15.DAE.dev,Sec. 4.7,development MCC,0.906182,0.9061815464,PASS,run_summary_development.csv
+S4.7.dvf.UNSW-NB15.DAE.dev_excl,Sec. 4.7,development MCC excluding mixed-label groups,0.911003,0.9110032093,PASS,run_summary_development.csv
+S4.7.cic_mixed_rows,Sec. 4.7,CICIDS2017 mixed-label observations in development,"7,020",7020.0,PASS,run_summary_development.csv
+S4.7.cic_mixed_missed,Sec. 4.7,"all 6,284 attack rows in CICIDS2017 mixed groups missed by both models at every confirmation seed",true,True,PASS,run_summary_development.csv
+S3.CICIDS2017.DoS Hulk.rows,Table S3,rows,135746,135746.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Hulk.vectors,Table S3,distinct vectors,99570,99570.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Hulk.AE_rec,Table S3,AE recall per row,0.658,0.6579140453,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Hulk.DAE_rec,Table S3,DAE recall per row,0.655,0.654691851,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Hulk.AE_recv,Table S3,AE recall per vector,0.897,0.8969107161,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Hulk.DAE_recv,Table S3,DAE recall per vector,0.893,0.8925218439,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Hulk.miss,Table S3,share of AE misses (%),25.6,25.5667578412,PASS,family_detection_final_test.csv
+S3.CICIDS2017.PortScan.rows,Table S3,rows,93365,93365.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.PortScan.vectors,Table S3,distinct vectors,52762,52762.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.PortScan.AE_rec,Table S3,AE recall per row,0.007,0.0065356397,PASS,family_detection_final_test.csv
+S3.CICIDS2017.PortScan.DAE_rec,Table S3,DAE recall per row,0.004,0.0044963316,PASS,family_detection_final_test.csv
+S3.CICIDS2017.PortScan.AE_recv,Table S3,AE recall per vector,0.010,0.010249801,PASS,family_detection_final_test.csv
+S3.CICIDS2017.PortScan.DAE_recv,Table S3,DAE recall per vector,0.008,0.0075167734,PASS,family_detection_final_test.csv
+S3.CICIDS2017.PortScan.miss,Table S3,share of AE misses (%),51.1,51.0681078415,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DDoS.rows,Table S3,rows,75211,75211.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DDoS.vectors,Table S3,distinct vectors,75204,75204.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DDoS.AE_rec,Table S3,AE recall per row,0.636,0.6359282552,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DDoS.DAE_rec,Table S3,DAE recall per row,0.632,0.6316310114,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DDoS.AE_recv,Table S3,AE recall per vector,0.636,0.6359608531,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DDoS.DAE_recv,Table S3,DAE recall per vector,0.632,0.6316632094,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DDoS.miss,Table S3,share of AE misses (%),15.1,15.0758466682,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Slowhttptest.rows,Table S3,rows,3231,3231.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Slowhttptest.vectors,Table S3,distinct vectors,3142,3142.0,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Slowhttptest.AE_rec,Table S3,AE recall per row,0.752,0.7515939338,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Slowhttptest.DAE_rec,Table S3,DAE recall per row,0.438,0.4381306097,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Slowhttptest.AE_recv,Table S3,AE recall per vector,0.745,0.7447485678,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Slowhttptest.DAE_recv,Table S3,DAE recall per vector,0.423,0.4229789943,PASS,family_detection_final_test.csv
+S3.CICIDS2017.DoS Slowhttptest.miss,Table S3,share of AE misses (%),0.4,0.4418883266,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Generic.rows,Table S3,rows,129617,129617.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Generic.vectors,Table S3,distinct vectors,11303,11303.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Generic.AE_rec,Table S3,AE recall per row,0.994,0.9939575827,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Generic.DAE_rec,Table S3,DAE recall per row,0.994,0.9942029209,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Generic.AE_recv,Table S3,AE recall per vector,0.932,0.9323719367,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Generic.DAE_recv,Table S3,DAE recall per vector,0.935,0.9352030434,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Generic.miss,Table S3,share of AE misses (%),3.9,3.8892420149,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Exploits.rows,Table S3,rows,26817,26817.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Exploits.vectors,Table S3,distinct vectors,16528,16528.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Exploits.AE_rec,Table S3,AE recall per row,0.880,0.8804265951,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Exploits.DAE_rec,Table S3,DAE recall per row,0.891,0.8911884253,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Exploits.AE_recv,Table S3,AE recall per vector,0.810,0.8101403679,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Exploits.DAE_recv,Table S3,DAE recall per vector,0.827,0.827214424,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Exploits.miss,Table S3,share of AE misses (%),15.9,15.9234466868,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Fuzzers.rows,Table S3,rows,14005,14005.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Fuzzers.vectors,Table S3,distinct vectors,12255,12255.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Fuzzers.AE_rec,Table S3,AE recall per row,0.359,0.3594144948,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Fuzzers.DAE_rec,Table S3,DAE recall per row,0.371,0.3712531239,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Fuzzers.AE_recv,Table S3,AE recall per vector,0.312,0.3121991024,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Fuzzers.DAE_recv,Table S3,DAE recall per vector,0.325,0.3247164423,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Fuzzers.miss,Table S3,share of AE misses (%),44.6,44.5504926108,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Reconnaissance.rows,Table S3,rows,8473,8473.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Reconnaissance.vectors,Table S3,distinct vectors,6079,6079.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Reconnaissance.AE_rec,Table S3,AE recall per row,0.382,0.3822731028,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Reconnaissance.DAE_rec,Table S3,DAE recall per row,0.412,0.4122506786,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Reconnaissance.AE_recv,Table S3,AE recall per vector,0.463,0.4625760816,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Reconnaissance.DAE_recv,Table S3,DAE recall per vector,0.494,0.4942918243,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Reconnaissance.miss,Table S3,share of AE misses (%),26.0,25.9911806769,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Worms.rows,Table S3,rows,95,95.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Worms.vectors,Table S3,distinct vectors,93,93.0,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Worms.AE_rec,Table S3,AE recall per row,0.836,0.8357894737,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Worms.DAE_rec,Table S3,DAE recall per row,0.886,0.8863157895,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Worms.AE_recv,Table S3,AE recall per vector,0.832,0.8322580645,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Worms.DAE_recv,Table S3,DAE recall per vector,0.884,0.8838709677,PASS,family_detection_final_test.csv
+S3.UNSW-NB15.Worms.miss,Table S3,share of AE misses (%),0.1,0.0774670269,PASS,family_detection_final_test.csv
+S4.7.generic_rows_pct,Sec. 4.7,Generic share of UNSW-NB15 attack rows (%),67.2,67.2391969705,PASS,family_detection_final_test.csv
+S4.7.generic_vec_pct,Sec. 4.7,"Generic share of the 46,798 distinct attack vectors (%)",24.2,24.1527415702,PASS,family_detection_final_test.csv + run_summary_final_test.csv
+S3.unsw_multi_family,Table S3,UNSW-NB15 attack fingerprints labelled with more than one attack family (family 'Vectors' therefore overlap),,"1283 fingerprints, 24312 rows; sum of per-family vectors 52792 vs 46798 distinct attack vectors",CORRECTION_NEEDED,run_summary_final_test.csv + family_detection_final_test.csv
+S3.cic_families,Table S3,14 CICIDS2017 and 9 UNSW-NB15 attack families in the final test,true,True,PASS,family_detection_final_test.csv
+S4.7.matched_ablation,Sec. 4.7,"matched-ablation contrasts (-0.004998, +0.001036, d_z -0.155; +0.010377, d_z 1.755)",,not recomputable: NB-04 ablation outputs are not in the evidence set,NOT_REPRODUCIBLE_HERE,analysis record

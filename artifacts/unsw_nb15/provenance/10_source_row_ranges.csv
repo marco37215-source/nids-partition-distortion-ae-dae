@@ -1,0 +1,5 @@
+file_order,filename,merged_row_start_0based,merged_row_end_inclusive_0based,merged_row_end_exclusive_0based,row_count
+1,UNSW-NB15_1.csv,0,700000,700001,700001
+2,UNSW-NB15_2.csv,700001,1400001,1400002,700001
+3,UNSW-NB15_3.csv,1400002,2100002,2100003,700001
+4,UNSW-NB15_4.csv,2100003,2540046,2540047,440044

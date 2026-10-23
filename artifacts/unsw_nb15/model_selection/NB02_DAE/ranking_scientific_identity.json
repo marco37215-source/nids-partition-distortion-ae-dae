@@ -1,0 +1,193 @@
+{
+  "ranking_rule": [
+    "MCC descending",
+    "FPR ascending",
+    "PR-AUC descending",
+    "parameter_count ascending",
+    "training_duration_seconds ascending",
+    "config_hash ascending"
+  ],
+  "ranking_scientific_identity_hash": "56de3f222fa74d120e6e7f91635148fda10c94aab9583c5de633c807bb3c81b0",
+  "records": [
+    {
+      "FPR": 0.010731219239575259,
+      "MCC": 0.9059081893764449,
+      "PR-AUC": 0.9728363145547432,
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "parameter_count": 15519,
+      "rank": 1,
+      "training_duration_seconds": 3622.8814472339996
+    },
+    {
+      "FPR": 0.014030359299789071,
+      "MCC": 0.9030691786136813,
+      "PR-AUC": 0.9628153082557915,
+      "config_hash": "17a053045009d1b816f0953f4cdc21222ea6ceb1f96670f6de36bf5e7547df54",
+      "parameter_count": 6519,
+      "rank": 2,
+      "training_duration_seconds": 2834.031462564999
+    },
+    {
+      "FPR": 0.010478826010925021,
+      "MCC": 0.9012195727367069,
+      "PR-AUC": 0.9751701262901975,
+      "config_hash": "4416b89eadb6910865a90f1079caf3821ddf4938aac3e0c873bbd06d8777a979",
+      "parameter_count": 15519,
+      "rank": 3,
+      "training_duration_seconds": 1164.6112070200033
+    },
+    {
+      "FPR": 0.010176855540932773,
+      "MCC": 0.9003007653700918,
+      "PR-AUC": 0.9858956654993909,
+      "config_hash": "b0532eb6391f9b1c070a3c2c4fe844193727a2bf84c145e21806d731facb9ba9",
+      "parameter_count": 14999,
+      "rank": 4,
+      "training_duration_seconds": 1403.4449526239987
+    },
+    {
+      "FPR": 0.010780796480917268,
+      "MCC": 0.8984603515145031,
+      "PR-AUC": 0.9881143442350234,
+      "config_hash": "06d358928c1b6ad476bae3f868b8b00b7167bf8a262940669e7ce4935b16ed7e",
+      "parameter_count": 15519,
+      "rank": 5,
+      "training_duration_seconds": 2435.6199996689975
+    },
+    {
+      "FPR": 0.010257981935856064,
+      "MCC": 0.896701475930601,
+      "PR-AUC": 0.9749092207844978,
+      "config_hash": "4d1fafb7cb66f2bb37bcae71f80683b241535527a98b4032afe0a6c2cfb8b77e",
+      "parameter_count": 15799,
+      "rank": 6,
+      "training_duration_seconds": 3150.855111591998
+    },
+    {
+      "FPR": 0.010046151904667473,
+      "MCC": 0.8962816788163688,
+      "PR-AUC": 0.9838206928178262,
+      "config_hash": "89f1c56293efd3e3b850d24b92c244c743dff38538c8cb01bdbdd18410e95863",
+      "parameter_count": 15519,
+      "rank": 7,
+      "training_duration_seconds": 2848.4383445269996
+    },
+    {
+      "FPR": 0.010447276857343741,
+      "MCC": 0.8953844101933384,
+      "PR-AUC": 0.9857449475008992,
+      "config_hash": "96505ec4be54c18f738aba604cfe9284bf49e066c8b44c5757736b4949b22e3a",
+      "parameter_count": 15519,
+      "rank": 8,
+      "training_duration_seconds": 1093.8623719809984
+    },
+    {
+      "FPR": 0.010744740305395807,
+      "MCC": 0.8773085328234677,
+      "PR-AUC": 0.9782286995344774,
+      "config_hash": "7b39445cd45adf9e172cd81d9cca5b0f5dd11b498cb9ddd0bfbf0ab303efd6d0",
+      "parameter_count": 14999,
+      "rank": 9,
+      "training_duration_seconds": 3708.399947533002
+    },
+    {
+      "FPR": 0.010055165948547837,
+      "MCC": 0.8541128346406974,
+      "PR-AUC": 0.9872417868538953,
+      "config_hash": "bc6ddfa445b164bb2ef0bb36fcb6bf789bdbab2dc79cf16f6162d7178cae9bdd",
+      "parameter_count": 15799,
+      "rank": 10,
+      "training_duration_seconds": 2617.6839086689943
+    },
+    {
+      "FPR": 0.010483333032865205,
+      "MCC": 0.8520818416951784,
+      "PR-AUC": 0.9872014719101813,
+      "config_hash": "e62ac14824bb79320b96b0644621c87618e9f5e1da5a99675b5e615f600a209e",
+      "parameter_count": 15799,
+      "rank": 11,
+      "training_duration_seconds": 1549.8484816839998
+    },
+    {
+      "FPR": 0.009406154789161514,
+      "MCC": 0.8328878810833291,
+      "PR-AUC": 0.9835090536561244,
+      "config_hash": "cd6efedbbadd49016d18c959a80d4eb1e642015b7af73373b9dcf2cb09ee9cef",
+      "parameter_count": 6387,
+      "rank": 12,
+      "training_duration_seconds": 887.6844446430005
+    },
+    {
+      "FPR": 0.009942490400043268,
+      "MCC": 0.8321789946181839,
+      "PR-AUC": 0.986155044130204,
+      "config_hash": "d2c231b4db43b58c51ac496b49bec5783c92e2292471726df483edce95de5126",
+      "parameter_count": 15799,
+      "rank": 13,
+      "training_duration_seconds": 1210.6769085429987
+    },
+    {
+      "FPR": 0.009951504443923634,
+      "MCC": 0.8253987313191717,
+      "PR-AUC": 0.9715541998574757,
+      "config_hash": "272a1694f3a47e82831a933e010098087d089c2056e5ac9e5532181be3d6dbcb",
+      "parameter_count": 15799,
+      "rank": 14,
+      "training_duration_seconds": 1597.970211159
+    },
+    {
+      "FPR": 0.009361084569759686,
+      "MCC": 0.8237455663174729,
+      "PR-AUC": 0.9717461486225958,
+      "config_hash": "20cf1d9dcc185189c23f2feec933c3f375c18f9119fb8f883c876766ab8466a5",
+      "parameter_count": 6387,
+      "rank": 15,
+      "training_duration_seconds": 3209.2015756030014
+    },
+    {
+      "FPR": 0.009901927202581623,
+      "MCC": 0.8144288641598266,
+      "PR-AUC": 0.9759507270604149,
+      "config_hash": "b9b42f8b482f7a5a2e4285ebb8f9325bae679a618279d917f2ead469ba993013",
+      "parameter_count": 6519,
+      "rank": 16,
+      "training_duration_seconds": 5268.405274431003
+    },
+    {
+      "FPR": 0.009983053597504912,
+      "MCC": 0.7947964632947907,
+      "PR-AUC": 0.9655553346738895,
+      "config_hash": "d53e06a6b504e8ced79931fc29cf64b086f98761d7e16e6c162ed13e89bd217f",
+      "parameter_count": 15667,
+      "rank": 17,
+      "training_duration_seconds": 3163.2364890239987
+    },
+    {
+      "FPR": 0.009681083127512665,
+      "MCC": 0.7944410573309865,
+      "PR-AUC": 0.9786349472651927,
+      "config_hash": "b113c871f01af610c3eeafe629fda8ce857318d4aaa47e13d398cf8bd3b3f8f4",
+      "parameter_count": 6519,
+      "rank": 18,
+      "training_duration_seconds": 1670.0782812149992
+    },
+    {
+      "FPR": 0.009568407579008094,
+      "MCC": 0.7815509601568793,
+      "PR-AUC": 0.9726234581455176,
+      "config_hash": "88f7f3d29686d51e7c2d057fb1610d14d437a096dfb44dc9848432173185696b",
+      "parameter_count": 15667,
+      "rank": 19,
+      "training_duration_seconds": 985.185610986
+    },
+    {
+      "FPR": 0.010379671528241,
+      "MCC": 0.7696768555760917,
+      "PR-AUC": 0.9687349965223364,
+      "config_hash": "05a374cc73d2fb75828cbfc2c62e9b0ffb5fc28312533553321e760cf280e01c",
+      "parameter_count": 6387,
+      "rank": 20,
+      "training_duration_seconds": 2588.4834757710014
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Merged CICIDS2017 master as recorded by PRE-00 (artifacts/cicids2017/fingerprints/fingerprint_audit.json).
+# The master file name is not recorded in the frozen artefacts: replace MASTER_FILENAME, then run  sha256sum -c SHA256SUMS.txt
+# Add per-source-file lines with:  python -m src.utils.hashing sha256 data/cicids2017/raw/*.csv
+b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3  MASTER_FILENAME

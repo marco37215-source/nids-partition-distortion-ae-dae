@@ -1,0 +1,3 @@
+fingerprint_group_class,benign_rows,unique_fingerprints,median_total_mse,mean_total_mse,above_calibration_p99_rows,above_calibration_p99_rate
+pure benign group,220890,60066,0.5273242172719604,1.7579953642950257,118978,0.538630087373806
+mixed-label/conflicting group,986,453,0.005763378185393336,0.013648918490378387,6,0.006085192697768763

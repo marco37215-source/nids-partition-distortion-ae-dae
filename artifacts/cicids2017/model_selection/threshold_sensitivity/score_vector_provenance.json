@@ -1,0 +1,12 @@
+{
+  "AE": {
+    "calibration_scores_sha256": "d589e8701729a20c7ecba8fc33736b14a1b1a881f380e59d3905298389dcec0c",
+    "development_scores_sha256": "deecb89f42e8dfbce63733e7c75323ad75a24f9d73fcb4ef6b0d8b3f7505f63a",
+    "source_run_hash": "59e4bec7a70d4fcb04dbb39237ff2cf6d36787f1e199bce2da2836e5444bff09"
+  },
+  "DAE": {
+    "calibration_scores_sha256": "47515994bb018359b899f3e2ac7075c0e7ccf1169bebce528f039626a28bb464",
+    "development_scores_sha256": "a3144c9d8e564b33a0187bc96934170d0f04172eeca272ef1444e882f08d5500",
+    "source_run_hash": "c132dd694c4e049eafd6cf18148983fdffccca51a9382e9d8d77ff85ceef7d73"
+  }
+}

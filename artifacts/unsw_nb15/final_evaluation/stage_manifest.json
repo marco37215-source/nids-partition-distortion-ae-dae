@@ -1,0 +1,51 @@
+{
+  "additional_final_seeds": [
+    404,
+    505
+  ],
+  "code_version": "experiment1_v2_model_core_3.0.0_source_multiplicity_corrected",
+  "confirmation_seeds_reused": [
+    101,
+    202,
+    303
+  ],
+  "created_at_utc": "2026-09-25T12:08:22.626646+00:00",
+  "dataset": "UNSW-NB15",
+  "final_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "final_status": "PASS",
+  "final_test_access_log": "/content/exp1v2_google_drive/MyDrive/EXPERIMENT1_V2/DATASETS/UNSW-NB15/modelling/notebook07_final_known_attack_evaluation/v3_source_multiplicity_20260919/final_test_access_log.json",
+  "key_artifact_hashes": {
+    "family_seed_metrics.csv": "3171d2fb749d2b1676edfe38f98296c671b4d7044a2e579ce09affbce98c358e",
+    "final_seed_results.csv": "4891a0b33d424ba9642cb27a11fa9b78a20ccd9c76785d569d8ec12822a1730a",
+    "final_summary.csv": "1a2e8ad5667499623d8dc16a625e5bc58d072e200fc1968e3c94fe3617723c70",
+    "final_test_access_log.json": "f6207b0941e29c3d5857bae09bdb772bd27365eb407aef9a90914f425cbfe11c"
+  },
+  "next_authorized_stage": "Notebook 08 final statistics and family diagnostics",
+  "notebook_version": "2.0.0-source-multiplicity-corrected",
+  "selected_AE_config_hash": "f2ff449180ad3503c1da18b58b04dd4f84991ae3babf6994f4c07bc0c40122db",
+  "selected_DAE_config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+  "stage": "Notebook_07_final_known_attack_evaluation",
+  "stage_manifest_hash": "a9393d6cb38992284e4b57e9b31ddae98e06de268b73b1667976e5515747fb37",
+  "threshold_percentile": 99.0,
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+    "feature_order_hash": "5eae35cd2afb6596b2daa463fb535a632b53b51df37153eefe40e01750647214",
+    "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+    "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+    "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+    "partition_manifest_file_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+    "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+    "transformed_representation_manifest_hash": "3a748decdedbb93835bdcda3d50f409385e44b54c0aaaa2f56c6eb2eccb361af"
+  }
+}

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data and large prediction archives (deposited outside GitHub)
+data/*/raw/
+external_artifacts/*.csv
+!external_artifacts/prediction_archive_manifest.csv
+*evaluation_predictions*.csv
+*.parquet
+*.zip
+
+# Written by archive-mode runs
+results/archive_recomputation/
+
+# LaTeX build products
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.fdb_latexmk
+manuscript/*.fls
+manuscript/*.log
+manuscript/*.out
+manuscript/*.pdf
+manuscript/*.synctex.gz
+manuscript/*.spl
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

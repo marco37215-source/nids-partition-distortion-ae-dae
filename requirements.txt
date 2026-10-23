@@ -1,0 +1,7 @@
+# Reproduction scripts and tests (verified with Python 3.13). Same library versions as recorded by the Colab analysis.
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+pytest==8.3.5

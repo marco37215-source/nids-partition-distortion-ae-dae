@@ -1,0 +1,131 @@
+{
+  "architectures": {
+    "A": [
+      32,
+      16
+    ],
+    "B": [
+      64,
+      32
+    ],
+    "C": [
+      64,
+      32,
+      16
+    ]
+  },
+  "batch_size_candidates": [
+    128,
+    256,
+    512
+  ],
+  "confirmation_selection_hierarchy": [
+    "mean_development_MCC_desc",
+    "mean_FPR_asc",
+    "mean_PR_AUC_desc",
+    "MCC_SD_asc",
+    "parameter_count_asc",
+    "mean_training_duration_asc"
+  ],
+  "contract_hash": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+  "created_at_utc": "2026-09-15T11:21:39.382131+00:00",
+  "dae_corruption_search": {
+    "CICIDS2017": {
+      "categorical_masking": "N/A",
+      "numerical_masking": [
+        0.05,
+        0.1,
+        0.15
+      ]
+    },
+    "UNSW-NB15": {
+      "grouped_categorical_masking": [
+        0.02,
+        0.05,
+        0.1
+      ],
+      "numerical_masking": [
+        0.05,
+        0.1,
+        0.15
+      ]
+    }
+  },
+  "duplicate_trial_optuna_state": "PRUNED with duplicate_detected=true; administrative duplicate state only",
+  "duplicates_do_not_count": true,
+  "failed_interrupted_trials_do_not_count": true,
+  "family_metrics_used_for_selection": false,
+  "fixed_training": {
+    "adamw_fixed_defaults": {
+      "amsgrad": false,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "capturable": false,
+      "differentiable": false,
+      "eps": 1e-08,
+      "foreach": null,
+      "fused": null,
+      "maximize": false
+    },
+    "early_stopping_patience": 12,
+    "gradient_clip_norm": 1.0,
+    "hidden_activation": "ReLU",
+    "huber_delta": 1.0,
+    "huber_delta_source": "PyTorch HuberLoss default captured when contract first frozen",
+    "kaiming_normal_details": {
+      "bias": "zero",
+      "mode": "fan_in",
+      "nonlinearity": "relu"
+    },
+    "lr_reduction_factor": 0.5,
+    "lr_scheduler": "ReduceLROnPlateau",
+    "lr_scheduler_patience": 5,
+    "maximum_epochs": 150,
+    "minimum_learning_rate": 1e-06,
+    "optimizer": "AdamW",
+    "output_activation": "Linear",
+    "reduce_lr_on_plateau_fixed_defaults": {
+      "cooldown": 0,
+      "eps": 1e-08,
+      "threshold": 0.0001,
+      "threshold_mode": "rel"
+    },
+    "weight_initialization": "Kaiming_normal"
+  },
+  "formal_unique_completed_budget_per_model_per_dataset": 20,
+  "framework": "PyTorch",
+  "latent_fraction_candidates": [
+    0.25,
+    0.5
+  ],
+  "learning_rate": {
+    "distribution": "log_uniform",
+    "high": 0.001,
+    "low": 0.0001
+  },
+  "model_pruning_enabled": false,
+  "protocol_version": "Experiment_1_v2",
+  "reconstruction_score": "per_observation_mean_squared_reconstruction_error",
+  "search_shortlist_size": 3,
+  "search_stage_ranking": [
+    "development_MCC_desc",
+    "FPR_asc",
+    "PR_AUC_desc",
+    "parameter_count_asc",
+    "training_duration_asc"
+  ],
+  "smoke_outputs_excluded_from_formal": true,
+  "training_loss_candidates": [
+    "MSE",
+    "Huber"
+  ],
+  "version": "Experiment1_v2_model_search_contract_v1",
+  "weight_decay_candidates": [
+    0.0,
+    1e-06,
+    1e-05,
+    0.0001
+  ]
+}

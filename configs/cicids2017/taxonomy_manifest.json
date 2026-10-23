@@ -1,0 +1,13 @@
+{
+  "TAXONOMY_FREEZE_STATUS": "PASS",
+  "attack_family_mapping": "identity on supplied attack labels",
+  "benign_semantics": "the unique supplied value whose strip+casefold representation equals 'benign'",
+  "created_at_utc": "2026-09-14T08:23:35.731576+00:00",
+  "dataset": "CICIDS2017",
+  "lycos_reconstruction": false,
+  "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+  "protocol_version": "Experiment_1_v2",
+  "rare_family_collapsing": false,
+  "source_field": " Label",
+  "taxonomy_hash": "e4290a4c91d69236e84f294fdadde7eda7f94aaa7dd6c319ade3405c75a1513a"
+}

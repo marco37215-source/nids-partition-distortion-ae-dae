@@ -1,0 +1,49 @@
+file_order,filename,target,raw_value,raw_value_repr,support
+1,UNSW-NB15_1.csv,attack_cat,<EMPTY>,'',677786
+1,UNSW-NB15_1.csv,attack_cat,Exploits,'Exploits',5409
+1,UNSW-NB15_1.csv,attack_cat,Reconnaissance,'Reconnaissance',1759
+1,UNSW-NB15_1.csv,attack_cat,DoS,'DoS',1167
+1,UNSW-NB15_1.csv,attack_cat,Generic,'Generic',7522
+1,UNSW-NB15_1.csv,attack_cat,Shellcode,'Shellcode',223
+1,UNSW-NB15_1.csv,attack_cat, Fuzzers,' Fuzzers',5051
+1,UNSW-NB15_1.csv,attack_cat,Worms,'Worms',24
+1,UNSW-NB15_1.csv,attack_cat,Backdoors,'Backdoors',534
+1,UNSW-NB15_1.csv,attack_cat,Analysis,'Analysis',526
+1,UNSW-NB15_1.csv,Label,0,0,677786
+1,UNSW-NB15_1.csv,Label,1,1,22215
+2,UNSW-NB15_2.csv,attack_cat,<EMPTY>,'',647252
+2,UNSW-NB15_2.csv,attack_cat,Exploits,'Exploits',11103
+2,UNSW-NB15_2.csv,attack_cat, Reconnaissance ,' Reconnaissance ',3116
+2,UNSW-NB15_2.csv,attack_cat,Backdoor,'Backdoor',370
+2,UNSW-NB15_2.csv,attack_cat,DoS,'DoS',4637
+2,UNSW-NB15_2.csv,attack_cat,Generic,'Generic',27883
+2,UNSW-NB15_2.csv,attack_cat, Fuzzers ,' Fuzzers ',4668
+2,UNSW-NB15_2.csv,attack_cat,Analysis,'Analysis',608
+2,UNSW-NB15_2.csv,attack_cat, Shellcode ,' Shellcode ',324
+2,UNSW-NB15_2.csv,attack_cat,Worms,'Worms',40
+2,UNSW-NB15_2.csv,Label,0,0,647252
+2,UNSW-NB15_2.csv,Label,1,1,52749
+3,UNSW-NB15_3.csv,attack_cat,<EMPTY>,'',542576
+3,UNSW-NB15_3.csv,attack_cat,Exploits,'Exploits',16574
+3,UNSW-NB15_3.csv,attack_cat, Fuzzers ,' Fuzzers ',9137
+3,UNSW-NB15_3.csv,attack_cat,DoS,'DoS',5642
+3,UNSW-NB15_3.csv,attack_cat,Generic,'Generic',118198
+3,UNSW-NB15_3.csv,attack_cat, Shellcode ,' Shellcode ',593
+3,UNSW-NB15_3.csv,attack_cat,Backdoor,'Backdoor',759
+3,UNSW-NB15_3.csv,attack_cat, Reconnaissance ,' Reconnaissance ',5582
+3,UNSW-NB15_3.csv,attack_cat,Worms,'Worms',67
+3,UNSW-NB15_3.csv,attack_cat,Analysis,'Analysis',873
+3,UNSW-NB15_3.csv,Label,0,0,542576
+3,UNSW-NB15_3.csv,Label,1,1,157425
+4,UNSW-NB15_4.csv,attack_cat,<EMPTY>,'',351150
+4,UNSW-NB15_4.csv,attack_cat,Exploits,'Exploits',11439
+4,UNSW-NB15_4.csv,attack_cat, Fuzzers ,' Fuzzers ',5390
+4,UNSW-NB15_4.csv,attack_cat,Backdoor,'Backdoor',666
+4,UNSW-NB15_4.csv,attack_cat,DoS,'DoS',4907
+4,UNSW-NB15_4.csv,attack_cat,Generic,'Generic',61878
+4,UNSW-NB15_4.csv,attack_cat, Reconnaissance ,' Reconnaissance ',3530
+4,UNSW-NB15_4.csv,attack_cat, Shellcode ,' Shellcode ',371
+4,UNSW-NB15_4.csv,attack_cat,Analysis,'Analysis',670
+4,UNSW-NB15_4.csv,attack_cat,Worms,'Worms',43
+4,UNSW-NB15_4.csv,Label,0,0,351150
+4,UNSW-NB15_4.csv,Label,1,1,88894

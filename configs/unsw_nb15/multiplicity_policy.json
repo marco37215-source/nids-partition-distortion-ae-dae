@@ -1,0 +1,45 @@
+{
+  "amendment_id": "UNSW_PRE01_V3_SOURCE_MULTIPLICITY_20260919",
+  "status": "FROZEN_BEFORE_MEMBERSHIP_GENERATION",
+  "parent_membership_sha256": "3114e887aeff514be147d68a9f938d9c889d2c89a21a1ccffd6ff65fcb4a4fac",
+  "evidence_00D_manifest_hash": "2671c9e03f72690f08833bea010c756da3b92a00b1afd9943e1044c35f41c2d5",
+  "evidence_00E_manifest_hash": "d145b95f1eea0c81ae5465ba3d7e9ddabda0b9b713c82df8d4f8e13541f46449",
+  "partition_seed": 20260914,
+  "scope": "reallocate pure benign fingerprint groups only",
+  "bands": [
+    "1",
+    "2",
+    "3-4",
+    "5-9",
+    "10-19",
+    "20-49",
+    "50-99",
+    ">=100"
+  ],
+  "band_absolute_row_tolerance": {
+    "1": 1,
+    "2": 2,
+    "3-4": 4,
+    "5-9": 9,
+    "10-19": 19,
+    "20-49": 49,
+    "50-99": 99,
+    ">=100": 760
+  },
+  "exempt_source_x_band_cells": [
+    {
+      "source_file": "UNSW-NB15_1.csv",
+      "size_band": ">=100"
+    },
+    {
+      "source_file": "UNSW-NB15_2.csv",
+      "size_band": ">=100"
+    }
+  ],
+  "large_band_gate": {
+    "weight_train_requires_group_gt_400": true
+  },
+  "stopping_rule": "If structurally valid v3 still fails the benign-only quantile-transfer smoke gate after a fresh PRE-02 refit, no further PRE-01 repartitioning is allowed.",
+  "formal_model_selection_used": false,
+  "policy_hash": "17122c41630be246c40d9018a97d6f80b58d7422f438673594acb74fd4d2d3fb"
+}

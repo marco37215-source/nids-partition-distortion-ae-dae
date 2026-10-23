@@ -1,0 +1,31 @@
+{
+  "checkpoint_paths_run_unique": true,
+  "contract_hash": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+  "created_at_utc": "2026-09-15T11:21:39.413235+00:00",
+  "failed_runs_preserved": true,
+  "observation_level_fields": [
+    "row_id",
+    "y_true",
+    "reconstruction_error",
+    "threshold",
+    "y_pred",
+    "model",
+    "seed",
+    "config_hash",
+    "run_hash",
+    "attack_family"
+  ],
+  "per_run_required": [
+    "effective_config.json",
+    "run_manifest.json",
+    "checkpoint.pt",
+    "training_history.csv",
+    "calibration_scores.parquet",
+    "evaluation_predictions.parquet",
+    "threshold_manifest.json",
+    "metrics.json",
+    "environment.json"
+  ],
+  "protocol_version": "Experiment_1_v2",
+  "version": "Experiment1_v2_artifact_contract_v1"
+}

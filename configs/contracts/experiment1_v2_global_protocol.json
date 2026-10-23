@@ -1,0 +1,55 @@
+{
+  "AE_DAE_comparison_rules": {
+    "common_seeds": true,
+    "equal_nominal_AE_DAE_search_budget": true,
+    "equal_unique_completed_configuration_budget": true,
+    "matched_core_architecture_optimization_spaces": true,
+    "matched_denoising_ablation": true,
+    "same_development_partition_for_AE_DAE": true,
+    "same_final_partition_for_AE_DAE": true,
+    "seed_values_status": "pending later pre-modeling contract freeze"
+  },
+  "attack_family_allowed_uses": [
+    "attack_family_aware_partitioning",
+    "diagnostics",
+    "family_level_reporting"
+  ],
+  "attack_family_prohibited_uses": [
+    "AE_DAE_model_input",
+    "imputation_fitting",
+    "scaler_fitting",
+    "categorical_encoder_fitting",
+    "reconstruction_training",
+    "threshold_fitting"
+  ],
+  "benign_only_weight_training": true,
+  "canonical_protocol_hash": "55713fd82c01168e0a906d282644b1c8dff88632dcb82512c5f62c637e35ff1f",
+  "created_by_notebook": "PRE_00_*_Governance_Audit_ModelView.ipynb shared specification",
+  "current_protocol_stage": "Sections 1-7 pre-partition governance/audit",
+  "post_hoc_change_prohibitions": [
+    "partition_membership",
+    "feature_policy",
+    "taxonomy",
+    "primary_threshold",
+    "selection_metric",
+    "seed_schedule_once_frozen",
+    "search_budget"
+  ],
+  "primary_datasets": [
+    "CICIDS2017",
+    "UNSW-NB15"
+  ],
+  "primary_task": "Known/documented network-attack detection using reconstruction-based Autoencoder (AE) and Denoising Autoencoder (DAE).",
+  "protocol_name": "Experiment 1 v2",
+  "protocol_version": "Experiment_1_v2",
+  "software_environment": {
+    "runtime_specific_environment_captured_separately": true
+  },
+  "stage_independence": [
+    "training",
+    "early_stopping",
+    "threshold_calibration",
+    "development_model_selection",
+    "final_testing"
+  ]
+}

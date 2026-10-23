@@ -1,0 +1,32 @@
+{
+  "Average_Precision": {
+    "implementation": "sklearn.metrics.average_precision_score"
+  },
+  "FP_per_1000_benign": "1000 * FP / N_benign",
+  "PR_AUC": {
+    "distinct_from_average_precision": true,
+    "implementation": "sklearn.precision_recall_curve + sklearn.metrics.auc(recall, precision)"
+  },
+  "TPR_at_1pct_FPR": "maximum ROC TPR among points with FPR <= 0.01",
+  "accuracy_primary": false,
+  "contract_hash": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+  "created_at_utc": "2026-09-15T11:21:39.394465+00:00",
+  "positive_class": "attack=1",
+  "primary_metrics": [
+    "MCC",
+    "Recall",
+    "F1",
+    "Precision",
+    "PR-AUC",
+    "FPR",
+    "FP_per_1000_benign",
+    "Balanced_Accuracy"
+  ],
+  "protocol_version": "Experiment_1_v2",
+  "secondary_score_metrics": [
+    "ROC-AUC",
+    "Average_Precision",
+    "TPR_at_1pct_FPR"
+  ],
+  "version": "Experiment1_v2_metric_contract_v1"
+}

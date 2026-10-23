@@ -1,0 +1,52 @@
+{
+  "code_version": "experiment1_v2_model_core_3.0.0_source_multiplicity_corrected",
+  "created_at_utc": "2026-09-25T12:17:21.910192+00:00",
+  "dataset": "UNSW-NB15",
+  "family_results_role": "diagnostic secondary evidence only",
+  "final_stage_manifest_hash": "a9393d6cb38992284e4b57e9b31ddae98e06de268b73b1667976e5515747fb37",
+  "final_status": "PASS",
+  "key_artifact_hashes": {
+    "family_diagnostic_summary.csv": "a49a2b35f43f897b84b9a10bce8931841ffaa52945906e108988a45e1776a5e9",
+    "mcnemar_by_seed.csv": "58397f7d96c23fe90ef926fdfc2f6448e5d87464f665f8624dc8b03d37bfa765",
+    "paired_seed_bootstrap_effects.csv": "fd55f72eaccba0af90c9b69158b2cf5b17aae770a7a974f513fbc48a4c730701",
+    "paired_seed_values.csv": "ed84480ddb7b449d5c2973aa073b731939e9a1f32da77919b5fd31763ad8126b"
+  },
+  "next_authorized_stage": "Experiment 1 v2 cross-dataset synthesis after both dataset Notebook 08 stages pass",
+  "notebook_version": "2.0.0-source-multiplicity-corrected",
+  "paired_final_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "stage": "Notebook_08_final_statistics_family_diagnostics",
+  "stage_manifest_hash": "c7d7ce7cb7d35dd08e83ed5a9d2b771544804ebd0d941eeebd39bf0a0c68c7f0",
+  "statistical_plan": {
+    "bootstrap_iterations": 10000,
+    "bootstrap_resampling_unit": "paired final seed",
+    "bootstrap_seed": 2026,
+    "confidence_level": 0.95,
+    "effect_size": "Cohen dz on five paired seed differences; descriptive due small n",
+    "family_metrics_primary_superiority_basis": false,
+    "limitation": "five seed pairs provide limited seed-level inferential power; emphasize effect magnitude, uncertainty, consistency, and false-positive burden",
+    "mcnemar": "exact two-sided binomial discordance test per common final seed on identical observations",
+    "paired_bootstrap": true,
+    "paired_seed_comparison": true
+  },
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+    "feature_order_hash": "5eae35cd2afb6596b2daa463fb535a632b53b51df37153eefe40e01750647214",
+    "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+    "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+    "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+    "partition_manifest_file_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+    "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+    "transformed_representation_manifest_hash": "3a748decdedbb93835bdcda3d50f409385e44b54c0aaaa2f56c6eb2eccb361af"
+  }
+}

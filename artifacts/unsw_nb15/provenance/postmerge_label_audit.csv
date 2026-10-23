@@ -1,0 +1,27 @@
+dataset,protocol_version,master_dataset_sha256,created_at_utc,notebook_stage,field,raw_value,display_repr,support
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,Label,0,'0',2218764
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,Label,1,'1',321283
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,,'',2218764
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Generic,'Generic',215481
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Exploits,'Exploits',44525
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Fuzzers,'Fuzzers',24246
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,DoS,'DoS',16353
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Reconnaissance,'Reconnaissance',13987
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Analysis,'Analysis',2677
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Backdoors,'Backdoors',2329
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Shellcode,'Shellcode',1511
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_canonical,Worms,'Worms',174
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,,'',2218764
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Generic,'Generic',215481
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Exploits,'Exploits',44525
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original, Fuzzers ,' Fuzzers ',19195
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,DoS,'DoS',16353
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original, Reconnaissance ,' Reconnaissance ',12228
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original, Fuzzers,' Fuzzers',5051
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Analysis,'Analysis',2677
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Backdoor,'Backdoor',1795
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Reconnaissance,'Reconnaissance',1759
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original, Shellcode ,' Shellcode ',1288
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Backdoors,'Backdoors',534
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Shellcode,'Shellcode',223
+UNSW-NB15,Experiment_1_v2,f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54,2026-09-14T06:35:31.921312+00:00,PRE_00_SECTIONS_1_TO_7,attack_cat_original,Worms,'Worms',174

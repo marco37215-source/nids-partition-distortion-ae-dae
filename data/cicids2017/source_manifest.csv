@@ -1,0 +1,9 @@
+source_file,provider,distribution,recorded_row_count,recorded_sha256,note
+Monday-WorkingHours.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,"row count and SHA-256 not in the evidence set; fill from the PRE-00 ingestion log"
+Tuesday-WorkingHours.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,
+Wednesday-workingHours.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,"lower-case 'w' as in the official file name"
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,"spelling as in the official file name"
+Friday-WorkingHours-Morning.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,Canadian Institute for Cybersecurity (UNB),MachineLearningCSV,,,

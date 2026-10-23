@@ -1,0 +1,7 @@
+role,singleton_share_pct,ge100_rows,source
+benign_weight_train,100.00,0 (0.00%),analysis record (no artefact in the evidence set)
+benign_early_stop,47.49,5.53% of role,analysis record (no artefact in the evidence set)
+benign_threshold_calibration,96.09,0 (0.00%),analysis record (no artefact in the evidence set)
+development,13.93,"39,202 (17.75%)",recomputed: source_balanced/development_benign_fingerprint_level_summary.csv
+final_test,95.23,0 (0.00%),analysis record (no artefact in the evidence set)
+pure-benign pool,84.87,"51,479 (2.32%)",recomputed: final_source_multiplicity_balanced/multiplicity_gate.csv

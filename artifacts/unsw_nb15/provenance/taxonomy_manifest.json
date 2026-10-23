@@ -1,0 +1,30 @@
+{
+  "TAXONOMY_FREEZE_STATUS": "PASS",
+  "benign_family_policy": "do not fabricate attack family for Label=0",
+  "canonicalization": [
+    "strip leading/trailing whitespace in derived canonical field only",
+    "Backdoor -> Backdoors",
+    "Backdoors -> Backdoors",
+    "all other trimmed official attack-family values -> themselves"
+  ],
+  "created_at_utc": "2026-09-14T06:35:31.921312+00:00",
+  "dataset": "UNSW-NB15",
+  "existing_canonical_field": "attack_cat_canonical",
+  "existing_canonical_mismatch_count": 0,
+  "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+  "official_attack_families": [
+    "Fuzzers",
+    "Analysis",
+    "Backdoors",
+    "DoS",
+    "Exploits",
+    "Generic",
+    "Reconnaissance",
+    "Shellcode",
+    "Worms"
+  ],
+  "protocol_version": "Experiment_1_v2",
+  "source_original_field": "attack_cat_original",
+  "taxonomy_hash": "52e77ec1d8f5df935ec474e17e5ff6332fdaedbc243296023f3e15dce50c62b0",
+  "unexpected_attack_value_policy": "blocking failure; never guessed"
+}

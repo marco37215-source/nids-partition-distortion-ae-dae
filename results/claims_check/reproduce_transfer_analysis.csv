@@ -1,0 +1,59 @@
+claim_id,manuscript_location,description,manuscript_value,reproduced_value,status,source
+S4.3.status,Sec. 4.3,source-balanced smoke gate FAIL; v3.4 smoke gate PASS,true,True,PASS,smoke manifests
+S4.3.dev_exc,Sec. 4.3; Table 8; abstract,"development-benign exceedance, source-balanced (%)",53.63,53.6263498531,PASS,smoke_manifest_source_balanced.json
+S4.3.dev_exc_frac,Sec. 4.3,"development-benign exceedance, source-balanced (fraction)",0.536263,0.5362634985,PASS,as above
+S4.3.cal_exc,Sec. 4.3; Table 8,"calibration-benign exceedance, source-balanced (%)",1.0003,1.0002553971,PASS,as above
+S4.3.dev_rows,Sec. 4.3,development-benign rows,"221,876",221876.0,PASS,diagnostic_manifest_00D_mixed_label.json
+S4.3.dev_rows_summary,Sec. 4.3,development-benign rows in the fingerprint-level summary,"221,876",221876.0,PASS,development_benign_fingerprint_level_summary.csv
+S4.3.reduction_pp,Sec. 4.3,reduction from the initial regime (percentage points; uses the 99.22% record),45.59,45.5936501469,PASS,smoke manifest + analysis record (no artefact in the evidence set)
+S4.3.block,Sec. 4.3,numerical block is the leading contributor to the error increase,true,True,PASS,diagnostic_manifest_00C_block_decomposition.json
+S4.3.pure_rows,Sec. 4.3,development-benign rows in pure-benign fingerprints,"220,890",220890.0,PASS,00D manifest
+S4.3.mixed_rows,Sec. 4.3,development-benign rows in mixed-label fingerprints,986,986.0,PASS,00D manifest
+S4.3.calibration_ct7_pooled_median_abs_z,Sec. 4.3,calibration ct7 pooled median abs z,0.479,0.4791958034,PASS,00D manifest
+S4.3.development_mixed_ct7_pooled_median_abs_z,Sec. 4.3,development mixed ct7 pooled median abs z,0.657,0.6570208073,PASS,00D manifest
+S4.3.development_pure_ct7_pooled_median_abs_z,Sec. 4.3,development pure ct7 pooled median abs z,4.471,4.4713187218,PASS,00D manifest
+S4.3.ct7_features,Sec. 4.3,seven connection-count features,true,True,PASS,00D manifest
+S4.3.threshold_consistent,Sec. 4.3,00D threshold recomputation agrees with the source-balanced smoke threshold,true,True,PASS,00D manifest + smoke manifest
+S4.4.group_level_binary,Sec. 4.4,every fingerprint group lies entirely above or entirely below the threshold,true,True,PASS,development_benign_fingerprint_level_summary.csv
+S4.3.mixed_fp,Sec. 4.3,mixed-label benign rows above the threshold,6,6.0,PASS,as above
+S4.3.pure_fp,Sec. 4.3,pure-benign development rows above the threshold,"118,978",118978.0,PASS,as above
+S4.3.pure_fp_pct,Sec. 4.3,share of pure-benign development rows above the threshold,53.86,53.8630087374,PASS,as above
+S4.4.row_rate.1,Sec. 4.4; Fig. 5,"row-level FP rate, band 1 (%)",0.013,0.0130013651,PASS,as above
+S4.4.row_rate.2,Sec. 4.4; Fig. 5,"row-level FP rate, band 2 (%)",8.45,8.447272235,PASS,as above
+S4.4.row_rate.3-4,Sec. 4.4; Fig. 5,"row-level FP rate, band 3-4 (%)",6.42,6.4156481978,PASS,as above
+S4.4.row_rate.5-9,Sec. 4.4; Fig. 5,"row-level FP rate, band 5-9 (%)",55.12,55.1151001413,PASS,as above
+S4.4.row_rate.10-19,Sec. 4.4; Fig. 5,"row-level FP rate, band 10-19 (%)",77.34,77.3357174788,PASS,as above
+S4.4.row_rate.20-49,Sec. 4.4; Fig. 5,"row-level FP rate, band 20-49 (%)",92.36,92.3557503598,PASS,as above
+S4.4.row_rate.50-99,Sec. 4.4; Fig. 5,"row-level FP rate, band 50-99 (%)",96.66,96.6583854323,PASS,as above
+S4.4.row_rate.>=100,Sec. 4.4; Fig. 5,"row-level FP rate, band >=100 (%)",98.83,98.8291413703,PASS,as above
+S4.4.group_rate.1,Sec. 4.4,"group-level FP rate, band 1 (%)",0.013,0.0130013651,PASS,as above
+S4.4.group_rate.2,Sec. 4.4,"group-level FP rate, band 2 (%)",8.45,8.447272235,PASS,as above
+S4.4.group_rate.3-4,Sec. 4.4,"group-level FP rate, band 3-4 (%)",6.23,6.2284400153,PASS,as above
+S4.4.group_rate.5-9,Sec. 4.4,"group-level FP rate, band 5-9 (%)",50.74,50.7386653082,PASS,as above
+S4.4.group_rate.10-19,Sec. 4.4,"group-level FP rate, band 10-19 (%)",77.51,77.5100401606,PASS,as above
+S4.4.group_rate.20-49,Sec. 4.4,"group-level FP rate, band 20-49 (%)",91.16,91.159586682,PASS,as above
+S4.4.group_rate.50-99,Sec. 4.4,"group-level FP rate, band 50-99 (%)",96.27,96.2686567164,PASS,as above
+S4.4.group_rate.>=100,Sec. 4.4,"group-level FP rate, band >=100 (%)",98.20,98.1981981982,PASS,as above
+S4.4.singleton_fp,Sec. 4.4,singleton rows above threshold,4,4.0,PASS,as above
+S4.4.singleton_rows,Sec. 4.4,singleton rows,"30,766",30766.0,PASS,as above
+S4.4.ge100_fp,Sec. 4.4,>=100 band rows above threshold,"38,743",38743.0,PASS,as above
+S4.4.ge100_rows,Sec. 4.4,>=100 band rows,"39,202",39202.0,PASS,as above
+abstract.ge100_rate,Abstract,>=100 band false-positive rate (%),98.8,98.8291413703,PASS,as above
+highlights.range_hi,Highlights,>=100 band false-positive rate (%),98.83,98.8291413703,PASS,as above
+S4.4.ge10_rows_share,Sec. 4.4,rows in groups of >=10 (% of pure-benign development rows),51.2,51.2082937209,PASS,as above
+S4.4.ge10_fp_share,Sec. 4.4,share of false positives in groups of >=10 (%),90.4,90.4141942208,PASS,as above
+S4.4.monotone_from_3,Sec. 4.4,"row rate monotone from band 3-4 upward, but band 2 exceeds band 3-4",true,True,PASS,as above
+S4.5.dev_exc,Sec. 4.5; Table 8; abstract,"development-benign exceedance, v3.4 (%)",1.0024,1.0023616795,PASS,smoke_manifest_final.json
+S4.5.cal_exc,Sec. 4.5; Table 8,"calibration-benign exceedance, v3.4 (%)",1.0003,1.0002553971,PASS,smoke_manifest_final.json
+S4.5.ratio,Sec. 4.5,"development/calibration exceedance ratio, v3.4",1.0021,1.0021057446,PASS,smoke_manifest_final.json
+S4.5.ladder.0.25,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.25,1.005,1.0048199643,PASS,benign_quantile_ladder.csv
+S4.5.ladder.0.5,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.5,1.022,1.021739215,PASS,benign_quantile_ladder.csv
+S4.5.ladder.0.75,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.75,1.031,1.0311232264,PASS,benign_quantile_ladder.csv
+S4.5.ladder.0.9,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.9,1.047,1.0465824561,PASS,benign_quantile_ladder.csv
+S4.5.ladder.0.95,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.95,0.984,0.9838783691,PASS,benign_quantile_ladder.csv
+S4.5.ladder.0.97,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.97,0.960,0.9604772561,PASS,benign_quantile_ladder.csv
+S4.5.ladder.0.99,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.99,1.006,1.0063426624,PASS,benign_quantile_ladder.csv
+S4.5.ladder.0.995,Sec. 4.5; Fig. 7b,development/calibration quantile ratio at 0.995,0.989,0.9892106442,PASS,benign_quantile_ladder.csv
+S4.5.ladder_within_5pct,Sec. 4.5,all eight ratios within 5% of unity and inside the frozen 0.2-5.0 range,true,True,PASS,benign_quantile_ladder.csv + smoke_manifest_final.json
+S4.5.threshold_is_q99,Methods (threshold),the gate threshold equals the calibration-benign 0.99 quantile of the ladder (to 12 significant digits),true,True,PASS,benign_quantile_ladder.csv + smoke_manifest_final.json
+S4.6.cic_retro,Sec. 4.6; Fig. 7b,"CICIDS2017 retrospective check (1.0001%, 0.9186%, eight ratios)",,not recomputable: no calibration/development score artefact retained for the search-stage AE,NOT_REPRODUCIBLE_HERE,analysis record (no artefact in the evidence set)

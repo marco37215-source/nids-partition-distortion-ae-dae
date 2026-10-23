@@ -1,0 +1,5 @@
+attack_cat_original,attack_cat_canonical,support
+ Fuzzers,Fuzzers,5051
+ Fuzzers ,Fuzzers,19195
+ Reconnaissance ,Reconnaissance,12228
+ Shellcode ,Shellcode,1288

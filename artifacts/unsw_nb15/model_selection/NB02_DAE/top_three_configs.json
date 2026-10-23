@@ -1,0 +1,162 @@
+{
+  "configs": [
+    {
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "effective_config": {
+        "adamw_fixed_defaults": {
+          "amsgrad": false,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "capturable": false,
+          "differentiable": false,
+          "eps": 1e-08,
+          "foreach": null,
+          "fused": null,
+          "maximize": false
+        },
+        "architecture": "B",
+        "batch_size": 128,
+        "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+        "early_stopping_patience": 12,
+        "gradient_clip_norm": 1.0,
+        "grouped_categorical_masking": 0.02,
+        "hidden_activation": "ReLU",
+        "huber_delta": 1.0,
+        "kaiming_normal_details": {
+          "bias": "zero",
+          "mode": "fan_in",
+          "nonlinearity": "relu"
+        },
+        "latent_dim": 16,
+        "latent_fraction": 0.5,
+        "learning_rate": 0.0005523895371414442,
+        "lr_reduction_factor": 0.5,
+        "lr_scheduler_patience": 5,
+        "maximum_epochs": 150,
+        "minimum_learning_rate": 1e-06,
+        "model_type": "DAE",
+        "numerical_masking": 0.15,
+        "optimizer": "AdamW",
+        "output_activation": "Linear",
+        "reduce_lr_on_plateau_fixed_defaults": {
+          "cooldown": 0,
+          "eps": 1e-08,
+          "threshold": 0.0001,
+          "threshold_mode": "rel"
+        },
+        "training_loss": "Huber",
+        "weight_decay": 0.0,
+        "weight_initialization": "Kaiming_normal"
+      },
+      "rank": 1
+    },
+    {
+      "config_hash": "17a053045009d1b816f0953f4cdc21222ea6ceb1f96670f6de36bf5e7547df54",
+      "effective_config": {
+        "adamw_fixed_defaults": {
+          "amsgrad": false,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "capturable": false,
+          "differentiable": false,
+          "eps": 1e-08,
+          "foreach": null,
+          "fused": null,
+          "maximize": false
+        },
+        "architecture": "A",
+        "batch_size": 256,
+        "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+        "early_stopping_patience": 12,
+        "gradient_clip_norm": 1.0,
+        "grouped_categorical_masking": 0.02,
+        "hidden_activation": "ReLU",
+        "huber_delta": 1.0,
+        "kaiming_normal_details": {
+          "bias": "zero",
+          "mode": "fan_in",
+          "nonlinearity": "relu"
+        },
+        "latent_dim": 8,
+        "latent_fraction": 0.5,
+        "learning_rate": 0.00012401988669245016,
+        "lr_reduction_factor": 0.5,
+        "lr_scheduler_patience": 5,
+        "maximum_epochs": 150,
+        "minimum_learning_rate": 1e-06,
+        "model_type": "DAE",
+        "numerical_masking": 0.1,
+        "optimizer": "AdamW",
+        "output_activation": "Linear",
+        "reduce_lr_on_plateau_fixed_defaults": {
+          "cooldown": 0,
+          "eps": 1e-08,
+          "threshold": 0.0001,
+          "threshold_mode": "rel"
+        },
+        "training_loss": "Huber",
+        "weight_decay": 1e-05,
+        "weight_initialization": "Kaiming_normal"
+      },
+      "rank": 2
+    },
+    {
+      "config_hash": "4416b89eadb6910865a90f1079caf3821ddf4938aac3e0c873bbd06d8777a979",
+      "effective_config": {
+        "adamw_fixed_defaults": {
+          "amsgrad": false,
+          "betas": [
+            0.9,
+            0.999
+          ],
+          "capturable": false,
+          "differentiable": false,
+          "eps": 1e-08,
+          "foreach": null,
+          "fused": null,
+          "maximize": false
+        },
+        "architecture": "B",
+        "batch_size": 512,
+        "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+        "early_stopping_patience": 12,
+        "gradient_clip_norm": 1.0,
+        "grouped_categorical_masking": 0.05,
+        "hidden_activation": "ReLU",
+        "huber_delta": 1.0,
+        "kaiming_normal_details": {
+          "bias": "zero",
+          "mode": "fan_in",
+          "nonlinearity": "relu"
+        },
+        "latent_dim": 16,
+        "latent_fraction": 0.5,
+        "learning_rate": 0.00043403978671377127,
+        "lr_reduction_factor": 0.5,
+        "lr_scheduler_patience": 5,
+        "maximum_epochs": 150,
+        "minimum_learning_rate": 1e-06,
+        "model_type": "DAE",
+        "numerical_masking": 0.1,
+        "optimizer": "AdamW",
+        "output_activation": "Linear",
+        "reduce_lr_on_plateau_fixed_defaults": {
+          "cooldown": 0,
+          "eps": 1e-08,
+          "threshold": 0.0001,
+          "threshold_mode": "rel"
+        },
+        "training_loss": "Huber",
+        "weight_decay": 1e-05,
+        "weight_initialization": "Kaiming_normal"
+      },
+      "rank": 3
+    }
+  ],
+  "dataset": "UNSW-NB15",
+  "model_type": "DAE"
+}

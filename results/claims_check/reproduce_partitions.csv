@@ -1,0 +1,58 @@
+claim_id,manuscript_location,description,manuscript_value,reproduced_value,status,source
+T7.dev.singleton_share,Table 7,development singleton share (source-balanced),13.93,13.9281995563,PASS,development_benign_fingerprint_level_summary.csv
+T7.dev.repeated_share,Sec. 4.2,development rows in repeated fingerprints (%),86.07,86.0718004437,PASS,as above
+T7.dev.ge100_rows,Table 7; Sec. 4.2,development rows in the >=100 band,"39,202",39202.0,PASS,as above
+T7.dev.ge100_pct,Table 7,share of development rows in the >=100 band,17.75,17.7472950337,PASS,as above
+T7.dev.ge100_groups,Sec. 4.2,development groups in the >=100 band,222,222.0,PASS,as above
+T7.pool.singleton_share,Table 7; Sec. 4.5,pool singleton share,84.87,84.870758029,PASS,multiplicity_gate.csv
+T7.pool.ge100_rows,Table 7,pool rows in the >=100 band,"51,479",51479.0,PASS,multiplicity_gate.csv
+T7.pool.ge100_pct,Table 7,pool share in the >=100 band,2.32,2.3211971622,PASS,multiplicity_gate.csv
+T8.sourcebal.tv,Table 8; abstract; Sec. 4.2,"TV(development, pool), source-balanced",0.7094,0.7094255847,PASS,as above + multiplicity_gate.csv
+S4.2.dev_target_ge100,Sec. 4.2,proportional development target in the >=100 band,"5,127",5127.0,PASS,multiplicity_gate.csv
+S4.2.wt_target_ge100,Sec. 4.2,proportional weight-training target in the >=100 band,"25,751",25751.0,PASS,multiplicity_gate.csv
+T7.other_roles,Table 7,singleton shares 100.00/47.49/96.09/95.23% and >=100 shares of the other four roles in the source-balanced allocation,,not recomputable: the source-balanced membership file is not in the evidence set,NOT_REPRODUCIBLE_HERE,analysis record (no artefact in the evidence set)
+S4.2.feasibility,Sec. 4.2,multiplicity-only feasibility bound 3.94e-6 (one-row aggregate mismatch),,not recomputable here,NOT_REPRODUCIBLE_HERE,analysis record (no artefact in the evidence set)
+S4.5.all_gates,Sec. 4.5,"integrity report: PASS, every gate true and zero fingerprint crossings",true,True,PASS,partition_integrity_report.json
+S4.5.capacities,Sec. 4.5,gate role totals equal the exact role capacities; all 40 cells pass,true,True,PASS,multiplicity_gate.csv
+S4.5.max_dev,Sec. 4.5,largest role-by-band deviation (rows),30,30.0,PASS,multiplicity_gate.csv
+S4.5.max_dev_tolerances,Sec. 4.5,the two 30-row deviations sit in cells with tolerances 49 and 99,true,True,PASS,multiplicity_gate.csv
+S4.5.source_gates,Sec. 4.5,"source totals, singleton-source and source-by-band gates consistent; all non-exempt cells pass",true,True,PASS,source_*_gate.csv
+S4.5.exemptions,Sec. 4.5,exempt cells are exactly UNSW-NB15_1/_2 x >=100 (as frozen in the amendment),true,True,PASS,source_x_multiplicity_gate.csv + source_multiplicity_amendment.json
+S4.5.singleton_share.benign_weight_train,Sec. 4.5,"singleton share of pure-benign rows, benign_weight_train",84.87,84.8707522483,PASS,multiplicity_gate.csv
+S4.5.singleton_share.benign_early_stop,Sec. 4.5,"singleton share of pure-benign rows, benign_early_stop",84.87,84.870965125,PASS,multiplicity_gate.csv
+S4.5.singleton_share.benign_threshold_calibration,Sec. 4.5,"singleton share of pure-benign rows, benign_threshold_calibration",84.87,84.8705737422,PASS,multiplicity_gate.csv
+S4.5.singleton_share.development,Sec. 4.5,"singleton share of pure-benign rows, development",84.87,84.8712028612,PASS,multiplicity_gate.csv
+S4.5.singleton_share.final_test,Sec. 4.5,"singleton share of pure-benign rows, final_test",84.87,84.8705282831,PASS,multiplicity_gate.csv
+T8.final.tv_dev,Table 8; Sec. 4.5,"TV(development, pool), v3.4 (recomputed from the gate)",0.000150,0.0001498128,PASS,multiplicity_gate.csv
+T8.final.tv_dev_rounded,Table 8,"TV(development, pool), v3.4, as tabulated",0.00015,0.0001498128,PASS,multiplicity_gate.csv
+S4.5.tv_min_other,Sec. 4.5,smallest TV of the other four roles,0.000012,1.19655e-05,PASS,multiplicity_gate.csv
+S4.5.tv_max_other,Sec. 4.5,largest TV of the other four roles,0.000144,0.0001438321,PASS,multiplicity_gate.csv
+S4.5.tv_frozen,Sec. 4.5; abstract,frozen-record TV 0.000149 (manuscript also gives the recomputed 0.000150),,0.000150,INFO,analysis record (no artefact in the evidence set)
+S4.5.redundancy_rates,Sec. 4.5,benign-only role redundancy rates 12.583/12.666/12.521%,,not recomputable: per-role group counts outside the >=100 band are not in the evidence set,NOT_REPRODUCIBLE_HERE,analysis record (no artefact in the evidence set)
+S2.ge100_rows,Table S2; Sec. 4.5,>=100 band rows by role equal the gate,true,True,PASS,band_ge100_role_report.csv
+S4.5.ge100_groups,Sec. 4.5,groups in the >=100 band,276,276.0,PASS,band_ge100_role_report.csv
+S4.5.ge100_rows.benign_weight_train,Sec. 4.5,">=100 band rows, benign_weight_train","25,751",25751.0,PASS,multiplicity_gate.csv
+S4.5.ge100_rows.benign_early_stop,Sec. 4.5,">=100 band rows, benign_early_stop","5,151",5151.0,PASS,multiplicity_gate.csv
+S4.5.ge100_rows.benign_threshold_calibration,Sec. 4.5,">=100 band rows, benign_threshold_calibration","7,725",7725.0,PASS,multiplicity_gate.csv
+S4.5.ge100_rows.development,Sec. 4.5,">=100 band rows, development","5,127",5127.0,PASS,multiplicity_gate.csv
+S4.5.ge100_rows.final_test,Sec. 4.5,">=100 band rows, final_test","7,725",7725.0,PASS,multiplicity_gate.csv
+S2.largest.benign_weight_train,Table S2,"largest >=100 group, benign_weight_train",713,713.0,PASS,band_ge100_role_report.csv
+S2.largest.benign_early_stop,Table S2,"largest >=100 group, benign_early_stop",252,252.0,PASS,band_ge100_role_report.csv
+S2.largest.benign_threshold_calibration,Table S2,"largest >=100 group, benign_threshold_calibration",760,760.0,PASS,band_ge100_role_report.csv
+S2.largest.development,Table S2,"largest >=100 group, development",350,350.0,PASS,band_ge100_role_report.csv
+S2.largest.final_test,Table S2,"largest >=100 group, final_test",456,456.0,PASS,band_ge100_role_report.csv
+S4.5.wt_ge100_groups,Sec. 4.5,weight-training groups in the >=100 band,118,118.0,PASS,band_ge100_role_report.csv
+S4.5.wt_gt400,Sec. 4.5,weight-training groups larger than 400 rows,12,12.0,PASS,partition_integrity_report.json
+M.solver,Methods (MILP),bands 2-99 solved to optimality; >=100 stage stopped at its time limit; both independently verified feasible,true,True,PASS,coordinated_feasibility_solver_manifest.json
+S4.5.prev_dev,Sec. 4.5,"attack prevalence, UNSW-NB15 development",36.6772,36.6772358721,PASS,run_summary_development.csv
+S4.5.prev_final,Sec. 4.5,"attack prevalence, UNSW-NB15 final test",36.6773,36.6772961125,PASS,run_summary_final_test.csv
+S4.2.membership_sample_unsw,Sec. 4.2,"first 100k UNSW-NB15 v3.4 membership rows: unique row_id, no fingerprint in two states, benign-only roles pure",true,True,PASS,partition_membership_first100k.csv (sample)
+X.unsw_provenance_chain,Sec. 4.3-4.5; Supplementary S1,source-balanced membership -> 00C/00D diagnostics -> amendment -> v3.4 membership -> PASS gate -> selected models (hash chain),true,True,PASS,"smoke, diagnostic, amendment, integrity and selection manifests"
+S4.6.hard_checks,Sec. 4.6,all twenty hard integrity checks passed,true,True,PASS,cicids2017 partition_integrity_report.json
+S4.6.benign_targets,Sec. 4.6,all five benign row targets met exactly,true,True,PASS,benign_allocation_table.csv
+S4.6.reserve,Sec. 4.6,pure-attack rows placed in the unused reserve,"11,657",11657.0,PASS,partition_integrity_report.json
+S4.6.reserve_singletons,Sec. 4.6,"reserve consists of 11,657 groups, i.e. singleton fingerprints only",true,True,PASS,attack_allocation_manifest.json
+S4.6.prev_dev,Sec. 4.6,"attack prevalence, CICIDS2017 development",48.9999,48.9998945486,PASS,partition_integrity_report.json
+S4.6.prev_final,Sec. 4.6,"attack prevalence, CICIDS2017 final test",48.9999,48.9999431616,PASS,partition_integrity_report.json
+S4.6.membership_sample,Sec. 4.6,"first 100k CICIDS2017 membership rows: unique row_id, no fingerprint in two states, benign-only roles pure",true,True,PASS,partition_membership_first100k.csv (sample)
+S4.6.early_stop,Sec. 4.6,"early-stopping role: 227,309 rows, 55,372 distinct vectors (75.64% redundant)",,not recomputable: the full CICIDS2017 membership is not in the evidence set,NOT_REPRODUCIBLE_HERE,analysis record (no artefact in the evidence set)

@@ -1,0 +1,4 @@
+regime,development_benign_exceedance_pct,calibration_benign_exceedance_pct,source
+Initial atomic,99.22,,analysis record (no artefact in the evidence set)
+Source-balanced,53.62634985307109,1.0002553971425567,smoke_manifest_source_balanced.json
+Source- and multiplicity-balanced (v3.4),1.0023616794966559,1.0002553971425567,smoke_manifest_final.json

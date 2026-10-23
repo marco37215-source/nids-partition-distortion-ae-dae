@@ -1,0 +1,5 @@
+source_file,provider,distribution,recorded_row_count,recorded_sha256,note
+UNSW-NB15_1.csv,UNSW Canberra (Cyber Range Lab),full flow records (no header),,,"row count and SHA-256 not in the evidence set; fill from the PRE-00 ingestion log"
+UNSW-NB15_2.csv,UNSW Canberra (Cyber Range Lab),full flow records (no header),,,
+UNSW-NB15_3.csv,UNSW Canberra (Cyber Range Lab),full flow records (no header),,,
+UNSW-NB15_4.csv,UNSW Canberra (Cyber Range Lab),full flow records (no header),,,

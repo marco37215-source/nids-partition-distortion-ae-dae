@@ -1,0 +1,19 @@
+\begin{tikzpicture}[font=\scriptsize,node distance=3.2mm,
+  box/.style={draw=black!70,rounded corners=1.5pt,fill=#1,align=center,text width=30mm,minimum height=7mm,inner sep=2pt},
+  box/.default=white, dec/.style={draw=black!70,diamond,aspect=2.2,align=center,inner sep=0.3pt,fill=yellow!8},
+  arr/.style={-{Stealth[length=1.8mm]},black!70}]
+\node[box=black!5] (a) {Initial fingerprint-atomic allocation};
+\node[box,below=of a] (b) {Audits 1--4: fingerprint overlap, role purity, source-file composition, multiplicity distribution};
+\node[box,below=of b] (c) {Audit 5: benign reconstruction-error transfer};
+\node[dec,below=of c] (d) {All pass?};
+\node[box=green!8,below=of d] (e) {Freeze partition};
+\node[box=orange!8,right=14mm of d,text width=28mm] (f) {Freeze versioned amendment before reallocation};
+\node[box=orange!8,above=of f,text width=28mm] (g) {Source- and multiplicity-aware MILP allocation; atomicity unchanged};
+\node[box=orange!8,above=of g,text width=28mm] (h) {Refit preprocessing; repeat audits once (prespecified stopping rule)};
+\draw[arr] (a)--(b); \draw[arr] (b)--(c); \draw[arr] (c)--(d);
+\draw[arr] (d)--node[right]{yes} (e);
+\draw[arr] (d)--node[above]{no} (f);
+\draw[arr] (f)--(g); \draw[arr] (g)--(h);
+\draw[arr] (h.west) -- ++(-3.5mm,0) |- (b.east);
+\node[align=center,text width=60mm,below=2mm of e,font=\scriptsize\itshape] {UNSW-NB15 took the amendment path; CICIDS2017 was not amended and its benign transfer was checked retrospectively.};
+\end{tikzpicture}

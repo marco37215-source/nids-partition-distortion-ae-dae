@@ -1,0 +1,55 @@
+claim_id,manuscript_location,description,manuscript_value,reproduced_value,status,source
+T6.unsw.master_rows,Table 6; Sec. 4.1,master rows,"2,540,047",2540047.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.fingerprint_groups,Table 6; Sec. 4.1,fingerprint groups,"2,016,862",2016862.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.singleton_groups,Table 6; Sec. 4.1,singleton groups,"1,940,641",1940641.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.same_label_duplicate_groups,Table 6; Sec. 4.1,same label duplicate groups,"75,768",75768.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.same_label_duplicate_rows,Table 6; Sec. 4.1,same label duplicate rows,"597,527",597527.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.mixed_label_groups,Table 6; Sec. 4.1,mixed label groups,453,453.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.mixed_label_rows,Table 6; Sec. 4.1,mixed label rows,"1,879",1879.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.rows_in_nonsingleton_groups,Table 6; Sec. 4.1,rows in nonsingleton groups,"599,406",599406.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.modelview_duplicates_beyond_first,Table 6; Sec. 4.1,modelview duplicates beyond first,"523,185",523185.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.largest_group,Table 6; Sec. 4.1,largest group,760,760.0,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.nonsingleton_pct,Table 6; Sec. 4.1,share of rows in non-singleton groups,23.60,23.5982247573,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.dup_pct,Sec. 4.1,model-view duplicates beyond first occurrence (%),20.5975,20.5974535117,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+abstract.unsw.dup_pct,Results opening; Table 6,UNSW-NB15 redundancy (%),20.60,20.5974535117,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.reconciles,Table 6,singletons + duplicate groups + mixed groups = groups; rows reconcile,true,True,PASS,artifacts/unsw_nb15/fingerprints/fingerprint_audit.json
+T6.unsw.benign_rows,Table 6,benign rows = pure-benign rows + benign members of mixed groups,"2,218,764",2218764.0,PASS,multiplicity_gate.csv + mixed_label_group_composition.csv
+T6.unsw.attack_rows,Table 6,attack rows = master rows - benign rows,"321,283",321283.0,PASS,as above
+T6.unsw.pure_benign_rows,Table 6; abstract,pure-benign rows (gate),"2,217,778",2217778.0,PASS,multiplicity_gate.csv
+T6.unsw.pure_benign_rows_integrity,Table 6,pure-benign rows (integrity report),"2,217,778",2217778.0,PASS,partition_integrity_report.json
+T6.unsw.pure_benign_fps,Table 6; abstract,pure-benign fingerprints = singletons + benign duplicate groups,"1,938,413",1938413.0,PASS,multiplicity_gate.csv + duplicate_group_manifest.csv
+T6.unsw.pure_benign_fps_integrity,Table 6,pure-benign fingerprints (integrity report),"1,938,413",1938413.0,PASS,partition_integrity_report.json
+S1.fig4.reconciliation,Supplementary S1,"pure-benign non-singleton rows equal benign duplicate-group rows (335,533)",true,True,PASS,multiplicity_gate.csv + duplicate_group_manifest.csv
+S4.1.repeat_rows,Sec. 4.1,pure-benign rows repeating a vector already present,"279,365",279365.0,PASS,as above
+S4.1.repeat_pct,Sec. 4.1,share of pure-benign rows repeating a vector (%),12.60,12.5966169743,PASS,as above
+S4.1.benign_in_mixed,Sec. 4.1,benign rows in mixed-label groups,986,986.0,PASS,mixed_label_group_composition.csv
+T6.unsw.mixed_groups_archive,Sec. 4.1,mixed-label groups present in the development archives,453,453.0,PASS,mixed_label_group_composition.csv
+T6.unsw.error_floor,Table 6; Sec. 4.1,"irreducible error floor sum_g min(benign_g, attack_g)",706,706.0,PASS,mixed_label_group_composition.csv
+T6.unsw.error_floor_pct,Table 6,error floor (% of corpus),0.0278,0.0277947613,PASS,as above
+S4.1.cross_side,Sec. 4.1,expected rows sharing a fingerprint across two random halves,"549,885",549885.2728267801,PASS,duplicate_group_manifest.csv + mixed_label_group_composition.csv
+S4.1.cross_side_pct,Sec. 4.1,expected cross-side sharing (% of corpus),21.6486,21.6486259044,PASS,as above
+S4.1.full_record_duplicates,Sec. 4.1; Table 6,"full-record duplicates 480,633 and 568,843 and the 42,552 difference",,not recomputable: needs the raw master CSV,NOT_REPRODUCIBLE_HERE,analysis record (PRE-00 canonicalisation)
+T6.cic.master_rows,Table 6; Sec. 4.6,master rows,"2,830,743",2830743.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.fingerprint_groups,Table 6; Sec. 4.6,fingerprint groups,"2,521,664",2521664.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.singleton_groups,Table 6; Sec. 4.6,singleton groups,"2,426,185",2426185.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.same_label_duplicate_groups,Table 6; Sec. 4.6,same label duplicate groups,"94,781",94781.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.same_label_duplicate_rows,Table 6; Sec. 4.6,same label duplicate rows,"397,538",397538.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.mixed_label_groups,Table 6; Sec. 4.6,mixed label groups,698,698.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.mixed_label_rows,Table 6; Sec. 4.6,mixed label rows,"7,020",7020.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.rows_in_nonsingleton_groups,Table 6; Sec. 4.6,rows in nonsingleton groups,"404,558",404558.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.modelview_duplicates_beyond_first,Table 6; Sec. 4.6,modelview duplicates beyond first,"309,079",309079.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.largest_group,Table 6; Sec. 4.6,largest group,"9,329",9329.0,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.nonsingleton_pct,Table 6,share of rows in non-singleton groups,14.29,14.2915835171,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.dup_pct,Table 6; Sec. 4.6,model-view duplicates beyond first occurrence (%),10.92,10.918652806,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.reconciles,Table 6,group and row accounting reconcile,true,True,PASS,artifacts/cicids2017/fingerprints/fingerprint_audit.json
+T6.cic.benign_rows,Table 6,benign rows,"2,273,097",2273097.0,PASS,attack_allocation_manifest.json
+T6.cic.attack_rows,Table 6,attack rows,"557,646",557646.0,PASS,attack_allocation_manifest.json
+T6.cic.pure_benign_rows,Table 6 note 2,benign rows minus benign members of mixed groups,"2,272,361",2272361.0,PASS,attack_allocation_manifest.json
+T6.cic.benign_in_mixed,Table 6 note 2,benign members of mixed groups,736,736.0,PASS,attack_allocation_manifest.json
+T6.cic.error_floor,Table 6; Sec. 4.6,irreducible error floor,722,722.0,PASS,attack_allocation_manifest.json
+T6.cic.error_floor_pct,Table 6,error floor (% of corpus),0.0255,0.0255056711,PASS,as above
+S4.8.cic_mixed_attacks,Sec. 4.7,attack observations in mixed-label groups,"6,284",6284.0,PASS,attack_allocation_manifest.json
+X.cic.mixed_manifest_vs_archive,Supplementary S1,mixed-group label counts in the archives equal the allocation manifest,true,True,PASS,mixed_label_group_composition.csv vs attack_allocation_manifest.json
+X.cic.mixed_all_development,Sec. 4.6,all 698 mixed-label groups were assigned to development,true,True,PASS,attack_allocation_manifest.json
+X.cic.tie_keys,Methods (tie-breaking),stable_tie_key = SHA-256(str(PARTITION_SEED)|fingerprint) for all 698 groups,true,True,PASS,attack_allocation_manifest.json + partition_policy_manifest.json
+X.fingerprint_bits,Supplementary S1 (fingerprint),share of fingerprints whose two 64-bit halves are identical,,CICIDS2017 1.0000; UNSW-NB15 0.0000,CORRECTION_NEEDED,partition_membership_first100k.csv (both corpora)

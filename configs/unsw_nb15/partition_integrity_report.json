@@ -1,0 +1,48 @@
+{
+  "dataset": "UNSW-NB15",
+  "protocol_version": "Experiment_1_v2",
+  "partition_version": "v3_source_multiplicity_20260919",
+  "implementation_version": "v3.4_singleton_tolerance_fix",
+  "status": "PASS",
+  "created_at_utc": "2026-09-20T09:54:24.442292+00:00",
+  "scientific_policy_hash": "17122c41630be246c40d9018a97d6f80b58d7422f438673594acb74fd4d2d3fb",
+  "implementation_note_hash": "83d1c4b163587747a9460da72b4b9c6381dda83dc52f9ade8e179c045e764206",
+  "parent_membership_sha256": "3114e887aeff514be147d68a9f938d9c889d2c89a21a1ccffd6ff65fcb4a4fac",
+  "partition_membership_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+  "partition_seed": 20260914,
+  "pure_benign_rows": 2217778,
+  "pure_benign_fingerprints": 1938413,
+  "role_pure_benign_capacities": {
+    "benign_weight_train": 1109381,
+    "benign_early_stop": 221878,
+    "benign_threshold_calibration": 332815,
+    "development": 220890,
+    "final_test": 332814
+  },
+  "gates": {
+    "exact_role_capacities": true,
+    "multiplicity_all_five_roles": true,
+    "exact_overall_pure_source_totals": true,
+    "source_x_multiplicity_nonexempt": true,
+    "weight_train_group_gt400": true,
+    "nonpure_membership_preserved": true,
+    "fingerprint_crossings": 0
+  },
+  "explicit_source_x_band_exemptions": [
+    {
+      "source_file": "UNSW-NB15_1.csv",
+      "size_band": ">=100"
+    },
+    {
+      "source_file": "UNSW-NB15_2.csv",
+      "size_band": ">=100"
+    }
+  ],
+  "weight_train_groups_gt400_in_band_ge100": 12,
+  "solver_manifest": "coordinated_feasibility_solver_manifest.json",
+  "formal_notebook01_authorized": false,
+  "final_test_status": "FROZEN_AND_EVALUATION_SEALED",
+  "next_authorized_stage": "PRE-02 v3 from scratch, followed by exactly one benign-only quantile-transfer smoke AE.",
+  "stopping_rule": "If structurally valid v3 still fails the benign-only quantile-transfer smoke gate after a fresh PRE-02 refit, no further PRE-01 repartitioning is allowed.",
+  "manifest_hash": "79534f59acdaab1e07e0047eb37cfb1a7f26f69eae11085747bcc0e09c21082f"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "UNSW-NB15",
+  "partition_version": "v3_source_multiplicity_20260919",
+  "implementation_version": "v3.4_singleton_tolerance_fix",
+  "partition_membership_path": "/content/drive/MyDrive/EXPERIMENT1_V2/DATASETS/UNSW-NB15/partitioning_s8_s11_v3_source_multiplicity_seed20260914/partition_membership.parquet",
+  "partition_membership_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+  "scientific_policy_hash": "17122c41630be246c40d9018a97d6f80b58d7422f438673594acb74fd4d2d3fb",
+  "fit_preprocessing_on": "benign_weight_train only",
+  "transform_roles": [
+    "benign_weight_train",
+    "benign_early_stop",
+    "benign_threshold_calibration",
+    "development",
+    "final_test"
+  ],
+  "final_test_rule": "Mechanical transform only; no final-test outcome access before Notebook 07.",
+  "formal_notebook01_authorized": false,
+  "handoff_hash": "cdc71fb214bdc12f7d4ca422c6a9c74b54e85439c8e4d7b5cabb406bf13127f8"
+}

@@ -1,0 +1,18 @@
+\begin{tikzpicture}[font=\scriptsize,
+  row/.style={draw=black!60,fill=#1,minimum width=19mm,minimum height=4.6mm,inner sep=1pt},
+  fp/.style={draw=black!70,rounded corners=2pt,fill=#1,align=center,text width=21mm,minimum height=8mm,inner sep=1.5pt},
+  arr/.style={-{Stealth[length=1.6mm]},black!60}]
+\node[row=green!8] (r1) at (0,0) {\texttt{row\_id} 1 (benign)};
+\node[row=green!8,below=1.2mm of r1] (r2) {\texttt{row\_id} 2 (benign)};
+\node[row=green!8,below=1.2mm of r2] (r3) {\texttt{row\_id} 3 (benign)};
+\node[row=green!8,below=1.2mm of r3] (r4) {\texttt{row\_id} 4 (benign)};
+\node[row=red!10,below=1.2mm of r4] (r5) {\texttt{row\_id} 5 (attack)};
+\node[fp=white] (f1) at (4.2,0) {Fingerprint A\\singleton, $m=1$};
+\node[fp=white] (f2) at (4.2,-1.05) {Fingerprint B\\same-label, $m=2$};
+\node[fp=white] (f3) at (4.2,-2.2) {Fingerprint C\\mixed-label, $m=2$};
+\draw[arr] (r1.east)--(f1.west); \draw[arr] (r2.east)--(f2.west); \draw[arr] (r3.east)--(f2.west);
+\draw[arr] (r4.east)--(f3.west); \draw[arr] (r5.east)--(f3.west);
+\node[align=left,text width=20mm] at (7.0,-1.05) {Atomicity: every member of a group enters the same membership state};
+\node[above=0.5mm of r1,font=\scriptsize\bfseries] {Source observations};
+\node[above=0.5mm of f1,font=\scriptsize\bfseries] {Model-view groups};
+\end{tikzpicture}

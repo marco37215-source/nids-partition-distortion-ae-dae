@@ -1,0 +1,59 @@
+{
+  "ablation_seeds": [
+    101,
+    202,
+    303
+  ],
+  "dataset": "UNSW-NB15",
+  "expected_task_count": 6,
+  "matched_AE_config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+  "selected_DAE_config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+  "stage": "Notebook_04_matched_denoising_ablation",
+  "tasks": [
+    {
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "model_type": "DAE",
+      "seed": 101
+    },
+    {
+      "config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+      "model_type": "AE_MATCHED",
+      "seed": 101
+    },
+    {
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "model_type": "DAE",
+      "seed": 202
+    },
+    {
+      "config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+      "model_type": "AE_MATCHED",
+      "seed": 202
+    },
+    {
+      "config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+      "model_type": "DAE",
+      "seed": 303
+    },
+    {
+      "config_hash": "ad997142af46c7bf1796651e1218dd5fe6e4ff718c8bac1eba51f273310d5523",
+      "model_type": "AE_MATCHED",
+      "seed": 303
+    }
+  ],
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+    "feature_order_hash": "5eae35cd2afb6596b2daa463fb535a632b53b51df37153eefe40e01750647214",
+    "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+    "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+    "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+    "partition_manifest_file_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+    "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+    "transformed_representation_manifest_hash": "3a748decdedbb93835bdcda3d50f409385e44b54c0aaaa2f56c6eb2eccb361af"
+  }
+}

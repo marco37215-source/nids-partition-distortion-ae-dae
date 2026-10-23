@@ -1,0 +1,6 @@
+partition,target_rows,actual_rows,tolerance,groups,mean_group_size,max_group_size
+benign_weight_train,25751,25751,760,118,218.22881355932202,713
+benign_early_stop,5151,5151,760,34,151.5,252
+benign_threshold_calibration,7725,7725,760,42,183.92857142857142,760
+development,5127,5127,760,35,146.4857142857143,350
+final_test,7725,7725,760,47,164.36170212765958,456

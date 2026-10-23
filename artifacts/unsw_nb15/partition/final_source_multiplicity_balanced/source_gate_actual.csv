@@ -1,0 +1,6 @@
+partition,UNSW-NB15_1.csv,UNSW-NB15_2.csv,UNSW-NB15_3.csv,UNSW-NB15_4.csv
+benign_weight_train,339010,323634,271218,175519
+benign_early_stop,67803,64727,54244,35104
+benign_threshold_calibration,101703,97091,81365,52656
+development,67501,64439,54002,34948
+final_test,101703,97090,81365,52656

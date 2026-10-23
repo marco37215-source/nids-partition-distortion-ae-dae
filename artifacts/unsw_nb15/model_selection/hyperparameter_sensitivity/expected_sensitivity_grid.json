@@ -1,0 +1,365 @@
+{
+  "dataset": "UNSW-NB15",
+  "planned_variant_tasks": 48,
+  "selected_AE_config_hash": "f2ff449180ad3503c1da18b58b04dd4f84991ae3babf6994f4c07bc0c40122db",
+  "selected_DAE_config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+  "sensitivity_seeds": [
+    101,
+    202,
+    303
+  ],
+  "stage": "Notebook_06_hyperparameter_sensitivity",
+  "tasks": [
+    {
+      "config_hash": "1ee24baae6fddac72164cd31110664f4038cb7bbc96ec0da5040e1ddf8a63f34",
+      "model_type": "AE",
+      "seed": 101,
+      "variant_parameter": "latent_fraction",
+      "variant_value": 0.25
+    },
+    {
+      "config_hash": "1ee24baae6fddac72164cd31110664f4038cb7bbc96ec0da5040e1ddf8a63f34",
+      "model_type": "AE",
+      "seed": 202,
+      "variant_parameter": "latent_fraction",
+      "variant_value": 0.25
+    },
+    {
+      "config_hash": "1ee24baae6fddac72164cd31110664f4038cb7bbc96ec0da5040e1ddf8a63f34",
+      "model_type": "AE",
+      "seed": 303,
+      "variant_parameter": "latent_fraction",
+      "variant_value": 0.25
+    },
+    {
+      "config_hash": "61260186fa3f3e53ec0490285a4d01514febb2e2334f939a9ad1ba76859470ad",
+      "model_type": "AE",
+      "seed": 101,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "61260186fa3f3e53ec0490285a4d01514febb2e2334f939a9ad1ba76859470ad",
+      "model_type": "AE",
+      "seed": 202,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "61260186fa3f3e53ec0490285a4d01514febb2e2334f939a9ad1ba76859470ad",
+      "model_type": "AE",
+      "seed": 303,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "84aa2d0a29308920bdb91c174894cd89e4e8f7a39badf95f4c97399bd9197d16",
+      "model_type": "AE",
+      "seed": 101,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.001
+    },
+    {
+      "config_hash": "84aa2d0a29308920bdb91c174894cd89e4e8f7a39badf95f4c97399bd9197d16",
+      "model_type": "AE",
+      "seed": 202,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.001
+    },
+    {
+      "config_hash": "84aa2d0a29308920bdb91c174894cd89e4e8f7a39badf95f4c97399bd9197d16",
+      "model_type": "AE",
+      "seed": 303,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.001
+    },
+    {
+      "config_hash": "280ce4299ac42d4d46a893b04fea0e6429e9d83a90aaaf183b2e2274aa17f073",
+      "model_type": "AE",
+      "seed": 101,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0
+    },
+    {
+      "config_hash": "280ce4299ac42d4d46a893b04fea0e6429e9d83a90aaaf183b2e2274aa17f073",
+      "model_type": "AE",
+      "seed": 202,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0
+    },
+    {
+      "config_hash": "280ce4299ac42d4d46a893b04fea0e6429e9d83a90aaaf183b2e2274aa17f073",
+      "model_type": "AE",
+      "seed": 303,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0
+    },
+    {
+      "config_hash": "870ab06f31a08ad30e1c6e65af5c1e5967fe97bee426cd4c78835541d59e21b8",
+      "model_type": "AE",
+      "seed": 101,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-05
+    },
+    {
+      "config_hash": "870ab06f31a08ad30e1c6e65af5c1e5967fe97bee426cd4c78835541d59e21b8",
+      "model_type": "AE",
+      "seed": 202,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-05
+    },
+    {
+      "config_hash": "870ab06f31a08ad30e1c6e65af5c1e5967fe97bee426cd4c78835541d59e21b8",
+      "model_type": "AE",
+      "seed": 303,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-05
+    },
+    {
+      "config_hash": "e6c8995fd193194491932ec839c4724eb833ea8399fbbf69c4a6f04a78c7e274",
+      "model_type": "AE",
+      "seed": 101,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "e6c8995fd193194491932ec839c4724eb833ea8399fbbf69c4a6f04a78c7e274",
+      "model_type": "AE",
+      "seed": 202,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "e6c8995fd193194491932ec839c4724eb833ea8399fbbf69c4a6f04a78c7e274",
+      "model_type": "AE",
+      "seed": 303,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "496fe8e2cc7adb9e3020bb06ea1259d32edca4e436c86db699ef2396c4ce5f88",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "latent_fraction",
+      "variant_value": 0.25
+    },
+    {
+      "config_hash": "496fe8e2cc7adb9e3020bb06ea1259d32edca4e436c86db699ef2396c4ce5f88",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "latent_fraction",
+      "variant_value": 0.25
+    },
+    {
+      "config_hash": "496fe8e2cc7adb9e3020bb06ea1259d32edca4e436c86db699ef2396c4ce5f88",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "latent_fraction",
+      "variant_value": 0.25
+    },
+    {
+      "config_hash": "6bbc329bf4ab462d36dcfa8b307cb3acbeb65750511b84e6fcd532fc48800b08",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "6bbc329bf4ab462d36dcfa8b307cb3acbeb65750511b84e6fcd532fc48800b08",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "6bbc329bf4ab462d36dcfa8b307cb3acbeb65750511b84e6fcd532fc48800b08",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "55e751b21e5ed8dd229c5c9bf828c6c1779735bab38b5a0024a2f1bd5465aa18",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.001
+    },
+    {
+      "config_hash": "55e751b21e5ed8dd229c5c9bf828c6c1779735bab38b5a0024a2f1bd5465aa18",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.001
+    },
+    {
+      "config_hash": "55e751b21e5ed8dd229c5c9bf828c6c1779735bab38b5a0024a2f1bd5465aa18",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "learning_rate",
+      "variant_value": 0.001
+    },
+    {
+      "config_hash": "e73432a4b059e362a6e71af8793ec4432926b59584c3bcf38fc6bc0c8403ea44",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-06
+    },
+    {
+      "config_hash": "e73432a4b059e362a6e71af8793ec4432926b59584c3bcf38fc6bc0c8403ea44",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-06
+    },
+    {
+      "config_hash": "e73432a4b059e362a6e71af8793ec4432926b59584c3bcf38fc6bc0c8403ea44",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-06
+    },
+    {
+      "config_hash": "748f0842e8fafa20bf2f1bfa296390cd681618656ea774c294c0d2b873d03f6d",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-05
+    },
+    {
+      "config_hash": "748f0842e8fafa20bf2f1bfa296390cd681618656ea774c294c0d2b873d03f6d",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-05
+    },
+    {
+      "config_hash": "748f0842e8fafa20bf2f1bfa296390cd681618656ea774c294c0d2b873d03f6d",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "weight_decay",
+      "variant_value": 1e-05
+    },
+    {
+      "config_hash": "cfad6c52bd49e715b0d48232f5f93cc3c5d5eb19c4ca77e77ed2843fa84106dc",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "cfad6c52bd49e715b0d48232f5f93cc3c5d5eb19c4ca77e77ed2843fa84106dc",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "cfad6c52bd49e715b0d48232f5f93cc3c5d5eb19c4ca77e77ed2843fa84106dc",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "weight_decay",
+      "variant_value": 0.0001
+    },
+    {
+      "config_hash": "ec630696a9ca65cbb3f7cb6afbe8d8e8ac3b157519a6e1d543fdadf4fec0174d",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "numerical_masking",
+      "variant_value": 0.05
+    },
+    {
+      "config_hash": "ec630696a9ca65cbb3f7cb6afbe8d8e8ac3b157519a6e1d543fdadf4fec0174d",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "numerical_masking",
+      "variant_value": 0.05
+    },
+    {
+      "config_hash": "ec630696a9ca65cbb3f7cb6afbe8d8e8ac3b157519a6e1d543fdadf4fec0174d",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "numerical_masking",
+      "variant_value": 0.05
+    },
+    {
+      "config_hash": "4d2069552d26e083c33b27a7ccf55e83d2b0a19753e3f48a6ea522b4cc1aa84e",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "numerical_masking",
+      "variant_value": 0.1
+    },
+    {
+      "config_hash": "4d2069552d26e083c33b27a7ccf55e83d2b0a19753e3f48a6ea522b4cc1aa84e",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "numerical_masking",
+      "variant_value": 0.1
+    },
+    {
+      "config_hash": "4d2069552d26e083c33b27a7ccf55e83d2b0a19753e3f48a6ea522b4cc1aa84e",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "numerical_masking",
+      "variant_value": 0.1
+    },
+    {
+      "config_hash": "3791efa5d914864f6d3497c8d71df2de0a6e1949c9040db02b628417307726ed",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "grouped_categorical_masking",
+      "variant_value": 0.05
+    },
+    {
+      "config_hash": "3791efa5d914864f6d3497c8d71df2de0a6e1949c9040db02b628417307726ed",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "grouped_categorical_masking",
+      "variant_value": 0.05
+    },
+    {
+      "config_hash": "3791efa5d914864f6d3497c8d71df2de0a6e1949c9040db02b628417307726ed",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "grouped_categorical_masking",
+      "variant_value": 0.05
+    },
+    {
+      "config_hash": "e035a0b579ce25b5ed577eb45b93d843be7aff73adbd6a1904292d661c781154",
+      "model_type": "DAE",
+      "seed": 101,
+      "variant_parameter": "grouped_categorical_masking",
+      "variant_value": 0.1
+    },
+    {
+      "config_hash": "e035a0b579ce25b5ed577eb45b93d843be7aff73adbd6a1904292d661c781154",
+      "model_type": "DAE",
+      "seed": 202,
+      "variant_parameter": "grouped_categorical_masking",
+      "variant_value": 0.1
+    },
+    {
+      "config_hash": "e035a0b579ce25b5ed577eb45b93d843be7aff73adbd6a1904292d661c781154",
+      "model_type": "DAE",
+      "seed": 303,
+      "variant_parameter": "grouped_categorical_masking",
+      "variant_value": 0.1
+    }
+  ],
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+    "feature_order_hash": "5eae35cd2afb6596b2daa463fb535a632b53b51df37153eefe40e01750647214",
+    "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+    "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+    "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+    "partition_manifest_file_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+    "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+    "transformed_representation_manifest_hash": "3a748decdedbb93835bdcda3d50f409385e44b54c0aaaa2f56c6eb2eccb361af"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "code_version": "experiment1_v2_model_core_1.0.0",
+  "created_at_utc": "2026-09-17T19:47:06.222702+00:00",
+  "dataset": "CICIDS2017",
+  "family_results_role": "diagnostic secondary evidence only",
+  "final_stage_manifest_hash": "6d57b29aa4cf34c94e174910a018d53a9f8eafa34d750426e126a2216eec002d",
+  "final_status": "PASS",
+  "key_artifact_hashes": {
+    "family_diagnostic_summary.csv": "6af8b8a3f97cc910cbf71c4cf00738f4bda98a82bbc5a3413892519e9e2a959c",
+    "mcnemar_by_seed.csv": "f8ca3ae4e89accd8a396d2fba41be5c990ef50a0e7c9f01d4cbebf3a2e669dea",
+    "paired_seed_bootstrap_effects.csv": "39e7a3ed6035a1048b7c15d10950cb5472a2528ee2e6e5125a962ec8564f8068",
+    "paired_seed_values.csv": "f0c2019dc8df75eb75b15c3e9848e073fa71900a181e65560f87e3a959e80cdf"
+  },
+  "next_authorized_stage": "Experiment 1 v2 cross-dataset synthesis after both dataset Notebook 08 stages pass",
+  "notebook_version": "1.0.0",
+  "paired_final_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "stage": "Notebook_08_final_statistics_family_diagnostics",
+  "stage_manifest_hash": "8c6459f67ab78d4a514cea38bef4bc7831fc2074af996c7c3936d502c23d1051",
+  "statistical_plan": {
+    "bootstrap_iterations": 10000,
+    "bootstrap_resampling_unit": "paired final seed",
+    "bootstrap_seed": 2026,
+    "confidence_level": 0.95,
+    "effect_size": "Cohen dz on five paired seed differences; descriptive due small n",
+    "family_metrics_primary_superiority_basis": false,
+    "limitation": "five seed pairs provide limited seed-level inferential power; emphasize effect magnitude, uncertainty, consistency, and false-positive burden",
+    "mcnemar": "exact two-sided binomial discordance test per common final seed on identical observations",
+    "paired_bootstrap": true,
+    "paired_seed_comparison": true
+  },
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "1d751d5bc6a52f58eb59fa6f0864a088ac359825f4d605c6228dcda91fd9ffa2",
+    "feature_order_hash": "68ecdade80a69e53463509c822f6ec474831a3c4289f7bcc9feeb8e0e8bb3b70",
+    "fitted_preprocessor_hash": "7d1b4d0e2d34596b7280c36c4db9696d3e645c57e439a79f1876f0e14070248b",
+    "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+    "partition_manifest_canonical_hash": "724eeca41efa11a8ff58cba6efd172d851e9ad43870eafa6d0e01956dd8e6e3e",
+    "partition_manifest_file_sha256": "1e37421c19afbed73c669cd63f6de580a41084a7f64a7d22507278244186ef1c",
+    "preprocessing_policy_hash": "2a2096b1d219bc833855766af6c640acc7f5cb91e1e75151b78d6eeb3e4fef27",
+    "transformed_representation_manifest_hash": "cb027f44316f558b39e77802d8bb6723df534554be22e6d6af7c1de6e4802dea"
+  }
+}

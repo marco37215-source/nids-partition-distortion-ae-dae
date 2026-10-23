@@ -1,0 +1,6 @@
+partition,nominal_benign_target,actual_benign_count,absolute_row_deviation,signed_row_deviation,nominal_percentage_of_B,actual_percentage_of_B,percentage_point_deviation,reason
+benign_weight_train,1136548,1136548,0,0,49.99997800357838,49.99997800357838,0.0,EXACT_TARGET
+benign_early_stop,227309,227309,0,0,9.999969205009728,9.999969205009728,0.0,EXACT_TARGET
+benign_threshold_calibration,340964,340964,0,0,14.999975803936216,14.999975803936216,0.0,EXACT_TARGET
+development,227309,227309,0,0,9.999969205009728,9.999969205009728,0.0,EXACT_TARGET
+final_test,340967,340967,0,0,15.000107782465948,15.000107782465948,0.0,EXACT_TARGET

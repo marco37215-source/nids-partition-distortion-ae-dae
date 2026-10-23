@@ -1,0 +1,19 @@
+{
+  "attack_if": "reconstruction_error > threshold",
+  "calibration_partition": "benign_threshold_calibration",
+  "contract_hash": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+  "created_at_utc": "2026-09-15T11:21:39.388633+00:00",
+  "decision_operator": ">",
+  "primary_percentile": 99.0,
+  "protocol_version": "Experiment_1_v2",
+  "quantile_implementation": "numpy.quantile",
+  "quantile_method": "linear",
+  "quantile_method_source": "NumPy quantile default captured when contract first frozen",
+  "sensitivity_percentiles": [
+    95.0,
+    97.0,
+    99.0,
+    99.5
+  ],
+  "version": "Experiment1_v2_threshold_contract_v1"
+}

@@ -1,0 +1,23 @@
+file_order,filename,label,label_repr,label_unicode_escape,support
+1,Monday-WorkingHours.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,529918
+2,Tuesday-WorkingHours.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,432074
+2,Tuesday-WorkingHours.pcap_ISCX.csv,FTP-Patator,'FTP-Patator',FTP-Patator,7938
+2,Tuesday-WorkingHours.pcap_ISCX.csv,SSH-Patator,'SSH-Patator',SSH-Patator,5897
+3,Wednesday-workingHours.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,440031
+3,Wednesday-workingHours.pcap_ISCX.csv,DoS slowloris,'DoS slowloris',DoS slowloris,5796
+3,Wednesday-workingHours.pcap_ISCX.csv,DoS Slowhttptest,'DoS Slowhttptest',DoS Slowhttptest,5499
+3,Wednesday-workingHours.pcap_ISCX.csv,DoS Hulk,'DoS Hulk',DoS Hulk,231073
+3,Wednesday-workingHours.pcap_ISCX.csv,DoS GoldenEye,'DoS GoldenEye',DoS GoldenEye,10293
+3,Wednesday-workingHours.pcap_ISCX.csv,Heartbleed,'Heartbleed',Heartbleed,11
+4,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,168186
+4,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � Brute Force,'Web Attack � Brute Force',Web Attack \ufffd Brute Force,1507
+4,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � XSS,'Web Attack � XSS',Web Attack \ufffd XSS,652
+4,Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack � Sql Injection,'Web Attack � Sql Injection',Web Attack \ufffd Sql Injection,21
+5,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,288566
+5,Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Infiltration,'Infiltration',Infiltration,36
+6,Friday-WorkingHours-Morning.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,189067
+6,Friday-WorkingHours-Morning.pcap_ISCX.csv,Bot,'Bot',Bot,1966
+7,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,127537
+7,Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,PortScan,'PortScan',PortScan,158930
+8,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,BENIGN,'BENIGN',BENIGN,97718
+8,Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,DDoS,'DDoS',DDoS,128027

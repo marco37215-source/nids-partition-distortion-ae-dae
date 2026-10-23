@@ -1,0 +1,12 @@
+{
+  "bootstrap_iterations": 10000,
+  "bootstrap_resampling_unit": "paired final seed",
+  "bootstrap_seed": 2026,
+  "confidence_level": 0.95,
+  "effect_size": "Cohen dz on five paired seed differences; descriptive due small n",
+  "family_metrics_primary_superiority_basis": false,
+  "limitation": "five seed pairs provide limited seed-level inferential power; emphasize effect magnitude, uncertainty, consistency, and false-positive burden",
+  "mcnemar": "exact two-sided binomial discordance test per common final seed on identical observations",
+  "paired_bootstrap": true,
+  "paired_seed_comparison": true
+}

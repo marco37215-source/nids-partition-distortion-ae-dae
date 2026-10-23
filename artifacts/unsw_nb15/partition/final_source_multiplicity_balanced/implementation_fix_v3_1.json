@@ -1,0 +1,12 @@
+{
+  "dataset": "UNSW-NB15",
+  "amendment_id": "UNSW_PRE01_V3_SOURCE_MULTIPLICITY_20260919",
+  "scientific_policy_hash": "17122c41630be246c40d9018a97d6f80b58d7422f438673594acb74fd4d2d3fb",
+  "implementation_version": "v3.1_milp",
+  "created_at_utc": "2026-09-20T08:48:40.096365+00:00",
+  "previous_failure": "greedy repair residual [-3621, 926, 883, 893, 919]",
+  "membership_created_by_previous_attempt": false,
+  "scientific_policy_changed": false,
+  "change": "Replace greedy/local repair with aggregate-type MILP satisfying frozen constraints simultaneously.",
+  "implementation_note_hash": "6a652624828c301b94f8866853b3127ccfa2dbbbe585ab908ff7e70f3b54f522"
+}

@@ -1,0 +1,92 @@
+{
+  "blocking_failures": [],
+  "created_at_utc": "2026-09-14T06:35:31.921312+00:00",
+  "dataset": "UNSW-NB15",
+  "final_status": "PASS_WITH_NONBLOCKING_WARNINGS",
+  "fingerprint_algorithm": {
+    "candidate_duplicate_verification": "direct canonical raw-value byte equality for every observed candidate duplicate group; SHA-256 used to split effective-128-bit collisions",
+    "candidate_fingerprint": "two deterministic pandas 64-bit row hashes with independent fixed hash keys over the exact ordered frozen raw model-input view",
+    "categorical_value_rule": "exact parsed source string with deterministic missing sentinel",
+    "column_order": [
+      "proto",
+      "state",
+      "dur",
+      "sbytes",
+      "dbytes",
+      "sttl",
+      "dttl",
+      "sloss",
+      "dloss",
+      "service",
+      "Sload",
+      "Dload",
+      "Spkts",
+      "Dpkts",
+      "swin",
+      "dwin",
+      "stcpb",
+      "dtcpb",
+      "smeansz",
+      "dmeansz",
+      "trans_depth",
+      "res_bdy_len",
+      "Sjit",
+      "Djit",
+      "Sintpkt",
+      "Dintpkt",
+      "tcprtt",
+      "synack",
+      "ackdat",
+      "is_sm_ips_ports",
+      "ct_state_ttl",
+      "ct_flw_http_mthd",
+      "is_ftp_login",
+      "ct_ftp_cmd",
+      "ct_srv_src",
+      "ct_srv_dst",
+      "ct_dst_ltm",
+      "ct_src_ ltm",
+      "ct_src_dport_ltm",
+      "ct_dst_sport_ltm",
+      "ct_dst_src_ltm"
+    ],
+    "effective_candidate_bits": 128,
+    "implementation_version": "Experiment1_v2_modelview_fp_v1",
+    "numeric_value_rule": "numeric model columns canonicalized as float64; NaN/+Inf/-Inf have explicit deterministic byte sentinels",
+    "python_builtin_hash_used": false
+  },
+  "fingerprint_manifest_hash": "d5375167453f17f5543b1b90f9e1aba99bbee6f995274c9f8ddf80c7bb490962",
+  "global_protocol_hash": "55713fd82c01168e0a906d282644b1c8dff88632dcb82512c5f62c637e35ff1f",
+  "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+  "next_authorized_stage": "Sections 8–11: group-aware partition design and immutable partition construction",
+  "nonblocking_warnings": [
+    {
+      "message": "Frozen master has 2,540,047 rows whereas the UNSW published summary reports 2,540,044. The cryptographically matched merge manifest records the actual four-file source counts {'UNSW-NB15_1.csv': 700001, 'UNSW-NB15_2.csv': 700001, 'UNSW-NB15_3.csv': 700001, 'UNSW-NB15_4.csv': 440044}. No observations are deleted merely to force the published summary.",
+      "section": "2"
+    },
+    {
+      "message": "ct_ftp_cmd contains whitespace-only raw tokens. They are retained unchanged in the frozen master and treated only as structural missing-like values for audit/fingerprint semantics; later imputation must be fitted on benign_weight_train only.",
+      "section": "6"
+    },
+    {
+      "message": "75,768 same-label model-view duplicate groups were observed and retained as future indivisible allocation groups.",
+      "section": "7"
+    },
+    {
+      "message": "453 mixed-label/conflicting model-view groups were observed and retained; they are ineligible for benign-only future partitions.",
+      "section": "7"
+    }
+  ],
+  "notebook_stage": "PRE_00_SECTIONS_1_TO_7",
+  "protocol_version": "Experiment_1_v2",
+  "raw_feature_policy_hash": "7defad652ebfaf61febb3167c00f416d399c1aa2f36ee3adf72f21e775f2464b",
+  "row_identity_specification_hash": "5d6a1dff89538e615d2aa43e6e16bed9f3cbce0eeb309820d5af32f77447cddf",
+  "section_1_status": "PASS",
+  "section_2_status": "PASS",
+  "section_3_status": "PASS",
+  "section_4_status": "PASS",
+  "section_5_status": "PASS",
+  "section_6_status": "PASS",
+  "section_7_status": "PASS",
+  "taxonomy_hash": "52e77ec1d8f5df935ec474e17e5ff6332fdaedbc243296023f3e15dce50c62b0"
+}

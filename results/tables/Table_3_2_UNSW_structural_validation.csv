@@ -1,0 +1,4 @@
+regime,fingerprint_overlap,development_multiplicity_tv,development_benign_exceedance_pct,calibration_benign_exceedance_pct,source
+Initial fingerprint-atomic,0,not available,99.22,not available,analysis record (no artefact in the evidence set)
+Source-balanced,0 (analysis record),0.7094,53.63,1.0003,"recomputed: source_balanced/{development_benign_fingerprint_level_summary.csv,smoke_manifest_source_balanced.json}"
+Source- and multiplicity-balanced (v3.4),0,0.000150,1.0024,1.0003,"recomputed: final_source_multiplicity_balanced/{multiplicity_gate.csv,partition_integrity_report.json,smoke_manifest_final.json}"

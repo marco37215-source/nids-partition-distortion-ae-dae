@@ -1,0 +1,15 @@
+family,total_row_support,independent_fingerprint_group_support,target_development_rows,target_final_test_rows,target_selected_rows,development_row_support,development_group_support,final_test_row_support,final_test_group_support,reserve_row_support,reserve_group_support,achieved_selected_rows,development_target_deviation,final_test_target_deviation,status,reason
+Bot,1966,1953,770,1155,1925,770,770,1155,1142,41,41,1925,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+DDoS,128027,128016,50140,75211,125351,50140,50136,75211,75204,2676,2676,125351,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+DoS GoldenEye,10293,10286,4031,6047,10078,4031,4028,6047,6043,215,215,10078,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+DoS Hulk,231073,172849,90496,135746,226242,90496,68448,135746,99570,4831,4831,226242,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+DoS Slowhttptest,5499,5228,2154,3231,5385,2154,1972,3231,3142,114,114,5385,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+DoS slowloris,5796,5385,2270,3405,5675,2270,2100,3405,3164,121,121,5675,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+FTP-Patator,7938,5933,3109,4663,7772,3109,1980,4663,3787,166,166,7772,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+Heartbleed,11,11,4,7,11,4,4,7,7,0,0,11,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+Infiltration,36,36,14,21,35,14,14,21,21,1,1,35,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+PortScan,158930,90819,62243,93365,155608,62243,34735,93365,52762,3322,3322,155608,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+SSH-Patator,5897,3219,2310,3464,5774,2310,1083,3464,2013,123,123,5774,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+Web Attack � Brute Force,1507,1470,590,885,1475,590,573,885,865,32,32,1475,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+Web Attack � Sql Injection,21,21,8,12,20,8,8,12,12,1,1,20,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation
+Web Attack � XSS,652,652,255,383,638,255,255,383,383,14,14,638,0,0,REPRESENTED_IN_BOTH,independent family support permitted development and final-test representation

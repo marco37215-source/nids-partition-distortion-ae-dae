@@ -1,0 +1,66 @@
+{
+  "canonical_complete_run_selection_rule": "lowest successful attempt; then earliest created_at_utc; then lexicographically smallest run_hash",
+  "canonical_selection_uses_performance": false,
+  "code_version": "experiment1_v2_model_core_3.0.0_source_multiplicity_corrected",
+  "created_at_utc": "2026-09-21T15:28:11.355460+00:00",
+  "dataset": "UNSW-NB15",
+  "disconnect_resume_policy": {
+    "active_trial_resume_artifact": "active_trial_resume.json",
+    "complete_run_manifests_authoritative": true,
+    "disconnect_recovery_audit": "disconnect_recovery_audit.csv",
+    "duplicate_proposals_consume_training_attempt_budget": false,
+    "stale_running_trials_resume_exact_config": true
+  },
+  "family_metrics_used_for_ranking": false,
+  "final_status": "PASS",
+  "key_artifact_hashes": {
+    "canonical_complete_run_selection.json": "c8eda8d044810257f8ff4165f47651fbb8eac2a16f2fc5f1b5e09f4e1eefd143",
+    "duplicate_complete_run_audit.csv": "0e4507b6eb04fd61ae4285a0fddd27eef270351c49c631928879936872aa42cb",
+    "ranked_trials.csv": "c4df3007ecfce9a087f30e10cb86e427655a9628a90f5f04fcea73c75214ef51",
+    "ranking_scientific_identity.json": "bc0f23402d5d3704bcca9f6e2bb0177d5fc8f23d498449cf28640938b8bb227b",
+    "top_three_configs.json": "b5419a0cdc5d14711ce5d6c3cccf13c34484d4c06ca83d7f4eb84be356b65432",
+    "trial_register.csv": "672a0eca7383995ae93354817a80ce7b6b10f63d651524f4f0ad26d74a1282f7"
+  },
+  "manifest_supersession": {
+    "canonical_ranked_trials_sha256": "c4df3007ecfce9a087f30e10cb86e427655a9628a90f5f04fcea73c75214ef51",
+    "canonical_selection_rule": "lowest successful attempt; then earliest created_at_utc; then lexicographically smallest run_hash",
+    "canonical_selection_uses_performance": false,
+    "legacy_ranked_trials_expected_sha256": "c7cd5270166b20526d04b30b705012bcfd26844faf01addbcf469126a31fe96d",
+    "ranking_scientific_identity_hash": "56de3f222fa74d120e6e7f91635148fda10c94aab9583c5de633c807bb3c81b0",
+    "reason": "Deterministic canonical COMPLETE-run selection after runtime recovery. Legacy ranked_trials.csv byte identity was unstable because representative duplicate COMPLETE attempts could depend on filesystem enumeration order.",
+    "superseded_stage_manifest": "stage_manifest.superseded_3e37f8fe3466536b.json",
+    "superseded_stage_manifest_hash": "3e37f8fe3466536b77cdac1801fe77ab872e2dffbb55e30624128dd5a924469d",
+    "top_three_artifact_verified_byte_identical": true
+  },
+  "model_type": "DAE",
+  "next_authorized_stage": "Notebook 03 multi-seed confirmation",
+  "notebook_version": "2.0.0-source-multiplicity-corrected",
+  "optuna_sampler_seed": 2026,
+  "ranking_scientific_identity_hash": "56de3f222fa74d120e6e7f91635148fda10c94aab9583c5de633c807bb3c81b0",
+  "run_mode": "formal",
+  "search_seed": 101,
+  "stage": "Notebook_02_dae_search",
+  "stage_manifest_hash": "d600d83681df096a0356157a14c3f3be138ea5386c83a94ba065ca9637f37cb1",
+  "target_unique_completed": 20,
+  "top_three_config_hashes": [
+    "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+    "17a053045009d1b816f0953f4cdc21222ea6ceb1f96670f6de36bf5e7547df54",
+    "4416b89eadb6910865a90f1079caf3821ddf4938aac3e0c873bbd06d8777a979"
+  ],
+  "unique_completed_configurations": 20,
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+    "feature_order_hash": "5eae35cd2afb6596b2daa463fb535a632b53b51df37153eefe40e01750647214",
+    "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+    "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+    "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+    "partition_manifest_file_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+    "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+    "transformed_representation_manifest_hash": "3a748decdedbb93835bdcda3d50f409385e44b54c0aaaa2f56c6eb2eccb361af"
+  }
+}

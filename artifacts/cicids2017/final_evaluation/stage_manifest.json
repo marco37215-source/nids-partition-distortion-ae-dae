@@ -1,0 +1,51 @@
+{
+  "additional_final_seeds": [
+    404,
+    505
+  ],
+  "code_version": "experiment1_v2_model_core_1.0.0",
+  "confirmation_seeds_reused": [
+    101,
+    202,
+    303
+  ],
+  "created_at_utc": "2026-09-17T19:31:48.374946+00:00",
+  "dataset": "CICIDS2017",
+  "final_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "final_status": "PASS",
+  "final_test_access_log": "/content/exp1v2_google_drive/MyDrive/EXPERIMENT1_V2/DATASETS/CICIDS2017/modelling/notebook07_final_known_attack_evaluation/v1_0_0/final_test_access_log.json",
+  "key_artifact_hashes": {
+    "family_seed_metrics.csv": "9968b681725fe4a65f035562a47f27319d39d29e71e9b52231e23c82d4ed351c",
+    "final_seed_results.csv": "8cb2c4cbb93c423a38e6a241d28d849ded2530a733a4c94797f25ac864511581",
+    "final_summary.csv": "7eec72c6404a82e638e23c944af324738af4f569dfa6a528c9fa22a16b978238",
+    "final_test_access_log.json": "c55dc8f9c59f46d10dad60e7301736fa0933db749c0762231e2fd4ac0297288d"
+  },
+  "next_authorized_stage": "Notebook 08 final statistics and family diagnostics",
+  "notebook_version": "1.0.0",
+  "selected_AE_config_hash": "b86121d82bf5f2c18336369fc4043727cc5a19985dc9e98848d1016998f44d3a",
+  "selected_DAE_config_hash": "16838232aebb6211bb93d1c698985b35164410bd4d081ddb5d23ce011b70a536",
+  "stage": "Notebook_07_final_known_attack_evaluation",
+  "stage_manifest_hash": "6d57b29aa4cf34c94e174910a018d53a9f8eafa34d750426e126a2216eec002d",
+  "threshold_percentile": 99.0,
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "1d751d5bc6a52f58eb59fa6f0864a088ac359825f4d605c6228dcda91fd9ffa2",
+    "feature_order_hash": "68ecdade80a69e53463509c822f6ec474831a3c4289f7bcc9feeb8e0e8bb3b70",
+    "fitted_preprocessor_hash": "7d1b4d0e2d34596b7280c36c4db9696d3e645c57e439a79f1876f0e14070248b",
+    "master_dataset_sha256": "b68a108f6fe44082a051e2ab81a4bd8859cb3ccd417ff60623871155d51cabd3",
+    "partition_manifest_canonical_hash": "724eeca41efa11a8ff58cba6efd172d851e9ad43870eafa6d0e01956dd8e6e3e",
+    "partition_manifest_file_sha256": "1e37421c19afbed73c669cd63f6de580a41084a7f64a7d22507278244186ef1c",
+    "preprocessing_policy_hash": "2a2096b1d219bc833855766af6c640acc7f5cb91e1e75151b78d6eeb3e4fef27",
+    "transformed_representation_manifest_hash": "cb027f44316f558b39e77802d8bb6723df534554be22e6d6af7c1de6e4802dea"
+  }
+}

@@ -1,0 +1,4 @@
+# Merged UNSW-NB15 master as recorded by PRE-00 (artifacts/unsw_nb15/fingerprints/fingerprint_audit.json).
+# The master file name is not recorded in the frozen artefacts: replace MASTER_FILENAME, then run  sha256sum -c SHA256SUMS.txt
+# Add per-source-file lines with:  python -m src.utils.hashing sha256 data/unsw_nb15/raw/*.csv
+f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54  MASTER_FILENAME

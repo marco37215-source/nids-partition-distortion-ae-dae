@@ -1,0 +1,15 @@
+\begin{tikzpicture}[
+  box/.style={draw=black!70,rounded corners=1.5pt,fill=#1,align=center,font=\scriptsize,minimum height=9mm,text width=24mm,inner sep=2pt},
+  box/.default=white, arr/.style={-{Stealth[length=2mm]},thick,black!70}]
+\node[box=black!5] (a) {Source corpus\\(CICIDS2017 or UNSW-NB15)};
+\node[box,right=4mm of a] (b) {Provenance and taxonomy preservation\\(SHA-256 master)};
+\node[box,right=4mm of b] (c) {Immutable \texttt{row\_id}};
+\node[box,right=4mm of c] (d) {Frozen raw model view};
+\node[box,right=4mm of d] (e) {Model-view fingerprinting\\(\texttt{feature\_fingerprint})};
+\node[box=blue!6,below=9mm of e] (f) {Fingerprint-atomic partition into five roles\\+ structural audit};
+\node[box,left=4mm of f] (g) {Preprocessing fitted on \texttt{benign\_weight\_train} only};
+\node[box,left=4mm of g] (h) {AE and DAE development (search, confirmation, ablation)};
+\node[box=red!6,left=4mm of h] (j) {Single sealed evaluation on \texttt{final\_test}};
+\draw[arr] (a)--(b); \draw[arr] (b)--(c); \draw[arr] (c)--(d); \draw[arr] (d)--(e);
+\draw[arr] (e)--(f); \draw[arr] (f)--(g); \draw[arr] (g)--(h); \draw[arr] (h)--(j);
+\end{tikzpicture}

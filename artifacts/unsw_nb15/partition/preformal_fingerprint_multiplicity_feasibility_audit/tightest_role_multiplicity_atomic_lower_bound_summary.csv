@@ -1,0 +1,2 @@
+tightest_role,tightest_role_current_pure_benign_rows,total_pure_benign_rows,tightest_role_fraction_of_pure_pool,multiplicity_only_independent_bin_tv_lower_bound,independent_bin_nearest_sums_total_rows,independent_bin_total_row_mismatch,interpretation
+development,220890,2217778,0.09959968941886879,3.941274113880424e-06,220891,1,Optimistic exact lower bound for multiplicity balance only; source constraints and joint role-capacity coupling can only make the full problem equally hard or harder.

@@ -1,0 +1,113 @@
+{
+  "dataset": "UNSW-NB15",
+  "fit_partition": "benign_weight_train",
+  "missing_token": "__PRE02_MISSING__",
+  "per_feature": {
+    "proto": {
+      "encoder_categories": [
+        "arp",
+        "icmp",
+        "igmp",
+        "ospf",
+        "rtp",
+        "tcp",
+        "udp",
+        "udt",
+        "__PRE02_MISSING__",
+        "__PRE02_RARE__",
+        "__PRE02_UNKNOWN__"
+      ],
+      "rare_categories": [],
+      "retained_categories": [
+        "arp",
+        "icmp",
+        "igmp",
+        "ospf",
+        "rtp",
+        "tcp",
+        "udp",
+        "udt"
+      ],
+      "training_missing_count": 0
+    },
+    "service": {
+      "encoder_categories": [
+        "-",
+        "dns",
+        "ftp",
+        "ftp-data",
+        "http",
+        "pop3",
+        "radius",
+        "smtp",
+        "ssh",
+        "__PRE02_MISSING__",
+        "__PRE02_RARE__",
+        "__PRE02_UNKNOWN__"
+      ],
+      "rare_categories": [
+        "irc",
+        "snmp"
+      ],
+      "retained_categories": [
+        "-",
+        "dns",
+        "ftp",
+        "ftp-data",
+        "http",
+        "pop3",
+        "radius",
+        "smtp",
+        "ssh"
+      ],
+      "training_missing_count": 0
+    },
+    "state": {
+      "encoder_categories": [
+        "ACC",
+        "CLO",
+        "CON",
+        "ECO",
+        "ECR",
+        "FIN",
+        "INT",
+        "MAS",
+        "PAR",
+        "REQ",
+        "RST",
+        "TST",
+        "TXD",
+        "URH",
+        "URN",
+        "__PRE02_MISSING__",
+        "__PRE02_RARE__",
+        "__PRE02_UNKNOWN__"
+      ],
+      "rare_categories": [],
+      "retained_categories": [
+        "ACC",
+        "CLO",
+        "CON",
+        "ECO",
+        "ECR",
+        "FIN",
+        "INT",
+        "MAS",
+        "PAR",
+        "REQ",
+        "RST",
+        "TST",
+        "TXD",
+        "URH",
+        "URN"
+      ],
+      "training_missing_count": 0
+    }
+  },
+  "rare_comparator": "lt",
+  "rare_relative_denominator": "N/A",
+  "rare_rule_type": "absolute_count",
+  "rare_threshold": 2,
+  "rare_token": "__PRE02_RARE__",
+  "unknown_token": "__PRE02_UNKNOWN__"
+}

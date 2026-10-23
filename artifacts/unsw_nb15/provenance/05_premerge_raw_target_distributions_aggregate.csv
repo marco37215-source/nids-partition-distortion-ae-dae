@@ -1,0 +1,17 @@
+target,raw_value,raw_value_repr,support
+Label,0,0,2218764
+Label,1,1,321283
+attack_cat,<EMPTY>,'',2218764
+attack_cat,Generic,'Generic',215481
+attack_cat,Exploits,'Exploits',44525
+attack_cat, Fuzzers ,' Fuzzers ',19195
+attack_cat,DoS,'DoS',16353
+attack_cat, Reconnaissance ,' Reconnaissance ',12228
+attack_cat, Fuzzers,' Fuzzers',5051
+attack_cat,Analysis,'Analysis',2677
+attack_cat,Backdoor,'Backdoor',1795
+attack_cat,Reconnaissance,'Reconnaissance',1759
+attack_cat, Shellcode ,' Shellcode ',1288
+attack_cat,Backdoors,'Backdoors',534
+attack_cat,Shellcode,'Shellcode',223
+attack_cat,Worms,'Worms',174

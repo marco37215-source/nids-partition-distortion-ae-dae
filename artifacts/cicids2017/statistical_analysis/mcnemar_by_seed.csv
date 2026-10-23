@@ -1,0 +1,6 @@
+seed,AE_correct_DAE_wrong,AE_wrong_DAE_correct,discordant_total,exact_two_sided_pvalue,method
+101,5707,1431,7138,0.0,exact McNemar binomial discordance test
+202,2208,1388,3596,7.984216991372288e-43,exact McNemar binomial discordance test
+303,3813,1546,5359,4.557012364846578e-217,exact McNemar binomial discordance test
+404,2140,1341,3481,4.8834774856473976e-42,exact McNemar binomial discordance test
+505,4263,1405,5668,0.0,exact McNemar binomial discordance test

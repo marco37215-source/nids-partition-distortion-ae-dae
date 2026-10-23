@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this code or these artefacts, please cite the article and the repository as below."
+title: "When rows are not independent cases: reproducibility repository (code and frozen artefacts)"
+type: software
+version: 1.0.0
+date-released: 2026-10-19
+license: MIT
+authors:
+  - family-names: Kamara
+    given-names: Joseph Marco
+    email: marco37215@gmail.com
+    orcid: "https://orcid.org/0009-0009-2455-1222"
+    affiliation: "Pan African University Institute for Basic Sciences, Technology and Innovation (PAUSTI), Department of Mathematical Sciences"
+  - family-names: Kimwele
+    given-names: Michael 
+    orcid: "https://orcid.org/0009-0009-9221-2441"
+    affiliation: "Jomo Kenyatta University of Agriculture and Technology, Department of Computing"
+  - family-names: Kaburu
+    given-names: Dennis Mugambi
+    orcid: "https://orcid.org/0009-0005-6758-9440"
+    affiliation: "Jomo Kenyatta University of Agriculture and Technology, Department of Information Technology"
+keywords:
+  - network intrusion detection
+  - evaluation validity
+  - data leakage
+  - model-view redundancy
+  - partition distortion
+  - denoising autoencoder
+  - anomaly detection
+
+#  Zenodo doi: "https://doi.org/10.5281/zenodo.23559367"
+#   repository-code: "https://github.com/marco37215-source/nids-partition-distortion-ae-dae.git"
+preferred-citation:
+  type: article
+  title: "When rows are not independent cases: Hidden redundancy, denominator inflation, and partition distortion in autoencoder intrusion-detection evaluation"
+  authors:
+    - family-names: Kamara
+      given-names: Joseph Marco
+      orcid: "https://orcid.org/0009-0009-2455-1222"
+    - family-names: Kimwele
+      given-names: Michael 
+      orcid: "https://orcid.org/0009-0009-9221-2441"
+    - family-names: Kaburu
+      given-names: Dennis Mugambi
+      orcid: "https://orcid.org/0009-0005-6758-9440"
+  journal: "Journal of Information Security and Applications"
+  status: in-preparation
+  year: 2026

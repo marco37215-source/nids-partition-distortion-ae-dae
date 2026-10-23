@@ -1,0 +1,23 @@
+{
+  "canonical_fit_row_id_hash": "1ee6187f2d09b63c60b9f94b14f44e6b1b7c88150ce9fe5d036fbb8d30bb298f",
+  "created_at_utc": "2026-09-20T10:29:40.719584+00:00",
+  "dataset": "UNSW-NB15",
+  "fit_partition": "benign_weight_train",
+  "fit_row_count": 1109381,
+  "fit_source_partitions_used": [
+    "benign_weight_train"
+  ],
+  "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+  "leakage_assertions": {
+    "attack_reserve_unused_rows_used_in_fit": 0,
+    "benign_early_stop_rows_used_in_fit": 0,
+    "benign_threshold_calibration_rows_used_in_fit": 0,
+    "development_rows_used_in_fit": 0,
+    "final_test_rows_used_in_fit": 0
+  },
+  "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+  "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+  "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+  "protocol_version": "Experiment_1_v2",
+  "raw_feature_policy_hash": "7defad652ebfaf61febb3167c00f416d399c1aa2f36ee3adf72f21e775f2464b"
+}

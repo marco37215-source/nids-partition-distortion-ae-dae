@@ -1,0 +1,40 @@
+{
+  "code_version": "experiment1_v2_model_core_3.0.0_source_multiplicity_corrected",
+  "created_at_utc": "2026-09-22T19:32:25.985743+00:00",
+  "dataset": "UNSW-NB15",
+  "final_status": "PASS",
+  "key_artifact_hashes": {
+    "score_vector_provenance.json": "4e890c83382d9d5761fbb5ddc770fb0f693a9023d4fc11b5e7f916a7d1ad9d5d",
+    "threshold_sensitivity_results.csv": "dc8164431bea15db7540b548e60ee54dcc68717927d8bd0a111eeeaf99645bd4"
+  },
+  "next_authorized_stage": "Notebook 06 hyperparameter sensitivity",
+  "notebook_version": "2.0.0-source-multiplicity-corrected",
+  "percentiles": [
+    95.0,
+    97.0,
+    99.0,
+    99.5
+  ],
+  "primary_threshold_percentile_remains": 99.0,
+  "same_underlying_score_vectors_across_thresholds": true,
+  "seed": 101,
+  "selected_AE_config_hash": "f2ff449180ad3503c1da18b58b04dd4f84991ae3babf6994f4c07bc0c40122db",
+  "selected_DAE_config_hash": "efc7b06f35beb5ad266889160fe77a2ebab33277817995889846dfd0512431e9",
+  "stage": "Notebook_05_threshold_sensitivity",
+  "stage_manifest_hash": "5567f675c6aeb75bb35b9b73401973cc41647752585142d304e6dc3cf1f59cf9",
+  "upstream_identity": {
+    "contract::artifact_contract.json": "066d18e1991f790eedfce1546489c3dad4eaf98c671fd19db4a51cef44599f20",
+    "contract::metric_contract.json": "0143747db518d1f2af0553965fbb105e324599e44c80c93ac234899ac392dc50",
+    "contract::model_search_contract.json": "a18e5092776475ff1153b3f7982df3b6f609889fa250395c515809df743664a8",
+    "contract::seed_schedule.json": "e9c16b79cfb3677ce3bba3d4a56dda32e47c290df76f03ab937fb7605bbe996d",
+    "contract::threshold_contract.json": "72ce1b512a8f9e0a94bb1355afa90f6539be03e8305661694b3d08b7a14cf303",
+    "corruption_group_manifest_hash": "6daf39ed7ef606b16a1bb972289f302647a0defd40c72bfc570e91759e2e19e0",
+    "feature_order_hash": "5eae35cd2afb6596b2daa463fb535a632b53b51df37153eefe40e01750647214",
+    "fitted_preprocessor_hash": "0088723ea71a531d6cce3fcc753e736eadffd16073cd33068469a01e6890eb86",
+    "master_dataset_sha256": "f0447e754fa9ed939ed785e2a8a4d47f3719da2d1fb445134bcb5daf66cf9c54",
+    "partition_manifest_canonical_hash": "eeaff5e0c71fbed867604b56db2de6cea3a4834a78b3dc41ec0e48ae6514c2fd",
+    "partition_manifest_file_sha256": "273093382be4d417a7b45c837008b994e57644902dffa1194002d2f2d0f8d6de",
+    "preprocessing_policy_hash": "610c536ba782613483afbf8650e94fe57913519d9ee168d1a152c8828a612c64",
+    "transformed_representation_manifest_hash": "3a748decdedbb93835bdcda3d50f409385e44b54c0aaaa2f56c6eb2eccb361af"
+  }
+}

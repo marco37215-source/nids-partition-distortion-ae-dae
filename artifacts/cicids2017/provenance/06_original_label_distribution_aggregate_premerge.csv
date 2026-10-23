@@ -1,0 +1,16 @@
+label,label_repr,label_unicode_escape,support
+BENIGN,'BENIGN',BENIGN,2273097
+DoS Hulk,'DoS Hulk',DoS Hulk,231073
+PortScan,'PortScan',PortScan,158930
+DDoS,'DDoS',DDoS,128027
+DoS GoldenEye,'DoS GoldenEye',DoS GoldenEye,10293
+FTP-Patator,'FTP-Patator',FTP-Patator,7938
+SSH-Patator,'SSH-Patator',SSH-Patator,5897
+DoS slowloris,'DoS slowloris',DoS slowloris,5796
+DoS Slowhttptest,'DoS Slowhttptest',DoS Slowhttptest,5499
+Bot,'Bot',Bot,1966
+Web Attack � Brute Force,'Web Attack � Brute Force',Web Attack \ufffd Brute Force,1507
+Web Attack � XSS,'Web Attack � XSS',Web Attack \ufffd XSS,652
+Infiltration,'Infiltration',Infiltration,36
+Web Attack � Sql Injection,'Web Attack � Sql Injection',Web Attack \ufffd Sql Injection,21
+Heartbleed,'Heartbleed',Heartbleed,11
