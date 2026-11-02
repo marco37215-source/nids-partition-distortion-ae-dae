@@ -3,7 +3,7 @@
 * `reproduction/`: Colab versions of every `.py` file in this repository (R00–R07). Use these to reproduce the manuscript's tables, figures and checks; see `reproduction/README.md`.
 * `cicids2017/`, `unsw_nb15/`: the original Experiment 1 v2 notebooks, which are described below.
 
-## Original Colab notebooks (to be added by the authors)
+## Original Colab notebooks
 
 The notebooks that produced every artefact in `artifacts/` are kept in the authors' Google Drive and are **not yet in this repository**. Copy them in unchanged, using the names below, so that the repository holds the code of record for the stages it cannot re-run itself.
 
