@@ -5,7 +5,7 @@
 
 ## Original Colab notebooks
 
-The notebooks that produced every artefact in `artifacts/` are kept in the authors' Google Drive and are **not yet in this repository**. Copy them in unchanged, using the names below, so that the repository holds the code of record for the stages it cannot re-run itself.
+The notebooks that produced every artefact in `artifacts/` are kept in the author's Google Drive and are **now uploaded in this repository**. The repository holds the code of record for the stages it cannot re-run itself.
 
 | File (same name in `cicids2017/` and `unsw_nb15/`) | Stage | Main outputs in this repository |
 |---|---|---|
@@ -19,9 +19,9 @@ The notebooks that produced every artefact in `artifacts/` are kept in the autho
 | `NB_07_Final_Evaluation.ipynb` | Five final seeds on the sealed `final_test` | `artifacts/*/final_evaluation/final_seed_results.csv`, final prediction archives |
 | `NB_08_Statistical_Analysis.ipynb` | Paired contrasts, bootstrap, tests | `artifacts/*/statistical_analysis/*` |
 
-The UNSW-NB15 pre-formal diagnostics (00C block decomposition, 00D mixed-label diagnostic) live in a separate notebook. If so, add it under `unsw_nb15/` with a descriptive name.
+The UNSW-NB15 pre-formal diagnostics (00C block decomposition, 00D mixed-label diagnostic) live in a separate notebook. They are now added under `unsw_nb15/` with a descriptive name.
 
-The table above follows the notebook names proposed for this repository. If your Drive files are named differently, keep the original names and add a line to this table. The manifests reference stages such as "Notebook 00", "Notebook 01" and "Notebook 07", so a reader should be able to find each stage.
+The table above follows the notebook names proposed for this repository. 
 
 
 The library versions the notebooks ran with are in `requirements-notebooks.txt` and `artifacts/environment_records/`.
