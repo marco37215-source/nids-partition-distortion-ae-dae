@@ -1,0 +1,5 @@
+dataset,role,archives,benign_rows,distinct_benign_fingerprints,benign_redundancy_rate,mixed_label_fingerprints,largest_group_rows
+cicids2017,development,6,227309,221935,0.023641826764448395,698,6613
+cicids2017,final_test,10,340967,340967,0.0,0,9329
+unsw_nb15,development,10,221876,192967,0.1302934972687447,453,378
+unsw_nb15,final_test,10,332814,290740,0.12641896074083422,0,608

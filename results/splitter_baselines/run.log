@@ -1,0 +1,27 @@
+groups 1938413, rows 2217778, scikit-learn 1.6.1
+                       allocator          role  runs  tv_median    tv_max  singleton_share_min  singleton_share_max  ge100_rows_min  ge100_rows_max  row_share_min  row_share_max
+0      A_random_group_assignment   calibration  1000   0.005000  0.018134             0.832501             0.860025          4037.0         13577.0       0.147587       0.152497
+1      A_random_group_assignment   development  1000   0.006261  0.019482             0.831879             0.863198          2192.0          9491.0       0.098293       0.102075
+2      A_random_group_assignment    early_stop  1000   0.006135  0.019267             0.834677             0.866628          2071.0          8442.0       0.098019       0.101778
+3      A_random_group_assignment    final_test  1000   0.004885  0.016155             0.837251             0.864690          4047.0         11539.0       0.147221       0.152457
+4      A_random_group_assignment  weight_train  1000   0.002039  0.006789             0.843623             0.854739         19858.0         31162.0       0.496672       0.503310
+5      B_permutation_cut_by_rows   calibration  1000   0.004972  0.014781             0.834531             0.861949          4034.0         11790.0       0.149751       0.150150
+6      B_permutation_cut_by_rows   development  1000   0.006229  0.018651             0.832905             0.865148          1775.0          8543.0       0.099794       0.100249
+7      B_permutation_cut_by_rows    early_stop  1000   0.006152  0.020923             0.828715             0.864223          1907.0          9228.0       0.099848       0.100203
+8      B_permutation_cut_by_rows    final_test  1000   0.004889  0.016139             0.837177             0.862824          2718.0         12115.0       0.150000       0.150206
+9      B_permutation_cut_by_rows  weight_train  1000   0.002052  0.006764             0.842991             0.853987         18812.0         31088.0       0.499796       0.500000
+10   C_permutation_cut_by_groups   calibration  1000   0.004816  0.014694             0.834864             0.859330          4035.0         11642.0       0.148201       0.152432
+11   C_permutation_cut_by_groups   development  1000   0.006038  0.017200             0.832426             0.863384          1726.0          8885.0       0.098332       0.101923
+12   C_permutation_cut_by_groups    early_stop  1000   0.005887  0.020416             0.831246             0.865046          2311.0          8652.0       0.098153       0.102034
+13   C_permutation_cut_by_groups    final_test  1000   0.004992  0.014538             0.837083             0.861709          4263.0         12479.0       0.147826       0.152048
+14   C_permutation_cut_by_groups  weight_train  1000   0.002057  0.006008             0.843296             0.854003         20780.0         31995.0       0.497078       0.503186
+15  D_sklearn_GroupKFold_20folds   calibration     1   0.000232  0.000232             0.848705             0.848705          7692.0          7692.0       0.150000       0.150000
+16  D_sklearn_GroupKFold_20folds   development     1   0.000375  0.000375             0.848705             0.848705          5129.0          5129.0       0.100000       0.100000
+17  D_sklearn_GroupKFold_20folds    early_stop     1   0.000231  0.000231             0.848709             0.848709          5129.0          5129.0       0.100000       0.100000
+18  D_sklearn_GroupKFold_20folds    final_test     1   0.000367  0.000367             0.848704             0.848704          7694.0          7694.0       0.149999       0.149999
+19  D_sklearn_GroupKFold_20folds  weight_train     1   0.000135  0.000135             0.848710             0.848710         25835.0         25835.0       0.500000       0.500000
+                      allocator    median       p95   maximum
+0     A_random_group_assignment  0.008636  0.013916  0.019482
+1     B_permutation_cut_by_rows  0.008664  0.013994  0.020923
+2   C_permutation_cut_by_groups  0.008451  0.013640  0.020416
+3  D_sklearn_GroupKFold_20folds  0.000375  0.000375  0.000375
